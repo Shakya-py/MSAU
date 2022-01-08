@@ -1,0 +1,8 @@
+Using sparse conv:  False
+Use prev coupled:  False
+Using sparse conv:  False
+Use prev coupled:  True
+Using sparse conv:  False
+Use prev coupled:  True
+Num training instances:  119 ; Num validation instances:  30 ; Num testing instances:  50
+Epoch:  0

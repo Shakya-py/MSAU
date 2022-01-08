@@ -8,7 +8,7 @@ import numpy as np
 import sklearn.metrics as metrics
 import random
 import matplotlib.pyplot as plt
-from model.model import MSAUWrapper as MSAU
+from model.my_model import MSAUWrapper as MSAU
 
 
 device = torch.device('cpu' if not torch.cuda.is_available() else 'cuda:0')
@@ -249,8 +249,6 @@ if __name__ == '__main__':
     test_instances = data_loader_test
     indices = list(range(len(instances)))
     random.shuffle(indices)
-#     from torchsummary import summary
-#     summary(model, input_size=(8, 98, 3, 3))
 #     print(model)
 #     quit('done here')
     if test_instances is None:

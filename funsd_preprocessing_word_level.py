@@ -3,12 +3,12 @@ import json
 import glob
 import os
 import numpy as np
-from sentence_transformers import SentenceTransformer
+#from sentence_transformers import SentenceTransformer
 import utils.graph_building_utils as gbutils
 import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 
-transformer_model = SentenceTransformer('bert-base-nli-mean-tokens')
+#transformer_model = SentenceTransformer('bert-base-nli-mean-tokens')
 
 __author__ = "Marc"
 
@@ -61,6 +61,7 @@ def get_preprocessed_list_word_msau(dirpath,
                                     inv_dict_charset=None):
     data_preprocessed_list = []
     list_ocrs_total = []
+    print('length',len(glob.glob(os.path.join(dirpath, "*.json"))))
     for json_filename in glob.glob(os.path.join(dirpath, "*.json")):
         list_bboxs = []
         list_ocrs = []
@@ -115,12 +116,13 @@ def get_preprocessed_list_word_msau(dirpath,
 
 
 if __name__ == '__main__':
-    train_data_list, inv_dict_charset = get_preprocessed_list_word_msau(
-        "dataset/training_data/annotations/")
+    path_train='/home/common/MSAU_payslips/dataset_funsed/dataset/training_data/annotations/'
+    path_test='/home/common/MSAU_payslips/dataset_funsed/dataset/testing_data/annotations/'
+    train_data_list, inv_dict_charset = get_preprocessed_list_word_msau(path_train)
     test_data_list, inv_dict_charset = get_preprocessed_list_word_msau(
-        "dataset/testing_data/annotations/", inv_dict_charset=inv_dict_charset)
-    pickle.dump(inv_dict_charset, open('inv_dict_charset.pkl', 'wb'))
+        path_test, inv_dict_charset=inv_dict_charset)
+    pickle.dump(inv_dict_charset, open('./inv_dict_charset.pkl', 'wb'))
     pickle.dump(train_data_list,
-        open('funsd_preprocess_train_word.pkl', 'wb'))
+        open('./funsd_preprocess_train_word.pkl', 'wb'))
     pickle.dump(test_data_list,
-        open('funsd_preprocess_test_word.pkl', 'wb'))
+        open('./funsd_preprocess_test_word.pkl', 'wb'))

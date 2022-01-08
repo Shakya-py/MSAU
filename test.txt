@@ -1,0 +1,640 @@
+Using sparse conv:  False
+Use prev coupled:  False
+Dropout:  0.05
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
+Using sparse conv:  False
+Use prev coupled:  True
+Dropout:  0.05
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
+Using sparse conv:  False
+Use prev coupled:  True
+Dropout:  0.05
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
+Num training instances:  119 ; Num validation instances:  30 ; Num testing instances:  50
+Epoch:  0
+Batch 0 optimized. Loss: 2.6417641639709473
+Batch 10 optimized. Loss: 1.7175703048706055
+Batch 20 optimized. Loss: 1.5500669479370117
+Batch 30 optimized. Loss: 1.667092204093933
+Batch 40 optimized. Loss: 1.5356560945510864
+Batch 50 optimized. Loss: 1.7413221597671509
+Batch 60 optimized. Loss: 1.498476505279541
+Batch 70 optimized. Loss: 1.4889012575149536
+Batch 80 optimized. Loss: 1.229968547821045
+Batch 90 optimized. Loss: 1.8346525430679321
+Batch 100 optimized. Loss: 1.4765326976776123
+Batch 110 optimized. Loss: 1.1643028259277344
+Avg loss:  tensor(1.5291, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  14.098276615142822
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.4244084183728198
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.43136332758530593
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.38      0.16      0.22     25284
+    question       0.36      0.01      0.02     25597
+      answer       0.39      0.78      0.52     34396
+      header       0.22      0.38      0.28      6640
+
+    accuracy                           0.37     91917
+   macro avg       0.34      0.33      0.26     91917
+weighted avg       0.36      0.37      0.28     91917
+
+Test  accuracy: 0.3662434587725883
+Best val result:  {'epoch': 0, 'loss': tensor(1.5291, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.43136332758530593}
+Test result:  {'loss': 1.5695563626289368, 'prec': 0.3662434587725883, 'recall': 0.3662434587725883, 'acc': 0.3662434587725883, 'epoch': 0}
+Epoch:  1
+Batch 0 optimized. Loss: 1.8517385721206665
+Batch 10 optimized. Loss: 1.3336091041564941
+Batch 20 optimized. Loss: 1.1276350021362305
+Batch 30 optimized. Loss: 1.123553991317749
+Batch 40 optimized. Loss: 1.419203519821167
+Batch 50 optimized. Loss: 1.4055227041244507
+Batch 60 optimized. Loss: 0.8127381801605225
+Batch 70 optimized. Loss: 0.9976716041564941
+Batch 80 optimized. Loss: 1.2702586650848389
+Batch 90 optimized. Loss: 1.443137526512146
+Batch 100 optimized. Loss: 1.7052518129348755
+Batch 110 optimized. Loss: 0.7679314613342285
+Avg loss:  tensor(1.3122, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.045738697052002
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.5336212876420404
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5022905018202086
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.70      0.18      0.28     25284
+    question       0.48      0.18      0.26     25597
+      answer       0.45      0.88      0.59     34396
+      header       0.44      0.54      0.49      6640
+
+    accuracy                           0.47     91917
+   macro avg       0.52      0.45      0.41     91917
+weighted avg       0.53      0.47      0.41     91917
+
+Test  accuracy: 0.46840083988815995
+Best val result:  {'epoch': 1, 'loss': tensor(1.3122, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5022905018202086}
+Test result:  {'loss': 1.3432042396068573, 'prec': 0.46840083988815995, 'recall': 0.46840083988815995, 'acc': 0.46840083988815995, 'epoch': 1}
+Epoch:  2
+Batch 0 optimized. Loss: 1.8112661838531494
+Batch 10 optimized. Loss: 1.657184362411499
+Batch 20 optimized. Loss: 0.9488593339920044
+Batch 30 optimized. Loss: 1.0648356676101685
+Batch 40 optimized. Loss: 1.3452627658843994
+Batch 50 optimized. Loss: 1.299562931060791
+Batch 60 optimized. Loss: 0.642208993434906
+Batch 70 optimized. Loss: 0.9258418083190918
+Batch 80 optimized. Loss: 1.123978853225708
+Batch 90 optimized. Loss: 1.4509046077728271
+Batch 100 optimized. Loss: 1.7594670057296753
+Batch 110 optimized. Loss: 0.7990257740020752
+Avg loss:  tensor(1.2378, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.282114267349243
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.5390418844797872
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5083694762327777
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.73      0.13      0.21     25284
+    question       0.46      0.21      0.29     25597
+      answer       0.44      0.88      0.59     34396
+      header       0.51      0.53      0.52      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.54      0.44      0.40     91917
+weighted avg       0.53      0.46      0.40     91917
+
+Test  accuracy: 0.46181881480030895
+Best val result:  {'epoch': 2, 'loss': tensor(1.2378, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5083694762327777}
+Test result:  {'loss': 1.3031223392486573, 'prec': 0.46181881480030895, 'recall': 0.46181881480030895, 'acc': 0.46181881480030895, 'epoch': 2}
+Epoch:  3
+Batch 0 optimized. Loss: 1.6611602306365967
+Batch 10 optimized. Loss: 1.5897212028503418
+Batch 20 optimized. Loss: 1.0682307481765747
+Batch 30 optimized. Loss: 1.013126015663147
+Batch 40 optimized. Loss: 1.1175850629806519
+Batch 50 optimized. Loss: 1.3838186264038086
+Batch 60 optimized. Loss: 0.6216748952865601
+Batch 70 optimized. Loss: 0.7758707404136658
+Batch 80 optimized. Loss: 1.1982086896896362
+Batch 90 optimized. Loss: 1.3964542150497437
+Batch 100 optimized. Loss: 1.5972257852554321
+Batch 110 optimized. Loss: 0.6478197574615479
+Avg loss:  tensor(1.2190, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  12.992693185806274
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.5375472871986671
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5092926442667781
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.70      0.17      0.28     25284
+    question       0.50      0.16      0.24     25597
+      answer       0.44      0.90      0.59     34396
+      header       0.47      0.49      0.48      6640
+
+    accuracy                           0.47     91917
+   macro avg       0.53      0.43      0.40     91917
+weighted avg       0.53      0.47      0.40     91917
+
+Test  accuracy: 0.4656157185286726
+Best val result:  {'epoch': 3, 'loss': tensor(1.2190, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5092926442667781}
+Test result:  {'loss': 1.2844730865955354, 'prec': 0.4656157185286726, 'recall': 0.4656157185286726, 'acc': 0.4656157185286726, 'epoch': 3}
+Epoch:  4
+Batch 0 optimized. Loss: 1.5601595640182495
+Batch 10 optimized. Loss: 1.395480990409851
+Batch 20 optimized. Loss: 0.8402238488197327
+Batch 30 optimized. Loss: 0.9617490768432617
+Batch 40 optimized. Loss: 1.1612706184387207
+Batch 50 optimized. Loss: 1.24518883228302
+Batch 60 optimized. Loss: 0.6200548410415649
+Batch 70 optimized. Loss: 0.8242040872573853
+Batch 80 optimized. Loss: 1.374671459197998
+Batch 90 optimized. Loss: 1.324682593345642
+Batch 100 optimized. Loss: 1.501955270767212
+Batch 110 optimized. Loss: 0.6084176301956177
+Avg loss:  tensor(1.1770, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.004520177841187
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.5333066355828572
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.49746564247269687
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.68      0.19      0.30     25284
+    question       0.51      0.11      0.18     25597
+      answer       0.45      0.91      0.60     34396
+      header       0.39      0.56      0.46      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.51      0.44      0.38     91917
+weighted avg       0.53      0.46      0.39     91917
+
+Test  accuracy: 0.4624280600976968
+Best val result:  {'epoch': 3, 'loss': tensor(1.2190, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5092926442667781}
+Test result:  {'loss': 1.2844030153751373, 'prec': 0.4624280600976968, 'recall': 0.4624280600976968, 'acc': 0.4624280600976968, 'epoch': 4}
+Epoch:  5
+Batch 0 optimized. Loss: 1.4601469039916992
+Batch 10 optimized. Loss: 1.4097169637680054
+Batch 20 optimized. Loss: 0.811141312122345
+Batch 30 optimized. Loss: 0.9931586384773254
+Batch 40 optimized. Loss: 1.0380574464797974
+Batch 50 optimized. Loss: 1.214411735534668
+Batch 60 optimized. Loss: 0.6615172028541565
+Batch 70 optimized. Loss: 0.6393558382987976
+Batch 80 optimized. Loss: 1.125573992729187
+Batch 90 optimized. Loss: 1.340745210647583
+Batch 100 optimized. Loss: 1.6949529647827148
+Batch 110 optimized. Loss: 0.6495583057403564
+Avg loss:  tensor(1.1376, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.316563844680786
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.5616682280083239
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5220602323596524
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.71      0.16      0.26     25284
+    question       0.46      0.22      0.30     25597
+      answer       0.46      0.86      0.60     34396
+      header       0.42      0.62      0.50      6640
+
+    accuracy                           0.47     91917
+   macro avg       0.51      0.46      0.41     91917
+weighted avg       0.52      0.47      0.41     91917
+
+Test  accuracy: 0.4707725447958484
+Best val result:  {'epoch': 5, 'loss': tensor(1.1376, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5220602323596524}
+Test result:  {'loss': 1.2625188386440278, 'prec': 0.4707725447958484, 'recall': 0.4707725447958484, 'acc': 0.4707725447958484, 'epoch': 5}
+Shapes of 'all_feats', 'all_labels':
+torch.Size([1, 98, 101, 48])
+torch.Size([1, 101, 48])
+Finished
+
+

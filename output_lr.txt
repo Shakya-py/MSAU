@@ -1,0 +1,4634 @@
+Using sparse conv:  False
+Use prev coupled:  False
+Dropout:  0.05
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
+Using sparse conv:  False
+Use prev coupled:  True
+Dropout:  0.05
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
+Using sparse conv:  False
+Use prev coupled:  True
+Dropout:  0.05
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
++++++++++++++++++++++++++
+self.use_bn True
+self.use_mvn False
+self.use_lrn False
+self.dropout_maps False
+keep_prob 0.95
+Num training instances:  119 ; Num validation instances:  30 ; Num testing instances:  50
+Epoch:  0
+Batch 0 optimized. Loss: 2.733175754547119
+Batch 10 optimized. Loss: 1.8400907516479492
+Batch 20 optimized. Loss: 1.7226773500442505
+Batch 30 optimized. Loss: 1.5458159446716309
+Batch 40 optimized. Loss: 1.9048166275024414
+Batch 50 optimized. Loss: 1.880157232284546
+Batch 60 optimized. Loss: 1.3945735692977905
+Batch 70 optimized. Loss: 1.828819751739502
+Batch 80 optimized. Loss: 1.5850924253463745
+Batch 90 optimized. Loss: 1.7684650421142578
+Batch 100 optimized. Loss: 1.760248064994812
+Batch 110 optimized. Loss: 1.2008447647094727
+Avg loss:  tensor(1.8213, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  14.238133668899536
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.4778420589686564
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.43596174949051575
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.70      0.00      0.00     25284
+    question       0.33      0.41      0.36     25597
+      answer       0.46      0.69      0.55     34396
+      header       0.41      0.50      0.45      6640
+
+    accuracy                           0.41     91917
+   macro avg       0.47      0.40      0.34     91917
+weighted avg       0.48      0.41      0.34     91917
+
+Test  accuracy: 0.40807467606645126
+Best val result:  {'epoch': 0, 'loss': tensor(1.8213, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.43596174949051575}
+Test result:  {'prec': 0.40807467606645126, 'recall': 0.40807467606645126, 'acc': 0.40807467606645126, 'epoch': 0}
+Epoch:  1
+Batch 0 optimized. Loss: 2.3596060276031494
+Batch 10 optimized. Loss: 1.8936686515808105
+Batch 20 optimized. Loss: 1.350817322731018
+Batch 30 optimized. Loss: 1.3074184656143188
+Batch 40 optimized. Loss: 1.5843849182128906
+Batch 50 optimized. Loss: 1.5568739175796509
+Batch 60 optimized. Loss: 0.9119282960891724
+Batch 70 optimized. Loss: 1.3420801162719727
+Batch 80 optimized. Loss: 1.3944295644760132
+Batch 90 optimized. Loss: 1.6484915018081665
+Batch 100 optimized. Loss: 1.825168251991272
+Batch 110 optimized. Loss: 1.1541985273361206
+Avg loss:  tensor(1.5530, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.295360088348389
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.5037364932028005
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4797338489139712
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.58      0.04      0.08     25284
+    question       0.50      0.20      0.29     25597
+      answer       0.43      0.90      0.58     34396
+      header       0.37      0.44      0.40      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.47      0.40      0.34     91917
+weighted avg       0.49      0.44      0.35     91917
+
+Test  accuracy: 0.4363719442540553
+Best val result:  {'epoch': 1, 'loss': tensor(1.5530, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.4797338489139712}
+Test result:  {'prec': 0.4363719442540553, 'recall': 0.4363719442540553, 'acc': 0.4363719442540553, 'epoch': 1}
+Epoch:  2
+Batch 0 optimized. Loss: 1.594135046005249
+Batch 10 optimized. Loss: 1.8040874004364014
+Batch 20 optimized. Loss: 1.0933630466461182
+Batch 30 optimized. Loss: 1.306808590888977
+Batch 40 optimized. Loss: 1.6161020994186401
+Batch 50 optimized. Loss: 1.5992387533187866
+Batch 60 optimized. Loss: 0.812459409236908
+Batch 70 optimized. Loss: 1.0317754745483398
+Batch 80 optimized. Loss: 1.301689863204956
+Batch 90 optimized. Loss: 1.5536333322525024
+Batch 100 optimized. Loss: 1.7962110042572021
+Batch 110 optimized. Loss: 0.8616349101066589
+Avg loss:  tensor(1.4739, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.469910383224487
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.5119245979247267
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.48006479594502793
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.59      0.15      0.23     25284
+    question       0.47      0.16      0.24     25597
+      answer       0.43      0.90      0.58     34396
+      header       0.44      0.33      0.38      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.48      0.39      0.36     91917
+weighted avg       0.49      0.45      0.38     91917
+
+Test  accuracy: 0.4471642895220688
+Best val result:  {'epoch': 2, 'loss': tensor(1.4739, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.48006479594502793}
+Test result:  {'prec': 0.4471642895220688, 'recall': 0.4471642895220688, 'acc': 0.4471642895220688, 'epoch': 2}
+Epoch:  3
+Batch 0 optimized. Loss: 2.405715227127075
+Batch 10 optimized. Loss: 1.561448574066162
+Batch 20 optimized. Loss: 1.0534905195236206
+Batch 30 optimized. Loss: 1.3471219539642334
+Batch 40 optimized. Loss: 1.453873872756958
+Batch 50 optimized. Loss: 1.490558385848999
+Batch 60 optimized. Loss: 0.9771503210067749
+Batch 70 optimized. Loss: 1.0581550598144531
+Batch 80 optimized. Loss: 1.6370118856430054
+Batch 90 optimized. Loss: 1.5590893030166626
+Batch 100 optimized. Loss: 1.8607670068740845
+Batch 110 optimized. Loss: 0.8299074172973633
+Avg loss:  tensor(1.4373, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.283589601516724
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.524331900712973
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.47701659960634724
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.55      0.19      0.28     25284
+    question       0.49      0.22      0.30     25597
+      answer       0.46      0.85      0.60     34396
+      header       0.36      0.45      0.40      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.46      0.43      0.39     91917
+weighted avg       0.49      0.46      0.41     91917
+
+Test  accuracy: 0.463766223875888
+Best val result:  {'epoch': 2, 'loss': tensor(1.4739, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.48006479594502793}
+Test result:  {'prec': 0.463766223875888, 'recall': 0.463766223875888, 'acc': 0.463766223875888, 'epoch': 3}
+Epoch:  4
+Batch 0 optimized. Loss: 2.1577963829040527
+Batch 10 optimized. Loss: 1.602313756942749
+Batch 20 optimized. Loss: 1.4909955263137817
+Batch 30 optimized. Loss: 1.6028995513916016
+Batch 40 optimized. Loss: 1.3783010244369507
+Batch 50 optimized. Loss: 1.5467698574066162
+Batch 60 optimized. Loss: 0.7549260258674622
+Batch 70 optimized. Loss: 0.9820111393928528
+Batch 80 optimized. Loss: 1.3426220417022705
+Batch 90 optimized. Loss: 1.7221413850784302
+Batch 100 optimized. Loss: 1.7370293140411377
+Batch 110 optimized. Loss: 0.7743735909461975
+Avg loss:  tensor(1.4065, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.332489013671875
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.539206361692542
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.47503091742000664
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.50      0.25      0.33     25284
+    question       0.49      0.24      0.32     25597
+      answer       0.48      0.81      0.60     34396
+      header       0.40      0.55      0.46      6640
+
+    accuracy                           0.48     91917
+   macro avg       0.47      0.46      0.43     91917
+weighted avg       0.48      0.48      0.44     91917
+
+Test  accuracy: 0.47502638249725293
+Best val result:  {'epoch': 2, 'loss': tensor(1.4739, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.48006479594502793}
+Test result:  {'prec': 0.47502638249725293, 'recall': 0.47502638249725293, 'acc': 0.47502638249725293, 'epoch': 4}
+Epoch:  5
+Batch 0 optimized. Loss: 1.7907238006591797
+Batch 10 optimized. Loss: 1.5176520347595215
+Batch 20 optimized. Loss: 0.9660966992378235
+Batch 30 optimized. Loss: 1.142962098121643
+Batch 40 optimized. Loss: 1.4081981182098389
+Batch 50 optimized. Loss: 1.6031949520111084
+Batch 60 optimized. Loss: 0.7429189085960388
+Batch 70 optimized. Loss: 0.7581464648246765
+Batch 80 optimized. Loss: 1.3965704441070557
+Batch 90 optimized. Loss: 1.6643630266189575
+Batch 100 optimized. Loss: 1.8095972537994385
+Batch 110 optimized. Loss: 0.7852254509925842
+Avg loss:  tensor(1.3700, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.488492250442505
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.5476161530925292
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5030743237358695
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.66      0.18      0.29     25284
+    question       0.49      0.19      0.27     25597
+      answer       0.46      0.89      0.60     34396
+      header       0.43      0.53      0.47      6640
+
+    accuracy                           0.47     91917
+   macro avg       0.51      0.45      0.41     91917
+weighted avg       0.52      0.47      0.41     91917
+
+Test  accuracy: 0.4742430671148971
+Best val result:  {'epoch': 5, 'loss': tensor(1.3700, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5030743237358695}
+Test result:  {'prec': 0.4742430671148971, 'recall': 0.4742430671148971, 'acc': 0.4742430671148971, 'epoch': 5}
+Epoch:  6
+Batch 0 optimized. Loss: 1.8400264978408813
+Batch 10 optimized. Loss: 1.464104175567627
+Batch 20 optimized. Loss: 0.9890610575675964
+Batch 30 optimized. Loss: 1.1249076128005981
+Batch 40 optimized. Loss: 1.3676215410232544
+Batch 50 optimized. Loss: 1.2888749837875366
+Batch 60 optimized. Loss: 0.8571819067001343
+Batch 70 optimized. Loss: 0.8231797814369202
+Batch 80 optimized. Loss: 1.3433282375335693
+Batch 90 optimized. Loss: 1.636396884918213
+Batch 100 optimized. Loss: 1.6662626266479492
+Batch 110 optimized. Loss: 0.7813757658004761
+Avg loss:  tensor(1.3435, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.291958808898926
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.5573775181103714
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4891571301666928
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.51      0.26      0.35     25284
+    question       0.51      0.21      0.30     25597
+      answer       0.48      0.85      0.61     34396
+      header       0.47      0.50      0.49      6640
+
+    accuracy                           0.48     91917
+   macro avg       0.49      0.46      0.43     91917
+weighted avg       0.49      0.48      0.44     91917
+
+Test  accuracy: 0.48412154443682887
+Best val result:  {'epoch': 5, 'loss': tensor(1.3700, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5030743237358695}
+Test result:  {'prec': 0.48412154443682887, 'recall': 0.48412154443682887, 'acc': 0.48412154443682887, 'epoch': 6}
+Epoch:  7
+Batch 0 optimized. Loss: 1.73222017288208
+Batch 10 optimized. Loss: 1.3204525709152222
+Batch 20 optimized. Loss: 0.9912858009338379
+Batch 30 optimized. Loss: 1.1127288341522217
+Batch 40 optimized. Loss: 1.192811131477356
+Batch 50 optimized. Loss: 1.3163812160491943
+Batch 60 optimized. Loss: 0.6493782997131348
+Batch 70 optimized. Loss: 0.8359445333480835
+Batch 80 optimized. Loss: 1.301278829574585
+Batch 90 optimized. Loss: 1.4860117435455322
+Batch 100 optimized. Loss: 1.3816993236541748
+Batch 110 optimized. Loss: 0.6590592861175537
+Avg loss:  tensor(1.2941, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.54425048828125
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.5804829909108462
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5054083712180593
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.54      0.27      0.36     25284
+    question       0.47      0.29      0.36     25597
+      answer       0.50      0.79      0.61     34396
+      header       0.45      0.56      0.50      6640
+
+    accuracy                           0.49     91917
+   macro avg       0.49      0.48      0.46     91917
+weighted avg       0.50      0.49      0.46     91917
+
+Test  accuracy: 0.49183502507697163
+Best val result:  {'epoch': 7, 'loss': tensor(1.2941, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5054083712180593}
+Test result:  {'prec': 0.49183502507697163, 'recall': 0.49183502507697163, 'acc': 0.49183502507697163, 'epoch': 7}
+Epoch:  8
+Batch 0 optimized. Loss: 1.6971123218536377
+Batch 10 optimized. Loss: 1.3195990324020386
+Batch 20 optimized. Loss: 0.8758887052536011
+Batch 30 optimized. Loss: 0.9890030026435852
+Batch 40 optimized. Loss: 1.018512487411499
+Batch 50 optimized. Loss: 1.250738263130188
+Batch 60 optimized. Loss: 0.5952774882316589
+Batch 70 optimized. Loss: 0.5907996892929077
+Batch 80 optimized. Loss: 1.3123881816864014
+Batch 90 optimized. Loss: 1.5150014162063599
+Batch 100 optimized. Loss: 1.4472668170928955
+Batch 110 optimized. Loss: 0.6501657366752625
+Avg loss:  tensor(1.2663, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.301180839538574
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.5789955448128893
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.503022068941492
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.53      0.30      0.39     25284
+    question       0.48      0.24      0.32     25597
+      answer       0.49      0.82      0.61     34396
+      header       0.50      0.54      0.52      6640
+
+    accuracy                           0.49     91917
+   macro avg       0.50      0.47      0.46     91917
+weighted avg       0.50      0.49      0.46     91917
+
+Test  accuracy: 0.49485949280328995
+Best val result:  {'epoch': 7, 'loss': tensor(1.2941, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5054083712180593}
+Test result:  {'prec': 0.49485949280328995, 'recall': 0.49485949280328995, 'acc': 0.49485949280328995, 'epoch': 8}
+Epoch:  9
+Batch 0 optimized. Loss: 1.1550567150115967
+Batch 10 optimized. Loss: 1.3406078815460205
+Batch 20 optimized. Loss: 1.0366891622543335
+Batch 30 optimized. Loss: 1.1111739873886108
+Batch 40 optimized. Loss: 1.50185227394104
+Batch 50 optimized. Loss: 1.177270531654358
+Batch 60 optimized. Loss: 0.6018502712249756
+Batch 70 optimized. Loss: 0.7243421077728271
+Batch 80 optimized. Loss: 1.406463623046875
+Batch 90 optimized. Loss: 1.4456486701965332
+Batch 100 optimized. Loss: 1.858046293258667
+Batch 110 optimized. Loss: 0.792605996131897
+Avg loss:  tensor(1.2832, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.354026079177856
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.5757346052904453
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4844890352023131
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.47      0.33      0.39     25284
+    question       0.42      0.30      0.35     25597
+      answer       0.51      0.70      0.59     34396
+      header       0.46      0.54      0.50      6640
+
+    accuracy                           0.48     91917
+   macro avg       0.46      0.47      0.46     91917
+weighted avg       0.47      0.48      0.46     91917
+
+Test  accuracy: 0.4787906480846851
+Best val result:  {'epoch': 7, 'loss': tensor(1.2941, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5054083712180593}
+Test result:  {'prec': 0.4787906480846851, 'recall': 0.4787906480846851, 'acc': 0.4787906480846851, 'epoch': 9}
+Epoch:  10
+Batch 0 optimized. Loss: 1.4204577207565308
+Batch 10 optimized. Loss: 1.14095139503479
+Batch 20 optimized. Loss: 0.9459099173545837
+Batch 30 optimized. Loss: 1.0433268547058105
+Batch 40 optimized. Loss: 0.964747428894043
+Batch 50 optimized. Loss: 1.0874285697937012
+Batch 60 optimized. Loss: 0.8320770263671875
+Batch 70 optimized. Loss: 0.5753741264343262
+Batch 80 optimized. Loss: 1.4247065782546997
+Batch 90 optimized. Loss: 1.4550790786743164
+Batch 100 optimized. Loss: 1.7308179140090942
+Batch 110 optimized. Loss: 0.7525342702865601
+Avg loss:  tensor(1.2449, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.519872903823853
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.5987042056108183
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5267980003832018
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.58      0.28      0.38     25284
+    question       0.47      0.25      0.33     25597
+      answer       0.48      0.85      0.61     34396
+      header       0.54      0.46      0.50      6640
+
+    accuracy                           0.50     91917
+   macro avg       0.52      0.46      0.45     91917
+weighted avg       0.51      0.50      0.46     91917
+
+Test  accuracy: 0.4972203183306679
+Best val result:  {'epoch': 10, 'loss': tensor(1.2449, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5267980003832018}
+Test result:  {'prec': 0.4972203183306679, 'recall': 0.4972203183306679, 'acc': 0.4972203183306679, 'epoch': 10}
+Epoch:  11
+Batch 0 optimized. Loss: 1.3610169887542725
+Batch 10 optimized. Loss: 1.2623211145401
+Batch 20 optimized. Loss: 0.8323560357093811
+Batch 30 optimized. Loss: 1.0503215789794922
+Batch 40 optimized. Loss: 0.9350465536117554
+Batch 50 optimized. Loss: 1.1991510391235352
+Batch 60 optimized. Loss: 0.5860101580619812
+Batch 70 optimized. Loss: 0.9063528180122375
+Batch 80 optimized. Loss: 1.2687830924987793
+Batch 90 optimized. Loss: 1.4377424716949463
+Batch 100 optimized. Loss: 1.661756992340088
+Batch 110 optimized. Loss: 0.7121162414550781
+Avg loss:  tensor(1.2086, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.25243616104126
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.6013858992970387
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5130724077267422
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.51      0.33      0.40     25284
+    question       0.49      0.22      0.31     25597
+      answer       0.49      0.82      0.61     34396
+      header       0.54      0.50      0.52      6640
+
+    accuracy                           0.50     91917
+   macro avg       0.51      0.47      0.46     91917
+weighted avg       0.50      0.50      0.46     91917
+
+Test  accuracy: 0.49694833382290543
+Best val result:  {'epoch': 10, 'loss': tensor(1.2449, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5267980003832018}
+Test result:  {'prec': 0.49694833382290543, 'recall': 0.49694833382290543, 'acc': 0.49694833382290543, 'epoch': 11}
+Epoch:  12
+Batch 0 optimized. Loss: 1.2430564165115356
+Batch 10 optimized. Loss: 1.2405422925949097
+Batch 20 optimized. Loss: 0.8574215769767761
+Batch 30 optimized. Loss: 1.0270687341690063
+Batch 40 optimized. Loss: 0.9983211755752563
+Batch 50 optimized. Loss: 1.0357239246368408
+Batch 60 optimized. Loss: 0.5353484153747559
+Batch 70 optimized. Loss: 0.654158353805542
+Batch 80 optimized. Loss: 1.2413294315338135
+Batch 90 optimized. Loss: 1.622201919555664
+Batch 100 optimized. Loss: 1.5483418703079224
+Batch 110 optimized. Loss: 0.604932963848114
+Avg loss:  tensor(1.1646, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.53181004524231
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.6108898217210037
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5039278187107
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.50      0.33      0.40     25284
+    question       0.46      0.27      0.34     25597
+      answer       0.50      0.77      0.61     34396
+      header       0.49      0.50      0.49      6640
+
+    accuracy                           0.49     91917
+   macro avg       0.49      0.47      0.46     91917
+weighted avg       0.49      0.49      0.47     91917
+
+Test  accuracy: 0.4913780911039307
+Best val result:  {'epoch': 10, 'loss': tensor(1.2449, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5267980003832018}
+Test result:  {'prec': 0.4913780911039307, 'recall': 0.4913780911039307, 'acc': 0.4913780911039307, 'epoch': 12}
+Epoch:  13
+Batch 0 optimized. Loss: 1.0459184646606445
+Batch 10 optimized. Loss: 1.218587040901184
+Batch 20 optimized. Loss: 1.3238670825958252
+Batch 30 optimized. Loss: 0.8987024426460266
+Batch 40 optimized. Loss: 0.8088767528533936
+Batch 50 optimized. Loss: 1.0947296619415283
+Batch 60 optimized. Loss: 0.6117522716522217
+Batch 70 optimized. Loss: 0.590878963470459
+Batch 80 optimized. Loss: 1.2707562446594238
+Batch 90 optimized. Loss: 1.279482364654541
+Batch 100 optimized. Loss: 1.6439810991287231
+Batch 110 optimized. Loss: 0.7451455593109131
+Avg loss:  tensor(1.1336, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.335716009140015
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.6075573703669273
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5172005364825556
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.55      0.27      0.37     25284
+    question       0.47      0.23      0.31     25597
+      answer       0.48      0.85      0.61     34396
+      header       0.53      0.47      0.50      6640
+
+    accuracy                           0.49     91917
+   macro avg       0.51      0.45      0.45     91917
+weighted avg       0.50      0.49      0.45     91917
+
+Test  accuracy: 0.48985497786046106
+Best val result:  {'epoch': 10, 'loss': tensor(1.2449, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5267980003832018}
+Test result:  {'prec': 0.48985497786046106, 'recall': 0.48985497786046106, 'acc': 0.48985497786046106, 'epoch': 13}
+Epoch:  14
+Batch 0 optimized. Loss: 1.0565398931503296
+Batch 10 optimized. Loss: 1.1109530925750732
+Batch 20 optimized. Loss: 1.0451298952102661
+Batch 30 optimized. Loss: 0.8733507990837097
+Batch 40 optimized. Loss: 0.8790003061294556
+Batch 50 optimized. Loss: 1.251285433769226
+Batch 60 optimized. Loss: 0.6180508136749268
+Batch 70 optimized. Loss: 0.5713115930557251
+Batch 80 optimized. Loss: 1.2140626907348633
+Batch 90 optimized. Loss: 1.4573919773101807
+Batch 100 optimized. Loss: 1.5587453842163086
+Batch 110 optimized. Loss: 0.6388721466064453
+Avg loss:  tensor(1.1178, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.316191911697388
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.6386936218597367
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5182282141053108
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.58      0.30      0.40     25284
+    question       0.45      0.28      0.34     25597
+      answer       0.50      0.80      0.61     34396
+      header       0.47      0.56      0.51      6640
+
+    accuracy                           0.50     91917
+   macro avg       0.50      0.48      0.47     91917
+weighted avg       0.50      0.50      0.47     91917
+
+Test  accuracy: 0.49823210069954416
+Best val result:  {'epoch': 10, 'loss': tensor(1.2449, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5267980003832018}
+Test result:  {'prec': 0.49823210069954416, 'recall': 0.49823210069954416, 'acc': 0.49823210069954416, 'epoch': 14}
+Epoch:  15
+Batch 0 optimized. Loss: 0.8356631994247437
+Batch 10 optimized. Loss: 0.9421916604042053
+Batch 20 optimized. Loss: 0.7729211449623108
+Batch 30 optimized. Loss: 0.8402043581008911
+Batch 40 optimized. Loss: 0.6776164770126343
+Batch 50 optimized. Loss: 0.934199333190918
+Batch 60 optimized. Loss: 0.4534907341003418
+Batch 70 optimized. Loss: 0.4743002653121948
+Batch 80 optimized. Loss: 1.332168459892273
+Batch 90 optimized. Loss: 1.515031099319458
+Batch 100 optimized. Loss: 1.4049265384674072
+Batch 110 optimized. Loss: 0.4907127320766449
+Avg loss:  tensor(1.0697, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.493278503417969
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.6050830609924412
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5194649109055756
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.59      0.23      0.33     25284
+    question       0.49      0.20      0.29     25597
+      answer       0.47      0.89      0.62     34396
+      header       0.53      0.54      0.53      6640
+
+    accuracy                           0.49     91917
+   macro avg       0.52      0.47      0.44     91917
+weighted avg       0.51      0.49      0.44     91917
+
+Test  accuracy: 0.4915086436676567
+Best val result:  {'epoch': 10, 'loss': tensor(1.2449, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5267980003832018}
+Test result:  {'prec': 0.4915086436676567, 'recall': 0.4915086436676567, 'acc': 0.4915086436676567, 'epoch': 15}
+Epoch:  16
+Batch 0 optimized. Loss: 1.2721855640411377
+Batch 10 optimized. Loss: 1.1966831684112549
+Batch 20 optimized. Loss: 0.8340318202972412
+Batch 30 optimized. Loss: 0.8202367424964905
+Batch 40 optimized. Loss: 0.784883975982666
+Batch 50 optimized. Loss: 1.0011568069458008
+Batch 60 optimized. Loss: 0.5903961062431335
+Batch 70 optimized. Loss: 0.6609556674957275
+Batch 80 optimized. Loss: 1.5077487230300903
+Batch 90 optimized. Loss: 1.1423513889312744
+Batch 100 optimized. Loss: 1.3413686752319336
+Batch 110 optimized. Loss: 0.47461241483688354
+Avg loss:  tensor(1.0528, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.328441143035889
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.6412465942490185
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5302293985473168
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.58      0.24      0.34     25284
+    question       0.47      0.24      0.31     25597
+      answer       0.48      0.86      0.62     34396
+      header       0.48      0.53      0.51      6640
+
+    accuracy                           0.49     91917
+   macro avg       0.50      0.47      0.44     91917
+weighted avg       0.51      0.49      0.45     91917
+
+Test  accuracy: 0.4906600520034379
+Best val result:  {'epoch': 16, 'loss': tensor(1.0528, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5302293985473168}
+Test result:  {'prec': 0.4906600520034379, 'recall': 0.4906600520034379, 'acc': 0.4906600520034379, 'epoch': 16}
+Epoch:  17
+Batch 0 optimized. Loss: 0.40770792961120605
+Batch 10 optimized. Loss: 0.925689697265625
+Batch 20 optimized. Loss: 0.7862039804458618
+Batch 30 optimized. Loss: 0.8272942304611206
+Batch 40 optimized. Loss: 0.7630705237388611
+Batch 50 optimized. Loss: 0.8743849992752075
+Batch 60 optimized. Loss: 0.44048750400543213
+Batch 70 optimized. Loss: 0.4903256297111511
+Batch 80 optimized. Loss: 1.2272502183914185
+Batch 90 optimized. Loss: 1.533780813217163
+Batch 100 optimized. Loss: 1.2722406387329102
+Batch 110 optimized. Loss: 0.5923314094543457
+Avg loss:  tensor(0.9825, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.486371517181396
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.655513204659711
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5351413492187909
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.53      0.29      0.37     25284
+    question       0.42      0.32      0.36     25597
+      answer       0.51      0.75      0.61     34396
+      header       0.49      0.63      0.55      6640
+
+    accuracy                           0.49     91917
+   macro avg       0.49      0.50      0.47     91917
+weighted avg       0.49      0.49      0.47     91917
+
+Test  accuracy: 0.4923137178106335
+Best val result:  {'epoch': 17, 'loss': tensor(0.9825, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5351413492187909}
+Test result:  {'prec': 0.4923137178106335, 'recall': 0.4923137178106335, 'acc': 0.4923137178106335, 'epoch': 17}
+Epoch:  18
+Batch 0 optimized. Loss: 0.2980475127696991
+Batch 10 optimized. Loss: 0.8897108435630798
+Batch 20 optimized. Loss: 0.761394202709198
+Batch 30 optimized. Loss: 0.7569898962974548
+Batch 40 optimized. Loss: 0.6210514307022095
+Batch 50 optimized. Loss: 0.7939428091049194
+Batch 60 optimized. Loss: 0.517519474029541
+Batch 70 optimized. Loss: 0.4525623023509979
+Batch 80 optimized. Loss: 1.2510302066802979
+Batch 90 optimized. Loss: 1.3804503679275513
+Batch 100 optimized. Loss: 0.8689014911651611
+Batch 110 optimized. Loss: 0.5013869404792786
+Avg loss:  tensor(0.9668, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.28467345237732
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.672718951350501
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.522878890804898
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.51      0.30      0.38     25284
+    question       0.47      0.19      0.27     25597
+      answer       0.49      0.85      0.62     34396
+      header       0.47      0.44      0.45      6640
+
+    accuracy                           0.49     91917
+   macro avg       0.48      0.45      0.43     91917
+weighted avg       0.49      0.49      0.45     91917
+
+Test  accuracy: 0.4883536233776124
+Best val result:  {'epoch': 17, 'loss': tensor(0.9825, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5351413492187909}
+Test result:  {'prec': 0.4883536233776124, 'recall': 0.4883536233776124, 'acc': 0.4883536233776124, 'epoch': 18}
+Epoch:  19
+Batch 0 optimized. Loss: 0.4697780907154083
+Batch 10 optimized. Loss: 1.0102436542510986
+Batch 20 optimized. Loss: 0.7531865239143372
+Batch 30 optimized. Loss: 0.7335253953933716
+Batch 40 optimized. Loss: 0.6115341782569885
+Batch 50 optimized. Loss: 0.8282901048660278
+Batch 60 optimized. Loss: 0.5739630460739136
+Batch 70 optimized. Loss: 0.4096079468727112
+Batch 80 optimized. Loss: 1.1697157621383667
+Batch 90 optimized. Loss: 1.2847133874893188
+Batch 100 optimized. Loss: 1.346743106842041
+Batch 110 optimized. Loss: 0.39493662118911743
+Avg loss:  tensor(0.9223, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.334152698516846
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7063366634009597
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5147271428820261
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.48      0.37      0.42     25284
+    question       0.40      0.34      0.37     25597
+      answer       0.52      0.68      0.59     34396
+      header       0.50      0.43      0.46      6640
+
+    accuracy                           0.48     91917
+   macro avg       0.48      0.46      0.46     91917
+weighted avg       0.47      0.48      0.47     91917
+
+Test  accuracy: 0.481325543697031
+Best val result:  {'epoch': 17, 'loss': tensor(0.9825, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5351413492187909}
+Test result:  {'prec': 0.481325543697031, 'recall': 0.481325543697031, 'acc': 0.481325543697031, 'epoch': 19}
+Epoch:  20
+Batch 0 optimized. Loss: 0.39069509506225586
+Batch 10 optimized. Loss: 0.7339315414428711
+Batch 20 optimized. Loss: 0.8043513298034668
+Batch 30 optimized. Loss: 0.8252125978469849
+Batch 40 optimized. Loss: 0.6666877865791321
+Batch 50 optimized. Loss: 0.8423306941986084
+Batch 60 optimized. Loss: 0.3650725781917572
+Batch 70 optimized. Loss: 0.44942015409469604
+Batch 80 optimized. Loss: 1.1529618501663208
+Batch 90 optimized. Loss: 1.4064453840255737
+Batch 100 optimized. Loss: 1.2341279983520508
+Batch 110 optimized. Loss: 0.36568760871887207
+Avg loss:  tensor(0.9044, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.4818115234375
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7021031629683131
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5149361620595356
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.46      0.42      0.44     25284
+    question       0.47      0.25      0.33     25597
+      answer       0.52      0.72      0.61     34396
+      header       0.49      0.55      0.52      6640
+
+    accuracy                           0.49     91917
+   macro avg       0.48      0.49      0.47     91917
+weighted avg       0.49      0.49      0.48     91917
+
+Test  accuracy: 0.4949900453670159
+Best val result:  {'epoch': 17, 'loss': tensor(0.9825, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5351413492187909}
+Test result:  {'prec': 0.4949900453670159, 'recall': 0.4949900453670159, 'acc': 0.4949900453670159, 'epoch': 20}
+Epoch:  21
+Batch 0 optimized. Loss: 0.2878613770008087
+Batch 10 optimized. Loss: 0.745582103729248
+Batch 20 optimized. Loss: 0.8355840444564819
+Batch 30 optimized. Loss: 0.651506245136261
+Batch 40 optimized. Loss: 0.5260306596755981
+Batch 50 optimized. Loss: 0.9847584366798401
+Batch 60 optimized. Loss: 0.5242905616760254
+Batch 70 optimized. Loss: 0.43251675367355347
+Batch 80 optimized. Loss: 1.2352148294448853
+Batch 90 optimized. Loss: 1.420677661895752
+Batch 100 optimized. Loss: 1.512382984161377
+Batch 110 optimized. Loss: 0.4095132350921631
+Avg loss:  tensor(0.8633, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.335916996002197
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.6910760385305749
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5287836825695424
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.60      0.25      0.36     25284
+    question       0.43      0.32      0.37     25597
+      answer       0.48      0.79      0.60     34396
+      header       0.52      0.46      0.49      6640
+
+    accuracy                           0.49     91917
+   macro avg       0.51      0.46      0.45     91917
+weighted avg       0.50      0.49      0.46     91917
+
+Test  accuracy: 0.4880272419682975
+Best val result:  {'epoch': 17, 'loss': tensor(0.9825, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5351413492187909}
+Test result:  {'prec': 0.4880272419682975, 'recall': 0.4880272419682975, 'acc': 0.4880272419682975, 'epoch': 21}
+Epoch:  22
+Batch 0 optimized. Loss: 0.26192009449005127
+Batch 10 optimized. Loss: 0.7953264713287354
+Batch 20 optimized. Loss: 0.739175021648407
+Batch 30 optimized. Loss: 0.7152503728866577
+Batch 40 optimized. Loss: 0.6230803728103638
+Batch 50 optimized. Loss: 0.7667421102523804
+Batch 60 optimized. Loss: 0.2791954278945923
+Batch 70 optimized. Loss: 0.40501120686531067
+Batch 80 optimized. Loss: 1.0681445598602295
+Batch 90 optimized. Loss: 1.4230263233184814
+Batch 100 optimized. Loss: 1.0736987590789795
+Batch 110 optimized. Loss: 0.42660626769065857
+Avg loss:  tensor(0.8608, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.346694469451904
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.6912119110106767
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5251258469631256
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.58      0.26      0.36     25284
+    question       0.44      0.30      0.36     25597
+      answer       0.49      0.83      0.62     34396
+      header       0.53      0.41      0.46      6640
+
+    accuracy                           0.50     91917
+   macro avg       0.51      0.45      0.45     91917
+weighted avg       0.51      0.50      0.46     91917
+
+Test  accuracy: 0.496893936921353
+Best val result:  {'epoch': 17, 'loss': tensor(0.9825, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5351413492187909}
+Test result:  {'prec': 0.496893936921353, 'recall': 0.496893936921353, 'acc': 0.496893936921353, 'epoch': 22}
+Epoch:  23
+Batch 0 optimized. Loss: 0.49088039994239807
+Batch 10 optimized. Loss: 0.7256985306739807
+Batch 20 optimized. Loss: 0.6966795325279236
+Batch 30 optimized. Loss: 0.7629072666168213
+Batch 40 optimized. Loss: 0.48869332671165466
+Batch 50 optimized. Loss: 0.900805652141571
+Batch 60 optimized. Loss: 0.39605626463890076
+Batch 70 optimized. Loss: 0.6260850429534912
+Batch 80 optimized. Loss: 1.2792236804962158
+Batch 90 optimized. Loss: 1.1439669132232666
+Batch 100 optimized. Loss: 1.0784410238265991
+Batch 110 optimized. Loss: 0.6814966797828674
+Avg loss:  tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.501648426055908
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7303932435621474
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5358032432809043
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.50      0.34      0.41     25284
+    question       0.41      0.31      0.35     25597
+      answer       0.51      0.73      0.60     34396
+      header       0.49      0.45      0.47      6640
+
+    accuracy                           0.49     91917
+   macro avg       0.48      0.46      0.46     91917
+weighted avg       0.48      0.49      0.47     91917
+
+Test  accuracy: 0.48785317188332955
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.48785317188332955, 'recall': 0.48785317188332955, 'acc': 0.48785317188332955, 'epoch': 23}
+Epoch:  24
+Batch 0 optimized. Loss: 0.3780187964439392
+Batch 10 optimized. Loss: 0.6526862382888794
+Batch 20 optimized. Loss: 0.7437511682510376
+Batch 30 optimized. Loss: 1.004143238067627
+Batch 40 optimized. Loss: 0.4757525622844696
+Batch 50 optimized. Loss: 0.7501120567321777
+Batch 60 optimized. Loss: 0.3039582371711731
+Batch 70 optimized. Loss: 0.43332400918006897
+Batch 80 optimized. Loss: 1.0676586627960205
+Batch 90 optimized. Loss: 1.2018600702285767
+Batch 100 optimized. Loss: 1.1651344299316406
+Batch 110 optimized. Loss: 0.3454208970069885
+Avg loss:  tensor(0.8272, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.289900779724121
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7122006335948282
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4786887530264235
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.38      0.48      0.42     25284
+    question       0.45      0.23      0.31     25597
+      answer       0.50      0.60      0.54     34396
+      header       0.54      0.43      0.48      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.47      0.43      0.44     91917
+weighted avg       0.45      0.45      0.44     91917
+
+Test  accuracy: 0.4512658158991264
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4512658158991264, 'recall': 0.4512658158991264, 'acc': 0.4512658158991264, 'epoch': 24}
+Epoch:  25
+Batch 0 optimized. Loss: 0.1866946965456009
+Batch 10 optimized. Loss: 1.1340407133102417
+Batch 20 optimized. Loss: 0.8387569189071655
+Batch 30 optimized. Loss: 0.6543022394180298
+Batch 40 optimized. Loss: 0.477613240480423
+Batch 50 optimized. Loss: 0.8251856565475464
+Batch 60 optimized. Loss: 0.42543521523475647
+Batch 70 optimized. Loss: 0.3239798843860626
+Batch 80 optimized. Loss: 1.0703989267349243
+Batch 90 optimized. Loss: 1.470505952835083
+Batch 100 optimized. Loss: 0.9194379448890686
+Batch 110 optimized. Loss: 0.3158440589904785
+Avg loss:  tensor(0.7926, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.506851196289062
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.6893096962892511
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5280695337130515
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.59      0.24      0.34     25284
+    question       0.46      0.24      0.31     25597
+      answer       0.48      0.87      0.62     34396
+      header       0.53      0.42      0.47      6640
+
+    accuracy                           0.49     91917
+   macro avg       0.51      0.44      0.43     91917
+weighted avg       0.50      0.49      0.44     91917
+
+Test  accuracy: 0.4883753821382334
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4883753821382334, 'recall': 0.4883753821382334, 'acc': 0.4883753821382334, 'epoch': 25}
+Epoch:  26
+Batch 0 optimized. Loss: 0.24215389788150787
+Batch 10 optimized. Loss: 0.7905853986740112
+Batch 20 optimized. Loss: 0.6471080780029297
+Batch 30 optimized. Loss: 0.652354896068573
+Batch 40 optimized. Loss: 0.42007288336753845
+Batch 50 optimized. Loss: 0.6115450263023376
+Batch 60 optimized. Loss: 0.42059043049812317
+Batch 70 optimized. Loss: 0.3793415427207947
+Batch 80 optimized. Loss: 1.0790059566497803
+Batch 90 optimized. Loss: 1.2271404266357422
+Batch 100 optimized. Loss: 0.9826858639717102
+Batch 110 optimized. Loss: 0.4128437042236328
+Avg loss:  tensor(0.7745, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.311174631118774
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7478635840299778
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5169740990402536
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.40      0.34      0.37     25284
+    question       0.40      0.38      0.39     25597
+      answer       0.54      0.58      0.56     34396
+      header       0.39      0.51      0.44      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.43      0.45      0.44     91917
+weighted avg       0.45      0.45      0.45     91917
+
+Test  accuracy: 0.45476897635910657
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.45476897635910657, 'recall': 0.45476897635910657, 'acc': 0.45476897635910657, 'epoch': 26}
+Epoch:  27
+Batch 0 optimized. Loss: 0.6407108306884766
+Batch 10 optimized. Loss: 0.8039420247077942
+Batch 20 optimized. Loss: 0.9663335680961609
+Batch 30 optimized. Loss: 0.6163553595542908
+Batch 40 optimized. Loss: 0.4905183017253876
+Batch 50 optimized. Loss: 0.8799305558204651
+Batch 60 optimized. Loss: 0.29047977924346924
+Batch 70 optimized. Loss: 0.4012192189693451
+Batch 80 optimized. Loss: 0.9182278513908386
+Batch 90 optimized. Loss: 1.243562936782837
+Batch 100 optimized. Loss: 0.8610670566558838
+Batch 110 optimized. Loss: 0.3636063039302826
+Avg loss:  tensor(0.7450, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.539204120635986
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7459399157590624
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4862482799463517
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.41      0.50      0.45     25284
+    question       0.40      0.36      0.38     25597
+      answer       0.57      0.53      0.55     34396
+      header       0.49      0.45      0.47      6640
+
+    accuracy                           0.47     91917
+   macro avg       0.47      0.46      0.46     91917
+weighted avg       0.47      0.47      0.47     91917
+
+Test  accuracy: 0.46846611617002293
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.46846611617002293, 'recall': 0.46846611617002293, 'acc': 0.46846611617002293, 'epoch': 27}
+Epoch:  28
+Batch 0 optimized. Loss: 0.16317322850227356
+Batch 10 optimized. Loss: 0.6452924013137817
+Batch 20 optimized. Loss: 0.6454606652259827
+Batch 30 optimized. Loss: 0.9374073147773743
+Batch 40 optimized. Loss: 0.42074739933013916
+Batch 50 optimized. Loss: 0.5852673649787903
+Batch 60 optimized. Loss: 0.32725977897644043
+Batch 70 optimized. Loss: 0.40389975905418396
+Batch 80 optimized. Loss: 0.967226505279541
+Batch 90 optimized. Loss: 1.3284375667572021
+Batch 100 optimized. Loss: 0.6965790390968323
+Batch 110 optimized. Loss: 0.42169108986854553
+Avg loss:  tensor(0.7382, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.321891784667969
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7450817737794718
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4969605127937155
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.38      0.45      0.41     25284
+    question       0.39      0.28      0.33     25597
+      answer       0.51      0.55      0.53     34396
+      header       0.46      0.45      0.45      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.43      0.43      0.43     91917
+weighted avg       0.44      0.44      0.43     91917
+
+Test  accuracy: 0.4397445521503095
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4397445521503095, 'recall': 0.4397445521503095, 'acc': 0.4397445521503095, 'epoch': 28}
+Epoch:  29
+Batch 0 optimized. Loss: 0.2795242667198181
+Batch 10 optimized. Loss: 0.5818726420402527
+Batch 20 optimized. Loss: 0.5913593769073486
+Batch 30 optimized. Loss: 0.6719483733177185
+Batch 40 optimized. Loss: 0.33603599667549133
+Batch 50 optimized. Loss: 0.5438380837440491
+Batch 60 optimized. Loss: 0.5473967790603638
+Batch 70 optimized. Loss: 0.3841976821422577
+Batch 80 optimized. Loss: 1.0349855422973633
+Batch 90 optimized. Loss: 1.175885796546936
+Batch 100 optimized. Loss: 0.8306289911270142
+Batch 110 optimized. Loss: 0.27122411131858826
+Avg loss:  tensor(0.7511, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.36023211479187
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7227557799437917
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5236801309853513
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.48      0.31      0.38     25284
+    question       0.47      0.23      0.31     25597
+      answer       0.49      0.80      0.61     34396
+      header       0.41      0.46      0.43      6640
+
+    accuracy                           0.48     91917
+   macro avg       0.46      0.45      0.43     91917
+weighted avg       0.48      0.48      0.45     91917
+
+Test  accuracy: 0.4803355200887757
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4803355200887757, 'recall': 0.4803355200887757, 'acc': 0.4803355200887757, 'epoch': 29}
+Epoch:  30
+Batch 0 optimized. Loss: 0.3284160792827606
+Batch 10 optimized. Loss: 0.7043646574020386
+Batch 20 optimized. Loss: 0.6086879968643188
+Batch 30 optimized. Loss: 0.5675957202911377
+Batch 40 optimized. Loss: 0.9437993764877319
+Batch 50 optimized. Loss: 0.528832733631134
+Batch 60 optimized. Loss: 0.292784184217453
+Batch 70 optimized. Loss: 0.29219913482666016
+Batch 80 optimized. Loss: 0.9961361885070801
+Batch 90 optimized. Loss: 1.022447109222412
+Batch 100 optimized. Loss: 0.5838401913642883
+Batch 110 optimized. Loss: 0.24590885639190674
+Avg loss:  tensor(0.6902, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.519747018814087
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7683874797085177
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4904460817613349
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.42      0.42      0.42     25284
+    question       0.42      0.40      0.41     25597
+      answer       0.52      0.53      0.53     34396
+      header       0.44      0.50      0.47      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.45      0.46      0.46     91917
+weighted avg       0.46      0.46      0.46     91917
+
+Test  accuracy: 0.461710020997204
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.461710020997204, 'recall': 0.461710020997204, 'acc': 0.461710020997204, 'epoch': 30}
+Epoch:  31
+Batch 0 optimized. Loss: 0.17726841568946838
+Batch 10 optimized. Loss: 0.8271594047546387
+Batch 20 optimized. Loss: 0.821463942527771
+Batch 30 optimized. Loss: 0.7219753265380859
+Batch 40 optimized. Loss: 0.4972493350505829
+Batch 50 optimized. Loss: 0.44710877537727356
+Batch 60 optimized. Loss: 0.21855247020721436
+Batch 70 optimized. Loss: 0.2723333537578583
+Batch 80 optimized. Loss: 1.0311201810836792
+Batch 90 optimized. Loss: 1.2395738363265991
+Batch 100 optimized. Loss: 0.5713334083557129
+Batch 110 optimized. Loss: 0.23906803131103516
+Avg loss:  tensor(0.6786, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.343536615371704
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7502949863054842
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.46964867359913604
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.40      0.46      0.43     25284
+    question       0.42      0.32      0.36     25597
+      answer       0.54      0.55      0.55     34396
+      header       0.40      0.52      0.45      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.44      0.46      0.45     91917
+weighted avg       0.46      0.46      0.46     91917
+
+Test  accuracy: 0.45917512538485805
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.45917512538485805, 'recall': 0.45917512538485805, 'acc': 0.45917512538485805, 'epoch': 31}
+Epoch:  32
+Batch 0 optimized. Loss: 0.13460128009319305
+Batch 10 optimized. Loss: 0.4949934482574463
+Batch 20 optimized. Loss: 0.5224723219871521
+Batch 30 optimized. Loss: 0.5598594546318054
+Batch 40 optimized. Loss: 0.34401050209999084
+Batch 50 optimized. Loss: 0.5360862016677856
+Batch 60 optimized. Loss: 0.2784898281097412
+Batch 70 optimized. Loss: 0.3174378573894501
+Batch 80 optimized. Loss: 0.88785719871521
+Batch 90 optimized. Loss: 1.0278685092926025
+Batch 100 optimized. Loss: 0.8907866477966309
+Batch 110 optimized. Loss: 0.47177428007125854
+Avg loss:  tensor(0.6610, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.518874168395996
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7959910467186796
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5209454634129348
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.45      0.36      0.40     25284
+    question       0.38      0.36      0.37     25597
+      answer       0.52      0.63      0.57     34396
+      header       0.47      0.44      0.46      6640
+
+    accuracy                           0.47     91917
+   macro avg       0.46      0.45      0.45     91917
+weighted avg       0.46      0.47      0.46     91917
+
+Test  accuracy: 0.4656157185286726
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4656157185286726, 'recall': 0.4656157185286726, 'acc': 0.4656157185286726, 'epoch': 32}
+Epoch:  33
+Batch 0 optimized. Loss: 0.3259860575199127
+Batch 10 optimized. Loss: 0.5580235719680786
+Batch 20 optimized. Loss: 0.46781450510025024
+Batch 30 optimized. Loss: 0.5666085481643677
+Batch 40 optimized. Loss: 0.33301496505737305
+Batch 50 optimized. Loss: 0.5925319194793701
+Batch 60 optimized. Loss: 0.23309436440467834
+Batch 70 optimized. Loss: 0.4016323685646057
+Batch 80 optimized. Loss: 0.8803102970123291
+Batch 90 optimized. Loss: 1.1361937522888184
+Batch 100 optimized. Loss: 0.4663918614387512
+Batch 110 optimized. Loss: 0.22386610507965088
+Avg loss:  tensor(0.6265, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.369597673416138
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7516537111065026
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4684119767988713
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.37      0.57      0.45     25284
+    question       0.40      0.33      0.36     25597
+      answer       0.58      0.42      0.49     34396
+      header       0.42      0.48      0.45      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.44      0.45      0.44     91917
+weighted avg       0.46      0.44      0.44     91917
+
+Test  accuracy: 0.4390156336695062
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4390156336695062, 'recall': 0.4390156336695062, 'acc': 0.4390156336695062, 'epoch': 33}
+Epoch:  34
+Batch 0 optimized. Loss: 0.40648338198661804
+Batch 10 optimized. Loss: 0.623982846736908
+Batch 20 optimized. Loss: 0.580046534538269
+Batch 30 optimized. Loss: 0.5813547372817993
+Batch 40 optimized. Loss: 0.6947667002677917
+Batch 50 optimized. Loss: 0.7648204565048218
+Batch 60 optimized. Loss: 0.7798532247543335
+Batch 70 optimized. Loss: 0.23963406682014465
+Batch 80 optimized. Loss: 1.094947338104248
+Batch 90 optimized. Loss: 1.6311677694320679
+Batch 100 optimized. Loss: 0.6584489345550537
+Batch 110 optimized. Loss: 0.38797932863235474
+Avg loss:  tensor(0.6505, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.572160243988037
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7853643885380837
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5060005922210029
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.46      0.45      0.46     25284
+    question       0.42      0.32      0.36     25597
+      answer       0.54      0.64      0.58     34396
+      header       0.49      0.46      0.47      6640
+
+    accuracy                           0.49     91917
+   macro avg       0.48      0.47      0.47     91917
+weighted avg       0.48      0.49      0.48     91917
+
+Test  accuracy: 0.4865694050066908
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4865694050066908, 'recall': 0.4865694050066908, 'acc': 0.4865694050066908, 'epoch': 34}
+Epoch:  35
+Batch 0 optimized. Loss: 0.15510965883731842
+Batch 10 optimized. Loss: 0.5854990482330322
+Batch 20 optimized. Loss: 0.7421329617500305
+Batch 30 optimized. Loss: 0.42535480856895447
+Batch 40 optimized. Loss: 0.34081169962882996
+Batch 50 optimized. Loss: 0.4498245120048523
+Batch 60 optimized. Loss: 0.21956071257591248
+Batch 70 optimized. Loss: 0.3275564908981323
+Batch 80 optimized. Loss: 1.207903504371643
+Batch 90 optimized. Loss: 1.0487391948699951
+Batch 100 optimized. Loss: 0.521685004234314
+Batch 110 optimized. Loss: 0.3693021237850189
+Avg loss:  tensor(0.6271, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.340571880340576
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.805702353454379
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5102854853599484
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.44      0.39      0.41     25284
+    question       0.41      0.40      0.41     25597
+      answer       0.56      0.57      0.56     34396
+      header       0.41      0.56      0.47      6640
+
+    accuracy                           0.47     91917
+   macro avg       0.45      0.48      0.46     91917
+weighted avg       0.47      0.47      0.47     91917
+
+Test  accuracy: 0.4718169653056562
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4718169653056562, 'recall': 0.4718169653056562, 'acc': 0.4718169653056562, 'epoch': 35}
+Epoch:  36
+Batch 0 optimized. Loss: 0.1439458727836609
+Batch 10 optimized. Loss: 0.7597633600234985
+Batch 20 optimized. Loss: 0.43107834458351135
+Batch 30 optimized. Loss: 0.47644174098968506
+Batch 40 optimized. Loss: 0.2955312132835388
+Batch 50 optimized. Loss: 0.6414248943328857
+Batch 60 optimized. Loss: 0.296465128660202
+Batch 70 optimized. Loss: 0.16783533990383148
+Batch 80 optimized. Loss: 0.8296647071838379
+Batch 90 optimized. Loss: 1.0864535570144653
+Batch 100 optimized. Loss: 0.4108160436153412
+Batch 110 optimized. Loss: 0.30235645174980164
+Avg loss:  tensor(0.5965, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.318930387496948
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.7994665217360212
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5064883036351918
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.45      0.41      0.43     25284
+    question       0.40      0.42      0.41     25597
+      answer       0.52      0.51      0.51     34396
+      header       0.41      0.45      0.43      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.44      0.45      0.45     91917
+weighted avg       0.46      0.45      0.46     91917
+
+Test  accuracy: 0.4547472175984856
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4547472175984856, 'recall': 0.4547472175984856, 'acc': 0.4547472175984856, 'epoch': 36}
+Epoch:  37
+Batch 0 optimized. Loss: 0.294200599193573
+Batch 10 optimized. Loss: 0.7195640206336975
+Batch 20 optimized. Loss: 0.529927134513855
+Batch 30 optimized. Loss: 0.9540306329727173
+Batch 40 optimized. Loss: 0.29714104533195496
+Batch 50 optimized. Loss: 0.5081533789634705
+Batch 60 optimized. Loss: 0.24050766229629517
+Batch 70 optimized. Loss: 0.6007848978042603
+Batch 80 optimized. Loss: 0.9574180841445923
+Batch 90 optimized. Loss: 1.1764907836914062
+Batch 100 optimized. Loss: 0.560354471206665
+Batch 110 optimized. Loss: 0.23556315898895264
+Avg loss:  tensor(0.6029, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.532098293304443
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8032065905304032
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5145181237045166
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.45      0.34      0.38     25284
+    question       0.41      0.41      0.41     25597
+      answer       0.52      0.63      0.57     34396
+      header       0.51      0.39      0.44      6640
+
+    accuracy                           0.47     91917
+   macro avg       0.47      0.44      0.45     91917
+weighted avg       0.47      0.47      0.47     91917
+
+Test  accuracy: 0.47279610953360096
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.47279610953360096, 'recall': 0.47279610953360096, 'acc': 0.47279610953360096, 'epoch': 37}
+Epoch:  38
+Batch 0 optimized. Loss: 0.15315714478492737
+Batch 10 optimized. Loss: 0.7759937047958374
+Batch 20 optimized. Loss: 0.44371452927589417
+Batch 30 optimized. Loss: 0.6106806397438049
+Batch 40 optimized. Loss: 0.34698230028152466
+Batch 50 optimized. Loss: 0.4917783737182617
+Batch 60 optimized. Loss: 0.2871737778186798
+Batch 70 optimized. Loss: 0.2370016872882843
+Batch 80 optimized. Loss: 0.6946203708648682
+Batch 90 optimized. Loss: 1.1054260730743408
+Batch 100 optimized. Loss: 0.47064173221588135
+Batch 110 optimized. Loss: 0.22742077708244324
+Avg loss:  tensor(0.5763, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.3409743309021
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.778599369265645
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4650154151643413
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.37      0.43      0.40     25284
+    question       0.40      0.34      0.37     25597
+      answer       0.54      0.46      0.50     34396
+      header       0.33      0.60      0.43      6640
+
+    accuracy                           0.43     91917
+   macro avg       0.41      0.46      0.42     91917
+weighted avg       0.44      0.43      0.43     91917
+
+Test  accuracy: 0.4270809534688904
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4270809534688904, 'recall': 0.4270809534688904, 'acc': 0.4270809534688904, 'epoch': 38}
+Epoch:  39
+Batch 0 optimized. Loss: 0.11895822733640671
+Batch 10 optimized. Loss: 0.7754967212677002
+Batch 20 optimized. Loss: 0.44883251190185547
+Batch 30 optimized. Loss: 0.39935103058815
+Batch 40 optimized. Loss: 0.2818930149078369
+Batch 50 optimized. Loss: 0.41414666175842285
+Batch 60 optimized. Loss: 0.16740450263023376
+Batch 70 optimized. Loss: 0.14457887411117554
+Batch 80 optimized. Loss: 0.7047276496887207
+Batch 90 optimized. Loss: 1.0633193254470825
+Batch 100 optimized. Loss: 0.42961493134498596
+Batch 110 optimized. Loss: 0.31681951880455017
+Avg loss:  tensor(0.5505, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.547719717025757
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8171943047977288
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4920833986518263
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.42      0.38      0.40     25284
+    question       0.40      0.41      0.40     25597
+      answer       0.54      0.55      0.55     34396
+      header       0.41      0.50      0.45      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.44      0.46      0.45     91917
+weighted avg       0.46      0.46      0.46     91917
+
+Test  accuracy: 0.4608179118117432
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4608179118117432, 'recall': 0.4608179118117432, 'acc': 0.4608179118117432, 'epoch': 39}
+Epoch:  40
+Batch 0 optimized. Loss: 0.23722749948501587
+Batch 10 optimized. Loss: 0.5076863169670105
+Batch 20 optimized. Loss: 0.4265270531177521
+Batch 30 optimized. Loss: 0.6002556681632996
+Batch 40 optimized. Loss: 0.37634316086769104
+Batch 50 optimized. Loss: 0.5882022380828857
+Batch 60 optimized. Loss: 0.22884535789489746
+Batch 70 optimized. Loss: 0.2943132519721985
+Batch 80 optimized. Loss: 0.9412794709205627
+Batch 90 optimized. Loss: 0.8774926662445068
+Batch 100 optimized. Loss: 0.4669085741043091
+Batch 110 optimized. Loss: 0.5116307735443115
+Avg loss:  tensor(0.5550, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.341326236724854
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8217353061063953
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5011757328734912
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.48      0.37      0.42     25284
+    question       0.40      0.46      0.43     25597
+      answer       0.51      0.53      0.52     34396
+      header       0.43      0.50      0.46      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.45      0.46      0.46     91917
+weighted avg       0.46      0.46      0.46     91917
+
+Test  accuracy: 0.4615033127713045
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4615033127713045, 'recall': 0.4615033127713045, 'acc': 0.4615033127713045, 'epoch': 40}
+Epoch:  41
+Batch 0 optimized. Loss: 0.14420445263385773
+Batch 10 optimized. Loss: 0.3709865212440491
+Batch 20 optimized. Loss: 0.6401551365852356
+Batch 30 optimized. Loss: 0.39544862508773804
+Batch 40 optimized. Loss: 0.26258283853530884
+Batch 50 optimized. Loss: 0.418748676776886
+Batch 60 optimized. Loss: 0.1662595421075821
+Batch 70 optimized. Loss: 0.26184919476509094
+Batch 80 optimized. Loss: 0.6993288993835449
+Batch 90 optimized. Loss: 0.8202325105667114
+Batch 100 optimized. Loss: 0.43853825330734253
+Batch 110 optimized. Loss: 0.15286681056022644
+Avg loss:  tensor(0.5012, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.313578844070435
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8186388437967062
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4796990123843863
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.42      0.47      0.44     25284
+    question       0.38      0.37      0.38     25597
+      answer       0.54      0.50      0.52     34396
+      header       0.46      0.48      0.47      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.45      0.45      0.45     91917
+weighted avg       0.46      0.45      0.45     91917
+
+Test  accuracy: 0.4530391548897375
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4530391548897375, 'recall': 0.4530391548897375, 'acc': 0.4530391548897375, 'epoch': 41}
+Epoch:  42
+Batch 0 optimized. Loss: 0.14154119789600372
+Batch 10 optimized. Loss: 0.601040244102478
+Batch 20 optimized. Loss: 0.5906569957733154
+Batch 30 optimized. Loss: 0.33466964960098267
+Batch 40 optimized. Loss: 0.7194210290908813
+Batch 50 optimized. Loss: 0.3961244225502014
+Batch 60 optimized. Loss: 0.2413613200187683
+Batch 70 optimized. Loss: 0.12673872709274292
+Batch 80 optimized. Loss: 0.7162361145019531
+Batch 90 optimized. Loss: 0.8620235919952393
+Batch 100 optimized. Loss: 0.5041224360466003
+Batch 110 optimized. Loss: 0.5046249628067017
+Avg loss:  tensor(0.5173, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.472313404083252
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8132754564242654
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.48163243977634945
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.45      0.37      0.41     25284
+    question       0.37      0.47      0.41     25597
+      answer       0.53      0.49      0.51     34396
+      header       0.42      0.42      0.42      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.44      0.44      0.44     91917
+weighted avg       0.46      0.45      0.45     91917
+
+Test  accuracy: 0.44693582253554837
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.44693582253554837, 'recall': 0.44693582253554837, 'acc': 0.44693582253554837, 'epoch': 42}
+Epoch:  43
+Batch 0 optimized. Loss: 0.26648351550102234
+Batch 10 optimized. Loss: 0.45830926299095154
+Batch 20 optimized. Loss: 0.4094993472099304
+Batch 30 optimized. Loss: 0.5408148169517517
+Batch 40 optimized. Loss: 0.41547465324401855
+Batch 50 optimized. Loss: 0.3940703272819519
+Batch 60 optimized. Loss: 0.18992827832698822
+Batch 70 optimized. Loss: 0.1582546979188919
+Batch 80 optimized. Loss: 0.8489322662353516
+Batch 90 optimized. Loss: 0.6982836723327637
+Batch 100 optimized. Loss: 0.3759397268295288
+Batch 110 optimized. Loss: 0.32779261469841003
+Avg loss:  tensor(0.4989, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.311975717544556
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8154279625564049
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.46754106355924824
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.41      0.50      0.45     25284
+    question       0.39      0.32      0.35     25597
+      answer       0.53      0.51      0.52     34396
+      header       0.47      0.45      0.46      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.45      0.44      0.44     91917
+weighted avg       0.45      0.45      0.45     91917
+
+Test  accuracy: 0.4507000881229805
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4507000881229805, 'recall': 0.4507000881229805, 'acc': 0.4507000881229805, 'epoch': 43}
+Epoch:  44
+Batch 0 optimized. Loss: 0.15890294313430786
+Batch 10 optimized. Loss: 0.590451717376709
+Batch 20 optimized. Loss: 0.4774928092956543
+Batch 30 optimized. Loss: 0.7879726886749268
+Batch 40 optimized. Loss: 0.2526586055755615
+Batch 50 optimized. Loss: 0.42007148265838623
+Batch 60 optimized. Loss: 0.20117759704589844
+Batch 70 optimized. Loss: 0.17076453566551208
+Batch 80 optimized. Loss: 0.632676899433136
+Batch 90 optimized. Loss: 0.7081478834152222
+Batch 100 optimized. Loss: 0.3743647634983063
+Batch 110 optimized. Loss: 0.2731795907020569
+Avg loss:  tensor(0.4840, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.509827852249146
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8304883542982187
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.48440194387835084
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.44      0.44      0.44     25284
+    question       0.37      0.39      0.38     25597
+      answer       0.52      0.49      0.51     34396
+      header       0.44      0.44      0.44      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.44      0.44      0.44     91917
+weighted avg       0.45      0.45      0.45     91917
+
+Test  accuracy: 0.4466638380277859
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4466638380277859, 'recall': 0.4466638380277859, 'acc': 0.4466638380277859, 'epoch': 44}
+Epoch:  45
+Batch 0 optimized. Loss: 0.05793372541666031
+Batch 10 optimized. Loss: 0.33603933453559875
+Batch 20 optimized. Loss: 0.4119511842727661
+Batch 30 optimized. Loss: 0.4521227777004242
+Batch 40 optimized. Loss: 0.2496556043624878
+Batch 50 optimized. Loss: 0.32531237602233887
+Batch 60 optimized. Loss: 0.10701823979616165
+Batch 70 optimized. Loss: 0.15819168090820312
+Batch 80 optimized. Loss: 0.6535060405731201
+Batch 90 optimized. Loss: 0.8074685335159302
+Batch 100 optimized. Loss: 0.4214581549167633
+Batch 110 optimized. Loss: 0.19126220047473907
+Avg loss:  tensor(0.4392, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.325758218765259
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8039932206783612
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.49039382696695755
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.44      0.41      0.43     25284
+    question       0.35      0.44      0.39     25597
+      answer       0.54      0.41      0.47     34396
+      header       0.36      0.52      0.42      6640
+
+    accuracy                           0.43     91917
+   macro avg       0.42      0.45      0.43     91917
+weighted avg       0.45      0.43      0.43     91917
+
+Test  accuracy: 0.42994223049055125
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.42994223049055125, 'recall': 0.42994223049055125, 'acc': 0.42994223049055125, 'epoch': 45}
+Epoch:  46
+Batch 0 optimized. Loss: 0.08963106572628021
+Batch 10 optimized. Loss: 0.31191495060920715
+Batch 20 optimized. Loss: 0.41209203004837036
+Batch 30 optimized. Loss: 0.3961986005306244
+Batch 40 optimized. Loss: 0.207627072930336
+Batch 50 optimized. Loss: 0.34231430292129517
+Batch 60 optimized. Loss: 0.24507808685302734
+Batch 70 optimized. Loss: 0.18430429697036743
+Batch 80 optimized. Loss: 0.5398197770118713
+Batch 90 optimized. Loss: 0.800399899482727
+Batch 100 optimized. Loss: 0.30624035000801086
+Batch 110 optimized. Loss: 0.28117337822914124
+Avg loss:  tensor(0.4620, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.313973903656006
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8200547780630305
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.47294072564491124
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.40      0.54      0.46     25284
+    question       0.37      0.33      0.35     25597
+      answer       0.57      0.45      0.50     34396
+      header       0.39      0.39      0.39      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.43      0.43      0.42     91917
+weighted avg       0.45      0.44      0.44     91917
+
+Test  accuracy: 0.43826495642808183
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.43826495642808183, 'recall': 0.43826495642808183, 'acc': 0.43826495642808183, 'epoch': 46}
+Epoch:  47
+Batch 0 optimized. Loss: 0.12037361413240433
+Batch 10 optimized. Loss: 0.3080962896347046
+Batch 20 optimized. Loss: 0.403486967086792
+Batch 30 optimized. Loss: 0.3271767199039459
+Batch 40 optimized. Loss: 0.35121798515319824
+Batch 50 optimized. Loss: 0.26466313004493713
+Batch 60 optimized. Loss: 0.1914248913526535
+Batch 70 optimized. Loss: 0.1166086196899414
+Batch 80 optimized. Loss: 0.600521981716156
+Batch 90 optimized. Loss: 1.043001413345337
+Batch 100 optimized. Loss: 0.36811527609825134
+Batch 110 optimized. Loss: 0.16139106452465057
+Avg loss:  tensor(0.4524, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.472940444946289
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8351294721711707
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4873107940986919
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.41      0.40      0.41     25284
+    question       0.38      0.39      0.39     25597
+      answer       0.53      0.54      0.54     34396
+      header       0.43      0.38      0.41      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.44      0.43      0.44     91917
+weighted avg       0.45      0.45      0.45     91917
+
+Test  accuracy: 0.45109174581415845
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.45109174581415845, 'recall': 0.45109174581415845, 'acc': 0.45109174581415845, 'epoch': 47}
+Epoch:  48
+Batch 0 optimized. Loss: 0.16551271080970764
+Batch 10 optimized. Loss: 0.4501153528690338
+Batch 20 optimized. Loss: 0.45781823992729187
+Batch 30 optimized. Loss: 0.3176075220108032
+Batch 40 optimized. Loss: 0.3608344793319702
+Batch 50 optimized. Loss: 0.5026142597198486
+Batch 60 optimized. Loss: 0.14132899045944214
+Batch 70 optimized. Loss: 0.23448388278484344
+Batch 80 optimized. Loss: 0.9141018390655518
+Batch 90 optimized. Loss: 0.9238961935043335
+Batch 100 optimized. Loss: 0.40915751457214355
+Batch 110 optimized. Loss: 0.1978345513343811
+Avg loss:  tensor(0.4639, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.356045246124268
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.839241402490042
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4950270854017523
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.43      0.31      0.36     25284
+    question       0.37      0.48      0.42     25597
+      answer       0.51      0.50      0.51     34396
+      header       0.51      0.43      0.47      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.45      0.43      0.44     91917
+weighted avg       0.45      0.44      0.44     91917
+
+Test  accuracy: 0.44089776646322226
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.44089776646322226, 'recall': 0.44089776646322226, 'acc': 0.44089776646322226, 'epoch': 48}
+Epoch:  49
+Batch 0 optimized. Loss: 0.07246467471122742
+Batch 10 optimized. Loss: 0.5312702059745789
+Batch 20 optimized. Loss: 0.5820472240447998
+Batch 30 optimized. Loss: 0.6740991473197937
+Batch 40 optimized. Loss: 0.21348915994167328
+Batch 50 optimized. Loss: 0.4830562472343445
+Batch 60 optimized. Loss: 0.14872291684150696
+Batch 70 optimized. Loss: 0.43708688020706177
+Batch 80 optimized. Loss: 0.5154322981834412
+Batch 90 optimized. Loss: 1.1417427062988281
+Batch 100 optimized. Loss: 0.47753334045410156
+Batch 110 optimized. Loss: 0.11302656680345535
+Avg loss:  tensor(0.4687, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.531863927841187
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8378326194068809
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4827646269878595
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.42      0.42      0.42     25284
+    question       0.38      0.44      0.41     25597
+      answer       0.55      0.48      0.51     34396
+      header       0.47      0.45      0.46      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.45      0.45      0.45     91917
+weighted avg       0.46      0.45      0.45     91917
+
+Test  accuracy: 0.45093943448981144
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.45093943448981144, 'recall': 0.45093943448981144, 'acc': 0.45093943448981144, 'epoch': 49}
+Epoch:  50
+Batch 0 optimized. Loss: 0.05507604777812958
+Batch 10 optimized. Loss: 0.4100111126899719
+Batch 20 optimized. Loss: 0.45440906286239624
+Batch 30 optimized. Loss: 0.3782442808151245
+Batch 40 optimized. Loss: 0.31392669677734375
+Batch 50 optimized. Loss: 0.5350375175476074
+Batch 60 optimized. Loss: 0.17426101863384247
+Batch 70 optimized. Loss: 0.09473362565040588
+Batch 80 optimized. Loss: 0.5167056322097778
+Batch 90 optimized. Loss: 0.6896090507507324
+Batch 100 optimized. Loss: 0.3395846486091614
+Batch 110 optimized. Loss: 0.1661742776632309
+Avg loss:  tensor(0.4350, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.334097385406494
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8275206132854681
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.46351744439218967
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.44      0.33      0.38     25284
+    question       0.36      0.61      0.45     25597
+      answer       0.56      0.36      0.44     34396
+      header       0.40      0.44      0.42      6640
+
+    accuracy                           0.43     91917
+   macro avg       0.44      0.43      0.42     91917
+weighted avg       0.46      0.43      0.42     91917
+
+Test  accuracy: 0.4264173112699501
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4264173112699501, 'recall': 0.4264173112699501, 'acc': 0.4264173112699501, 'epoch': 50}
+Epoch:  51
+Batch 0 optimized. Loss: 0.03266897797584534
+Batch 10 optimized. Loss: 0.3051294684410095
+Batch 20 optimized. Loss: 0.6483141779899597
+Batch 30 optimized. Loss: 0.6021651029586792
+Batch 40 optimized. Loss: 0.34549281001091003
+Batch 50 optimized. Loss: 0.4584720730781555
+Batch 60 optimized. Loss: 0.19115164875984192
+Batch 70 optimized. Loss: 0.17964181303977966
+Batch 80 optimized. Loss: 0.5721219778060913
+Batch 90 optimized. Loss: 0.9511226415634155
+Batch 100 optimized. Loss: 0.2778264880180359
+Batch 110 optimized. Loss: 0.13033950328826904
+Avg loss:  tensor(0.4101, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.315405368804932
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8633122850175562
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4846109630558604
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.44      0.40      0.42     25284
+    question       0.38      0.45      0.41     25597
+      answer       0.54      0.50      0.52     34396
+      header       0.46      0.46      0.46      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.45      0.45      0.45     91917
+weighted avg       0.46      0.46      0.46     91917
+
+Test  accuracy: 0.4552259103321475
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4552259103321475, 'recall': 0.4552259103321475, 'acc': 0.4552259103321475, 'epoch': 51}
+Epoch:  52
+Batch 0 optimized. Loss: 0.06363000720739365
+Batch 10 optimized. Loss: 0.35740387439727783
+Batch 20 optimized. Loss: 0.37408775091171265
+Batch 30 optimized. Loss: 0.25744113326072693
+Batch 40 optimized. Loss: 0.21876221895217896
+Batch 50 optimized. Loss: 0.3657444417476654
+Batch 60 optimized. Loss: 0.25251635909080505
+Batch 70 optimized. Loss: 0.1331627517938614
+Batch 80 optimized. Loss: 0.5994983911514282
+Batch 90 optimized. Loss: 0.795552670955658
+Batch 100 optimized. Loss: 0.316523939371109
+Batch 110 optimized. Loss: 0.17266914248466492
+Avg loss:  tensor(0.3820, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.543243646621704
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8624398406716391
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4754315375102332
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.39      0.40      0.39     25284
+    question       0.40      0.40      0.40     25597
+      answer       0.54      0.50      0.52     34396
+      header       0.38      0.47      0.42      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.43      0.44      0.43     91917
+weighted avg       0.45      0.44      0.44     91917
+
+Test  accuracy: 0.4424317590870024
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4424317590870024, 'recall': 0.4424317590870024, 'acc': 0.4424317590870024, 'epoch': 52}
+Epoch:  53
+Batch 0 optimized. Loss: 0.09092703461647034
+Batch 10 optimized. Loss: 0.5825216770172119
+Batch 20 optimized. Loss: 0.45017826557159424
+Batch 30 optimized. Loss: 0.3865780234336853
+Batch 40 optimized. Loss: 0.29750096797943115
+Batch 50 optimized. Loss: 0.4157259464263916
+Batch 60 optimized. Loss: 0.2285185158252716
+Batch 70 optimized. Loss: 0.15658673644065857
+Batch 80 optimized. Loss: 0.8550642728805542
+Batch 90 optimized. Loss: 0.7587647438049316
+Batch 100 optimized. Loss: 0.30756479501724243
+Batch 110 optimized. Loss: 0.2080007642507553
+Avg loss:  tensor(0.3889, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.413302183151245
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8574554660068509
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.5018202086708122
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.45      0.32      0.38     25284
+    question       0.40      0.47      0.43     25597
+      answer       0.53      0.55      0.54     34396
+      header       0.39      0.47      0.43      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.44      0.45      0.44     91917
+weighted avg       0.46      0.46      0.46     91917
+
+Test  accuracy: 0.4605132891630493
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4605132891630493, 'recall': 0.4605132891630493, 'acc': 0.4605132891630493, 'epoch': 53}
+Epoch:  54
+Batch 0 optimized. Loss: 0.027025572955608368
+Batch 10 optimized. Loss: 0.2781881093978882
+Batch 20 optimized. Loss: 0.4030334949493408
+Batch 30 optimized. Loss: 0.3472287058830261
+Batch 40 optimized. Loss: 0.22343659400939941
+Batch 50 optimized. Loss: 0.1963033676147461
+Batch 60 optimized. Loss: 0.4394652247428894
+Batch 70 optimized. Loss: 0.06890176236629486
+Batch 80 optimized. Loss: 0.44467541575431824
+Batch 90 optimized. Loss: 0.7483938932418823
+Batch 100 optimized. Loss: 0.36476558446884155
+Batch 110 optimized. Loss: 0.22366811335086823
+Avg loss:  tensor(0.3504, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.607072830200195
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8451554309660533
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.46393548274720875
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.41      0.49      0.44     25284
+    question       0.36      0.41      0.38     25597
+      answer       0.56      0.45      0.50     34396
+      header       0.48      0.36      0.41      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.45      0.43      0.43     91917
+weighted avg       0.46      0.44      0.44     91917
+
+Test  accuracy: 0.4406475407160808
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4406475407160808, 'recall': 0.4406475407160808, 'acc': 0.4406475407160808, 'epoch': 54}
+Epoch:  55
+Batch 0 optimized. Loss: 0.028435444459319115
+Batch 10 optimized. Loss: 0.19191759824752808
+Batch 20 optimized. Loss: 0.39650779962539673
+Batch 30 optimized. Loss: 0.2714122235774994
+Batch 40 optimized. Loss: 0.26813721656799316
+Batch 50 optimized. Loss: 0.3001508414745331
+Batch 60 optimized. Loss: 0.13800029456615448
+Batch 70 optimized. Loss: 0.2369011640548706
+Batch 80 optimized. Loss: 0.5982852578163147
+Batch 90 optimized. Loss: 1.1015933752059937
+Batch 100 optimized. Loss: 0.19649523496627808
+Batch 110 optimized. Loss: 0.10689479112625122
+Avg loss:  tensor(0.4000, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.397480010986328
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8480516601471714
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4460817613349358
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.38      0.41      0.39     25284
+    question       0.36      0.47      0.41     25597
+      answer       0.56      0.37      0.45     34396
+      header       0.36      0.45      0.40      6640
+
+    accuracy                           0.42     91917
+   macro avg       0.41      0.43      0.41     91917
+weighted avg       0.44      0.42      0.42     91917
+
+Test  accuracy: 0.41595134741125145
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.41595134741125145, 'recall': 0.41595134741125145, 'acc': 0.41595134741125145, 'epoch': 55}
+Epoch:  56
+Batch 0 optimized. Loss: 0.5112254023551941
+Batch 10 optimized. Loss: 0.24609795212745667
+Batch 20 optimized. Loss: 0.3114866018295288
+Batch 30 optimized. Loss: 0.2638283371925354
+Batch 40 optimized. Loss: 0.3673925995826721
+Batch 50 optimized. Loss: 0.1766565591096878
+Batch 60 optimized. Loss: 0.1367565095424652
+Batch 70 optimized. Loss: 0.09757156670093536
+Batch 80 optimized. Loss: 0.6938595771789551
+Batch 90 optimized. Loss: 0.7313376665115356
+Batch 100 optimized. Loss: 0.3315383791923523
+Batch 110 optimized. Loss: 0.11404916644096375
+Avg loss:  tensor(0.3557, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.31960129737854
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8652001973726553
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4703454041908345
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.38      0.38      0.38     25284
+    question       0.39      0.45      0.42     25597
+      answer       0.54      0.47      0.50     34396
+      header       0.42      0.45      0.44      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.43      0.44      0.43     91917
+weighted avg       0.44      0.44      0.44     91917
+
+Test  accuracy: 0.4380800069628034
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4380800069628034, 'recall': 0.4380800069628034, 'acc': 0.4380800069628034, 'epoch': 56}
+Epoch:  57
+Batch 0 optimized. Loss: 0.06792142987251282
+Batch 10 optimized. Loss: 0.25998303294181824
+Batch 20 optimized. Loss: 0.40507325530052185
+Batch 30 optimized. Loss: 0.16857686638832092
+Batch 40 optimized. Loss: 0.2345411479473114
+Batch 50 optimized. Loss: 0.33437806367874146
+Batch 60 optimized. Loss: 0.09946360439062119
+Batch 70 optimized. Loss: 0.08032657206058502
+Batch 80 optimized. Loss: 0.4090263247489929
+Batch 90 optimized. Loss: 0.6606652736663818
+Batch 100 optimized. Loss: 0.30962279438972473
+Batch 110 optimized. Loss: 0.6022970676422119
+Avg loss:  tensor(0.3355, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.444061517715454
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8709139927200955
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.48980160596401384
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.39      0.39      0.39     25284
+    question       0.40      0.42      0.41     25597
+      answer       0.53      0.50      0.51     34396
+      header       0.46      0.48      0.47      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.45      0.45      0.45     91917
+weighted avg       0.45      0.45      0.45     91917
+
+Test  accuracy: 0.448545970821502
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.448545970821502, 'recall': 0.448545970821502, 'acc': 0.448545970821502, 'epoch': 57}
+Epoch:  58
+Batch 0 optimized. Loss: 0.045901354402303696
+Batch 10 optimized. Loss: 0.2176191359758377
+Batch 20 optimized. Loss: 0.5322389006614685
+Batch 30 optimized. Loss: 0.5227896571159363
+Batch 40 optimized. Loss: 0.22867318987846375
+Batch 50 optimized. Loss: 0.3928954303264618
+Batch 60 optimized. Loss: 0.08441339433193207
+Batch 70 optimized. Loss: 0.11864151060581207
+Batch 80 optimized. Loss: 0.42153406143188477
+Batch 90 optimized. Loss: 0.5404916405677795
+Batch 100 optimized. Loss: 0.4265633821487427
+Batch 110 optimized. Loss: 0.08141089230775833
+Avg loss:  tensor(0.3463, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.314204216003418
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.848294800374722
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.49084670185156154
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.43      0.34      0.38     25284
+    question       0.40      0.37      0.38     25597
+      answer       0.52      0.64      0.57     34396
+      header       0.44      0.43      0.43      6640
+
+    accuracy                           0.47     91917
+   macro avg       0.45      0.44      0.44     91917
+weighted avg       0.46      0.47      0.46     91917
+
+Test  accuracy: 0.4652131814571842
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4652131814571842, 'recall': 0.4652131814571842, 'acc': 0.4652131814571842, 'epoch': 58}
+Epoch:  59
+Batch 0 optimized. Loss: 0.047437019646167755
+Batch 10 optimized. Loss: 0.29043668508529663
+Batch 20 optimized. Loss: 0.46375781297683716
+Batch 30 optimized. Loss: 0.3681204617023468
+Batch 40 optimized. Loss: 0.23802688717842102
+Batch 50 optimized. Loss: 0.20755122601985931
+Batch 60 optimized. Loss: 0.3143307864665985
+Batch 70 optimized. Loss: 0.5775799751281738
+Batch 80 optimized. Loss: 0.3995360732078552
+Batch 90 optimized. Loss: 0.5084718465805054
+Batch 100 optimized. Loss: 0.3101515471935272
+Batch 110 optimized. Loss: 0.22705741226673126
+Avg loss:  tensor(0.3629, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.495419263839722
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8538870256083869
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4720523941404957
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.40      0.40      0.40     25284
+    question       0.38      0.46      0.42     25597
+      answer       0.56      0.45      0.50     34396
+      header       0.40      0.44      0.42      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.43      0.44      0.43     91917
+weighted avg       0.45      0.44      0.44     91917
+
+Test  accuracy: 0.44039731496893936
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.44039731496893936, 'recall': 0.44039731496893936, 'acc': 0.44039731496893936, 'epoch': 59}
+Epoch:  60
+Batch 0 optimized. Loss: 0.1257762610912323
+Batch 10 optimized. Loss: 0.3053770065307617
+Batch 20 optimized. Loss: 0.4638468027114868
+Batch 30 optimized. Loss: 0.2878795266151428
+Batch 40 optimized. Loss: 0.20226651430130005
+Batch 50 optimized. Loss: 0.1729234904050827
+Batch 60 optimized. Loss: 0.18418286740779877
+Batch 70 optimized. Loss: 0.11477064341306686
+Batch 80 optimized. Loss: 0.5802042484283447
+Batch 90 optimized. Loss: 0.6343762278556824
+Batch 100 optimized. Loss: 0.30466228723526
+Batch 110 optimized. Loss: 0.04793030768632889
+Avg loss:  tensor(0.3443, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.321757316589355
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.87654912505274
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4954625420215638
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.40      0.33      0.36     25284
+    question       0.38      0.45      0.41     25597
+      answer       0.52      0.52      0.52     34396
+      header       0.47      0.51      0.49      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.44      0.45      0.44     91917
+weighted avg       0.45      0.45      0.44     91917
+
+Test  accuracy: 0.44530391548897374
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.44530391548897374, 'recall': 0.44530391548897374, 'acc': 0.44530391548897374, 'epoch': 60}
+Epoch:  61
+Batch 0 optimized. Loss: 0.08103425800800323
+Batch 10 optimized. Loss: 0.28996536135673523
+Batch 20 optimized. Loss: 0.2887474000453949
+Batch 30 optimized. Loss: 0.26850125193595886
+Batch 40 optimized. Loss: 0.14274495840072632
+Batch 50 optimized. Loss: 0.16640812158584595
+Batch 60 optimized. Loss: 0.12747140228748322
+Batch 70 optimized. Loss: 0.06013698875904083
+Batch 80 optimized. Loss: 0.36957433819770813
+Batch 90 optimized. Loss: 0.81173175573349
+Batch 100 optimized. Loss: 0.28923675417900085
+Batch 110 optimized. Loss: 0.05435740575194359
+Avg loss:  tensor(0.3048, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.521214485168457
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8714789361899926
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4799951228858581
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.38      0.39      0.38     25284
+    question       0.35      0.36      0.36     25597
+      answer       0.53      0.46      0.49     34396
+      header       0.37      0.51      0.43      6640
+
+    accuracy                           0.42     91917
+   macro avg       0.41      0.43      0.42     91917
+weighted avg       0.43      0.42      0.42     91917
+
+Test  accuracy: 0.4183883286008029
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4183883286008029, 'recall': 0.4183883286008029, 'acc': 0.4183883286008029, 'epoch': 61}
+Epoch:  62
+Batch 0 optimized. Loss: 0.06135169416666031
+Batch 10 optimized. Loss: 0.4240013659000397
+Batch 20 optimized. Loss: 0.4571245312690735
+Batch 30 optimized. Loss: 0.38869839906692505
+Batch 40 optimized. Loss: 0.16629889607429504
+Batch 50 optimized. Loss: 0.36031848192214966
+Batch 60 optimized. Loss: 0.10245679318904877
+Batch 70 optimized. Loss: 0.070296511054039
+Batch 80 optimized. Loss: 0.5280184745788574
+Batch 90 optimized. Loss: 0.7846739292144775
+Batch 100 optimized. Loss: 0.299558162689209
+Batch 110 optimized. Loss: 0.05933055281639099
+Avg loss:  tensor(0.3236, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.31232738494873
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8648497893976559
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.47922871923498983
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.44      0.31      0.36     25284
+    question       0.37      0.50      0.43     25597
+      answer       0.52      0.47      0.49     34396
+      header       0.37      0.43      0.40      6640
+
+    accuracy                           0.43     91917
+   macro avg       0.42      0.43      0.42     91917
+weighted avg       0.44      0.43      0.43     91917
+
+Test  accuracy: 0.43405463624791935
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.43405463624791935, 'recall': 0.43405463624791935, 'acc': 0.43405463624791935, 'epoch': 62}
+Epoch:  63
+Batch 0 optimized. Loss: 0.014364967122673988
+Batch 10 optimized. Loss: 0.29694080352783203
+Batch 20 optimized. Loss: 0.5526390075683594
+Batch 30 optimized. Loss: 0.23470553755760193
+Batch 40 optimized. Loss: 0.26893165707588196
+Batch 50 optimized. Loss: 0.2691556215286255
+Batch 60 optimized. Loss: 0.06557862460613251
+Batch 70 optimized. Loss: 0.0454963780939579
+Batch 80 optimized. Loss: 0.3626875877380371
+Batch 90 optimized. Loss: 0.5151450634002686
+Batch 100 optimized. Loss: 0.16891053318977356
+Batch 110 optimized. Loss: 0.07902833819389343
+Avg loss:  tensor(0.3068, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.332155704498291
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8635983323440863
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.47365487450140215
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.44      0.34      0.38     25284
+    question       0.38      0.48      0.42     25597
+      answer       0.55      0.50      0.52     34396
+      header       0.38      0.51      0.44      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.44      0.46      0.44     91917
+weighted avg       0.46      0.45      0.45     91917
+
+Test  accuracy: 0.4486003677230545
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4486003677230545, 'recall': 0.4486003677230545, 'acc': 0.4486003677230545, 'epoch': 63}
+Epoch:  64
+Batch 0 optimized. Loss: 0.04094773903489113
+Batch 10 optimized. Loss: 0.24208402633666992
+Batch 20 optimized. Loss: 0.2864510118961334
+Batch 30 optimized. Loss: 0.2623903751373291
+Batch 40 optimized. Loss: 0.28865838050842285
+Batch 50 optimized. Loss: 0.3076784610748291
+Batch 60 optimized. Loss: 0.10724173486232758
+Batch 70 optimized. Loss: 0.05709615722298622
+Batch 80 optimized. Loss: 0.5113259553909302
+Batch 90 optimized. Loss: 0.49397602677345276
+Batch 100 optimized. Loss: 0.5620445013046265
+Batch 110 optimized. Loss: 0.3105604946613312
+Avg loss:  tensor(0.3185, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.528599262237549
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.88197687307365
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4708505338698159
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.42      0.35      0.38     25284
+    question       0.39      0.47      0.42     25597
+      answer       0.53      0.52      0.52     34396
+      header       0.46      0.46      0.46      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.45      0.45      0.45     91917
+weighted avg       0.46      0.45      0.45     91917
+
+Test  accuracy: 0.45283244666383804
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.45283244666383804, 'recall': 0.45283244666383804, 'acc': 0.45283244666383804, 'epoch': 64}
+Epoch:  65
+Batch 0 optimized. Loss: 0.12691520154476166
+Batch 10 optimized. Loss: 0.23529399931430817
+Batch 20 optimized. Loss: 0.23153653740882874
+Batch 30 optimized. Loss: 0.28440237045288086
+Batch 40 optimized. Loss: 0.16220033168792725
+Batch 50 optimized. Loss: 0.30216583609580994
+Batch 60 optimized. Loss: 0.07367399334907532
+Batch 70 optimized. Loss: 0.49280112981796265
+Batch 80 optimized. Loss: 0.3817732036113739
+Batch 90 optimized. Loss: 0.4990370273590088
+Batch 100 optimized. Loss: 0.21965107321739197
+Batch 110 optimized. Loss: 0.06206285208463669
+Avg loss:  tensor(0.2974, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.30989122390747
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8570478485665454
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4537109613140339
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.45      0.25      0.32     25284
+    question       0.35      0.57      0.43     25597
+      answer       0.50      0.40      0.44     34396
+      header       0.42      0.52      0.46      6640
+
+    accuracy                           0.41     91917
+   macro avg       0.43      0.43      0.41     91917
+weighted avg       0.44      0.41      0.41     91917
+
+Test  accuracy: 0.41467845991492325
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.41467845991492325, 'recall': 0.41467845991492325, 'acc': 0.41467845991492325, 'epoch': 65}
+Epoch:  66
+Batch 0 optimized. Loss: 0.03150834143161774
+Batch 10 optimized. Loss: 0.2598334550857544
+Batch 20 optimized. Loss: 0.36020663380622864
+Batch 30 optimized. Loss: 0.24354201555252075
+Batch 40 optimized. Loss: 0.2018074095249176
+Batch 50 optimized. Loss: 0.22583475708961487
+Batch 60 optimized. Loss: 0.09327401965856552
+Batch 70 optimized. Loss: 0.07511458545923233
+Batch 80 optimized. Loss: 0.667778491973877
+Batch 90 optimized. Loss: 0.6028954386711121
+Batch 100 optimized. Loss: 0.2076529860496521
+Batch 110 optimized. Loss: 0.23508794605731964
+Avg loss:  tensor(0.2915, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.322425603866577
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8639272867695961
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.46053892111267875
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.37      0.44      0.40     25284
+    question       0.38      0.32      0.35     25597
+      answer       0.53      0.48      0.50     34396
+      header       0.41      0.55      0.47      6640
+
+    accuracy                           0.43     91917
+   macro avg       0.42      0.45      0.43     91917
+weighted avg       0.44      0.43      0.43     91917
+
+Test  accuracy: 0.4302903706604872
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4302903706604872, 'recall': 0.4302903706604872, 'acc': 0.4302903706604872, 'epoch': 66}
+Epoch:  67
+Batch 0 optimized. Loss: 0.03214094787836075
+Batch 10 optimized. Loss: 0.2219724953174591
+Batch 20 optimized. Loss: 0.25790148973464966
+Batch 30 optimized. Loss: 0.27552568912506104
+Batch 40 optimized. Loss: 0.1135394275188446
+Batch 50 optimized. Loss: 0.14742927253246307
+Batch 60 optimized. Loss: 0.11164356768131256
+Batch 70 optimized. Loss: 0.07602880895137787
+Batch 80 optimized. Loss: 0.4203161895275116
+Batch 90 optimized. Loss: 0.4935443699359894
+Batch 100 optimized. Loss: 0.25356876850128174
+Batch 110 optimized. Loss: 0.10501475632190704
+Avg loss:  tensor(0.2669, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.45206904411316
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8880196228466
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4929194753618645
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.43      0.29      0.35     25284
+    question       0.37      0.42      0.39     25597
+      answer       0.49      0.51      0.50     34396
+      header       0.38      0.54      0.45      6640
+
+    accuracy                           0.43     91917
+   macro avg       0.42      0.44      0.42     91917
+weighted avg       0.43      0.43      0.42     91917
+
+Test  accuracy: 0.4275814049631733
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4275814049631733, 'recall': 0.4275814049631733, 'acc': 0.4275814049631733, 'epoch': 67}
+Epoch:  68
+Batch 0 optimized. Loss: 0.010475341230630875
+Batch 10 optimized. Loss: 0.19480766355991364
+Batch 20 optimized. Loss: 0.20426176488399506
+Batch 30 optimized. Loss: 0.3440985083580017
+Batch 40 optimized. Loss: 0.22239325940608978
+Batch 50 optimized. Loss: 0.250776469707489
+Batch 60 optimized. Loss: 0.17883330583572388
+Batch 70 optimized. Loss: 0.05736422911286354
+Batch 80 optimized. Loss: 0.3801834285259247
+Batch 90 optimized. Loss: 0.3794716000556946
+Batch 100 optimized. Loss: 0.39581817388534546
+Batch 110 optimized. Loss: 0.15144942700862885
+Avg loss:  tensor(0.2752, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.314581871032715
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.864685312184901
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4615143439410566
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.41      0.27      0.33     25284
+    question       0.35      0.52      0.42     25597
+      answer       0.50      0.44      0.47     34396
+      header       0.43      0.49      0.45      6640
+
+    accuracy                           0.42     91917
+   macro avg       0.42      0.43      0.42     91917
+weighted avg       0.43      0.42      0.42     91917
+
+Test  accuracy: 0.4197482511396151
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4197482511396151, 'recall': 0.4197482511396151, 'acc': 0.4197482511396151, 'epoch': 68}
+Epoch:  69
+Batch 0 optimized. Loss: 0.071433424949646
+Batch 10 optimized. Loss: 0.2720140218734741
+Batch 20 optimized. Loss: 0.348636656999588
+Batch 30 optimized. Loss: 0.3490256071090698
+Batch 40 optimized. Loss: 0.5385617017745972
+Batch 50 optimized. Loss: 0.1201009601354599
+Batch 60 optimized. Loss: 0.7409135699272156
+Batch 70 optimized. Loss: 0.10430018603801727
+Batch 80 optimized. Loss: 0.3415100574493408
+Batch 90 optimized. Loss: 0.9942573308944702
+Batch 100 optimized. Loss: 0.30012574791908264
+Batch 110 optimized. Loss: 0.10517270117998123
+Avg loss:  tensor(0.3156, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.501940488815308
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8399064625242246
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.41391022626325963
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.37      0.50      0.43     25284
+    question       0.36      0.38      0.37     25597
+      answer       0.54      0.37      0.44     34396
+      header       0.38      0.47      0.42      6640
+
+    accuracy                           0.41     91917
+   macro avg       0.41      0.43      0.41     91917
+weighted avg       0.43      0.41      0.41     91917
+
+Test  accuracy: 0.41281808588182817
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.41281808588182817, 'recall': 0.41281808588182817, 'acc': 0.41281808588182817, 'epoch': 69}
+Epoch:  70
+Batch 0 optimized. Loss: 0.026171788573265076
+Batch 10 optimized. Loss: 0.40928351879119873
+Batch 20 optimized. Loss: 0.543036937713623
+Batch 30 optimized. Loss: 0.2630588412284851
+Batch 40 optimized. Loss: 0.23079952597618103
+Batch 50 optimized. Loss: 0.30873018503189087
+Batch 60 optimized. Loss: 0.07159508764743805
+Batch 70 optimized. Loss: 0.04798198491334915
+Batch 80 optimized. Loss: 0.2718222737312317
+Batch 90 optimized. Loss: 0.7321872711181641
+Batch 100 optimized. Loss: 0.441322386264801
+Batch 110 optimized. Loss: 0.04536432772874832
+Avg loss:  tensor(0.2878, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.328808307647705
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8966439497414848
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.48323492013725594
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.45      0.32      0.38     25284
+    question       0.38      0.48      0.43     25597
+      answer       0.53      0.53      0.53     34396
+      header       0.46      0.46      0.46      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.45      0.45      0.45     91917
+weighted avg       0.46      0.45      0.45     91917
+
+Test  accuracy: 0.4547580969787961
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4547580969787961, 'recall': 0.4547580969787961, 'acc': 0.4547580969787961, 'epoch': 70}
+Epoch:  71
+Batch 0 optimized. Loss: 0.18743792176246643
+Batch 10 optimized. Loss: 0.2105552703142166
+Batch 20 optimized. Loss: 0.3318825364112854
+Batch 30 optimized. Loss: 0.2443675845861435
+Batch 40 optimized. Loss: 0.13477051258087158
+Batch 50 optimized. Loss: 0.3236481547355652
+Batch 60 optimized. Loss: 0.2442759871482849
+Batch 70 optimized. Loss: 0.1590355634689331
+Batch 80 optimized. Loss: 0.3755203187465668
+Batch 90 optimized. Loss: 0.45978426933288574
+Batch 100 optimized. Loss: 0.18611133098602295
+Batch 110 optimized. Loss: 0.030983982607722282
+Avg loss:  tensor(0.2677, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.55212116241455
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8779364545864113
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.46473672292766194
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.40      0.36      0.38     25284
+    question       0.38      0.34      0.36     25597
+      answer       0.52      0.59      0.55     34396
+      header       0.40      0.44      0.42      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.43      0.43      0.43     91917
+weighted avg       0.44      0.45      0.44     91917
+
+Test  accuracy: 0.4466420792671649
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4466420792671649, 'recall': 0.4466420792671649, 'acc': 0.4466420792671649, 'epoch': 71}
+Epoch:  72
+Batch 0 optimized. Loss: 0.02570514753460884
+Batch 10 optimized. Loss: 0.18054157495498657
+Batch 20 optimized. Loss: 0.21703092753887177
+Batch 30 optimized. Loss: 0.29093697667121887
+Batch 40 optimized. Loss: 0.173019677400589
+Batch 50 optimized. Loss: 0.3318716287612915
+Batch 60 optimized. Loss: 0.11427780985832214
+Batch 70 optimized. Loss: 0.0748080164194107
+Batch 80 optimized. Loss: 0.45749568939208984
+Batch 90 optimized. Loss: 0.5872111320495605
+Batch 100 optimized. Loss: 0.379551500082016
+Batch 110 optimized. Loss: 0.03547912836074829
+Avg loss:  tensor(0.2859, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.35139775276184
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8784298862246759
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4585358206615457
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.47      0.28      0.35     25284
+    question       0.37      0.55      0.44     25597
+      answer       0.51      0.48      0.49     34396
+      header       0.45      0.41      0.43      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.45      0.43      0.43     91917
+weighted avg       0.45      0.44      0.44     91917
+
+Test  accuracy: 0.44035379744769737
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.44035379744769737, 'recall': 0.44035379744769737, 'acc': 0.44035379744769737, 'epoch': 72}
+Epoch:  73
+Batch 0 optimized. Loss: 0.08608778566122055
+Batch 10 optimized. Loss: 0.2034631222486496
+Batch 20 optimized. Loss: 0.2534644305706024
+Batch 30 optimized. Loss: 0.22918114066123962
+Batch 40 optimized. Loss: 0.158946231007576
+Batch 50 optimized. Loss: 0.12897780537605286
+Batch 60 optimized. Loss: 0.063506118953228
+Batch 70 optimized. Loss: 0.04280705004930496
+Batch 80 optimized. Loss: 0.6361821293830872
+Batch 90 optimized. Loss: 0.3878105580806732
+Batch 100 optimized. Loss: 0.22935466468334198
+Batch 110 optimized. Loss: 0.08152436465024948
+Avg loss:  tensor(0.2621, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.32828974723816
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8841865886710957
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.45285746633920326
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.43      0.32      0.37     25284
+    question       0.37      0.52      0.43     25597
+      answer       0.54      0.46      0.50     34396
+      header       0.40      0.46      0.43      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.43      0.44      0.43     91917
+weighted avg       0.45      0.44      0.44     91917
+
+Test  accuracy: 0.43826495642808183
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.43826495642808183, 'recall': 0.43826495642808183, 'acc': 0.43826495642808183, 'epoch': 73}
+Epoch:  74
+Batch 0 optimized. Loss: 0.022704537957906723
+Batch 10 optimized. Loss: 0.15215055644512177
+Batch 20 optimized. Loss: 0.2950161397457123
+Batch 30 optimized. Loss: 0.26169121265411377
+Batch 40 optimized. Loss: 0.11920379102230072
+Batch 50 optimized. Loss: 0.15797728300094604
+Batch 60 optimized. Loss: 0.1551773101091385
+Batch 70 optimized. Loss: 0.08885345607995987
+Batch 80 optimized. Loss: 0.2540031373500824
+Batch 90 optimized. Loss: 0.606568455696106
+Batch 100 optimized. Loss: 0.1459745317697525
+Batch 110 optimized. Loss: 0.028526194393634796
+Avg loss:  tensor(0.2383, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.51168179512024
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8965724379098522
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.48199822333699116
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.42      0.30      0.35     25284
+    question       0.39      0.43      0.41     25597
+      answer       0.52      0.56      0.54     34396
+      header       0.41      0.48      0.44      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.43      0.44      0.43     91917
+weighted avg       0.45      0.45      0.44     91917
+
+Test  accuracy: 0.44799112242566663
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.44799112242566663, 'recall': 0.44799112242566663, 'acc': 0.44799112242566663, 'epoch': 74}
+Epoch:  75
+Batch 0 optimized. Loss: 0.08804214745759964
+Batch 10 optimized. Loss: 0.12987346947193146
+Batch 20 optimized. Loss: 0.2526193857192993
+Batch 30 optimized. Loss: 0.2089819461107254
+Batch 40 optimized. Loss: 0.16611140966415405
+Batch 50 optimized. Loss: 0.19008776545524597
+Batch 60 optimized. Loss: 0.15212363004684448
+Batch 70 optimized. Loss: 0.04859284684062004
+Batch 80 optimized. Loss: 0.38403305411338806
+Batch 90 optimized. Loss: 0.7209430932998657
+Batch 100 optimized. Loss: 0.37476879358291626
+Batch 110 optimized. Loss: 0.08209891617298126
+Avg loss:  tensor(0.2379, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.335275173187256
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8912591088195542
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.44723136681123826
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.43      0.36      0.39     25284
+    question       0.38      0.53      0.44     25597
+      answer       0.55      0.43      0.48     34396
+      header       0.44      0.46      0.45      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.45      0.45      0.44     91917
+weighted avg       0.46      0.44      0.44     91917
+
+Test  accuracy: 0.4429539693419063
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4429539693419063, 'recall': 0.4429539693419063, 'acc': 0.4429539693419063, 'epoch': 75}
+Epoch:  76
+Batch 0 optimized. Loss: 0.009135243482887745
+Batch 10 optimized. Loss: 0.2809576988220215
+Batch 20 optimized. Loss: 0.19990426301956177
+Batch 30 optimized. Loss: 0.19929951429367065
+Batch 40 optimized. Loss: 0.11177025735378265
+Batch 50 optimized. Loss: 0.3963320851325989
+Batch 60 optimized. Loss: 0.13505733013153076
+Batch 70 optimized. Loss: 0.0712805688381195
+Batch 80 optimized. Loss: 0.28942054510116577
+Batch 90 optimized. Loss: 0.40429872274398804
+Batch 100 optimized. Loss: 0.24159136414527893
+Batch 110 optimized. Loss: 0.14045509696006775
+Avg loss:  tensor(0.2376, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.5444016456604
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9007058217782132
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4582571284248663
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.43      0.33      0.38     25284
+    question       0.40      0.45      0.43     25597
+      answer       0.52      0.55      0.54     34396
+      header       0.40      0.45      0.42      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.44      0.45      0.44     91917
+weighted avg       0.46      0.46      0.45     91917
+
+Test  accuracy: 0.457336510112384
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.457336510112384, 'recall': 0.457336510112384, 'acc': 0.457336510112384, 'epoch': 76}
+Epoch:  77
+Batch 0 optimized. Loss: 0.11700612306594849
+Batch 10 optimized. Loss: 0.12134755402803421
+Batch 20 optimized. Loss: 0.32478177547454834
+Batch 30 optimized. Loss: 0.20024533569812775
+Batch 40 optimized. Loss: 0.17980371415615082
+Batch 50 optimized. Loss: 0.24770542979240417
+Batch 60 optimized. Loss: 0.1734749972820282
+Batch 70 optimized. Loss: 0.09351220726966858
+Batch 80 optimized. Loss: 0.28883713483810425
+Batch 90 optimized. Loss: 0.4697832465171814
+Batch 100 optimized. Loss: 0.544014573097229
+Batch 110 optimized. Loss: 0.1281864196062088
+Avg loss:  tensor(0.2362, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.361599206924438
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.890887247295065
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.45221299054188224
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.40      0.41      0.41     25284
+    question       0.40      0.38      0.39     25597
+      answer       0.51      0.52      0.51     34396
+      header       0.44      0.46      0.45      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.44      0.44      0.44     91917
+weighted avg       0.45      0.45      0.45     91917
+
+Test  accuracy: 0.4460437133500876
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4460437133500876, 'recall': 0.4460437133500876, 'acc': 0.4460437133500876, 'epoch': 77}
+Epoch:  78
+Batch 0 optimized. Loss: 0.024099577218294144
+Batch 10 optimized. Loss: 0.25362634658813477
+Batch 20 optimized. Loss: 0.26713040471076965
+Batch 30 optimized. Loss: 0.20477335155010223
+Batch 40 optimized. Loss: 0.1575833559036255
+Batch 50 optimized. Loss: 0.16996794939041138
+Batch 60 optimized. Loss: 0.15284553170204163
+Batch 70 optimized. Loss: 0.17198634147644043
+Batch 80 optimized. Loss: 0.33081573247909546
+Batch 90 optimized. Loss: 0.38473644852638245
+Batch 100 optimized. Loss: 0.38178980350494385
+Batch 110 optimized. Loss: 0.0868280827999115
+Avg loss:  tensor(0.2293, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.329806804656982
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9014137889113754
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4555224608524499
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.39      0.40      0.39     25284
+    question       0.38      0.43      0.40     25597
+      answer       0.52      0.45      0.48     34396
+      header       0.45      0.52      0.48      6640
+
+    accuracy                           0.43     91917
+   macro avg       0.43      0.45      0.44     91917
+weighted avg       0.44      0.43      0.44     91917
+
+Test  accuracy: 0.43430486199506074
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.43430486199506074, 'recall': 0.43430486199506074, 'acc': 0.43430486199506074, 'epoch': 78}
+Epoch:  79
+Batch 0 optimized. Loss: 0.04011744260787964
+Batch 10 optimized. Loss: 0.202528178691864
+Batch 20 optimized. Loss: 0.26469215750694275
+Batch 30 optimized. Loss: 0.1387980431318283
+Batch 40 optimized. Loss: 0.13270717859268188
+Batch 50 optimized. Loss: 0.14767314493656158
+Batch 60 optimized. Loss: 0.04972462356090546
+Batch 70 optimized. Loss: 0.03977183625102043
+Batch 80 optimized. Loss: 0.26819849014282227
+Batch 90 optimized. Loss: 0.4258591830730438
+Batch 100 optimized. Loss: 0.2670292258262634
+Batch 110 optimized. Loss: 0.03021378070116043
+Avg loss:  tensor(0.2008, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.476366758346558
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8950420847129158
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.45494765811429866
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.38      0.45      0.41     25284
+    question       0.39      0.40      0.40     25597
+      answer       0.52      0.42      0.47     34396
+      header       0.40      0.52      0.45      6640
+
+    accuracy                           0.43     91917
+   macro avg       0.43      0.45      0.43     91917
+weighted avg       0.44      0.43      0.43     91917
+
+Test  accuracy: 0.4302142149983137
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4302142149983137, 'recall': 0.4302142149983137, 'acc': 0.4302142149983137, 'epoch': 79}
+Epoch:  80
+Batch 0 optimized. Loss: 0.04258660599589348
+Batch 10 optimized. Loss: 0.14746302366256714
+Batch 20 optimized. Loss: 0.2847270369529724
+Batch 30 optimized. Loss: 0.29378294944763184
+Batch 40 optimized. Loss: 0.09826134145259857
+Batch 50 optimized. Loss: 0.14697593450546265
+Batch 60 optimized. Loss: 0.045099105685949326
+Batch 70 optimized. Loss: 0.017167232930660248
+Batch 80 optimized. Loss: 0.266504168510437
+Batch 90 optimized. Loss: 0.32796162366867065
+Batch 100 optimized. Loss: 0.36106806993484497
+Batch 110 optimized. Loss: 0.02023368328809738
+Avg loss:  tensor(0.2242, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.327753067016602
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9001623318578059
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4679765201790598
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.41      0.43      0.42     25284
+    question       0.44      0.38      0.41     25597
+      answer       0.52      0.54      0.53     34396
+      header       0.40      0.49      0.44      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.44      0.46      0.45     91917
+weighted avg       0.46      0.46      0.46     91917
+
+Test  accuracy: 0.45878346769368017
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.45878346769368017, 'recall': 0.45878346769368017, 'acc': 0.45878346769368017, 'epoch': 80}
+Epoch:  81
+Batch 0 optimized. Loss: 0.015142830088734627
+Batch 10 optimized. Loss: 0.31094032526016235
+Batch 20 optimized. Loss: 0.21500416100025177
+Batch 30 optimized. Loss: 0.1594458520412445
+Batch 40 optimized. Loss: 0.14889976382255554
+Batch 50 optimized. Loss: 0.12200240045785904
+Batch 60 optimized. Loss: 0.03827865049242973
+Batch 70 optimized. Loss: 0.05898243933916092
+Batch 80 optimized. Loss: 0.23075690865516663
+Batch 90 optimized. Loss: 0.31135302782058716
+Batch 100 optimized. Loss: 0.2050461769104004
+Batch 110 optimized. Loss: 0.03636784106492996
+Avg loss:  tensor(0.2053, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.518010377883911
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8972947074093409
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.48182404068906654
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.46      0.33      0.39     25284
+    question       0.41      0.42      0.42     25597
+      answer       0.50      0.59      0.54     34396
+      header       0.47      0.44      0.45      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.46      0.45      0.45     91917
+weighted avg       0.46      0.46      0.46     91917
+
+Test  accuracy: 0.46239542195676536
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.46239542195676536, 'recall': 0.46239542195676536, 'acc': 0.46239542195676536, 'epoch': 81}
+Epoch:  82
+Batch 0 optimized. Loss: 0.005529460031539202
+Batch 10 optimized. Loss: 0.20941272377967834
+Batch 20 optimized. Loss: 0.21341532468795776
+Batch 30 optimized. Loss: 0.22437132894992828
+Batch 40 optimized. Loss: 0.20081579685211182
+Batch 50 optimized. Loss: 0.20274941623210907
+Batch 60 optimized. Loss: 0.043100133538246155
+Batch 70 optimized. Loss: 0.04444068670272827
+Batch 80 optimized. Loss: 0.32495272159576416
+Batch 90 optimized. Loss: 0.3543107509613037
+Batch 100 optimized. Loss: 0.19016119837760925
+Batch 110 optimized. Loss: 0.0478735975921154
+Avg loss:  tensor(0.2040, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.317998170852661
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9019215229159665
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.45832680148403615
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.42      0.43      0.42     25284
+    question       0.40      0.42      0.41     25597
+      answer       0.53      0.50      0.51     34396
+      header       0.43      0.46      0.45      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.44      0.45      0.45     91917
+weighted avg       0.46      0.45      0.45     91917
+
+Test  accuracy: 0.45325674249594744
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.45325674249594744, 'recall': 0.45325674249594744, 'acc': 0.45325674249594744, 'epoch': 82}
+Epoch:  83
+Batch 0 optimized. Loss: 0.01117591094225645
+Batch 10 optimized. Loss: 0.2103825807571411
+Batch 20 optimized. Loss: 0.1557462513446808
+Batch 30 optimized. Loss: 0.14665217697620392
+Batch 40 optimized. Loss: 0.32558953762054443
+Batch 50 optimized. Loss: 0.14424097537994385
+Batch 60 optimized. Loss: 0.03737505525350571
+Batch 70 optimized. Loss: 0.024238616228103638
+Batch 80 optimized. Loss: 0.39541634917259216
+Batch 90 optimized. Loss: 0.3823380768299103
+Batch 100 optimized. Loss: 0.13324937224388123
+Batch 110 optimized. Loss: 0.060582756996154785
+Avg loss:  tensor(0.2031, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.295122861862183
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8967226127562805
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4539373987563359
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.41      0.47      0.44     25284
+    question       0.40      0.44      0.42     25597
+      answer       0.54      0.43      0.48     34396
+      header       0.42      0.47      0.44      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.44      0.45      0.45     91917
+weighted avg       0.46      0.45      0.45     91917
+
+Test  accuracy: 0.4476538616360412
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4476538616360412, 'recall': 0.4476538616360412, 'acc': 0.4476538616360412, 'epoch': 83}
+Epoch:  84
+Batch 0 optimized. Loss: 0.06146019324660301
+Batch 10 optimized. Loss: 0.10023988783359528
+Batch 20 optimized. Loss: 0.20113974809646606
+Batch 30 optimized. Loss: 0.3434794545173645
+Batch 40 optimized. Loss: 0.3721707761287689
+Batch 50 optimized. Loss: 0.3413237929344177
+Batch 60 optimized. Loss: 0.0513865165412426
+Batch 70 optimized. Loss: 0.028883688151836395
+Batch 80 optimized. Loss: 0.29276829957962036
+Batch 90 optimized. Loss: 0.37709465622901917
+Batch 100 optimized. Loss: 0.19886821508407593
+Batch 110 optimized. Loss: 0.04271813854575157
+Avg loss:  tensor(0.2264, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.47247838973999
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9020359418465785
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.46604309278709655
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.50      0.28      0.36     25284
+    question       0.38      0.53      0.44     25597
+      answer       0.51      0.50      0.50     34396
+      header       0.42      0.54      0.48      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.45      0.46      0.45     91917
+weighted avg       0.46      0.45      0.45     91917
+
+Test  accuracy: 0.4498079789375197
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4498079789375197, 'recall': 0.4498079789375197, 'acc': 0.4498079789375197, 'epoch': 84}
+Epoch:  85
+Batch 0 optimized. Loss: 0.05676858872175217
+Batch 10 optimized. Loss: 0.15294712781906128
+Batch 20 optimized. Loss: 0.20839360356330872
+Batch 30 optimized. Loss: 0.12881523370742798
+Batch 40 optimized. Loss: 0.10320906341075897
+Batch 50 optimized. Loss: 0.12469685077667236
+Batch 60 optimized. Loss: 0.049323104321956635
+Batch 70 optimized. Loss: 0.06230424344539642
+Batch 80 optimized. Loss: 0.46042367815971375
+Batch 90 optimized. Loss: 0.4672768712043762
+Batch 100 optimized. Loss: 0.12352508306503296
+Batch 110 optimized. Loss: 0.10363618284463882
+Avg loss:  tensor(0.2304, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.318351984024048
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8758054020037616
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4941910086917141
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.49      0.23      0.31     25284
+    question       0.39      0.50      0.43     25597
+      answer       0.51      0.60      0.55     34396
+      header       0.48      0.47      0.48      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.47      0.45      0.44     91917
+weighted avg       0.47      0.46      0.45     91917
+
+Test  accuracy: 0.4599475613869034
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4599475613869034, 'recall': 0.4599475613869034, 'acc': 0.4599475613869034, 'epoch': 85}
+Epoch:  86
+Batch 0 optimized. Loss: 0.055821098387241364
+Batch 10 optimized. Loss: 0.12892287969589233
+Batch 20 optimized. Loss: 0.30280131101608276
+Batch 30 optimized. Loss: 0.25771063566207886
+Batch 40 optimized. Loss: 0.0828186571598053
+Batch 50 optimized. Loss: 0.34493064880371094
+Batch 60 optimized. Loss: 0.1729395091533661
+Batch 70 optimized. Loss: 0.09611207991838455
+Batch 80 optimized. Loss: 0.3132089078426361
+Batch 90 optimized. Loss: 0.42224353551864624
+Batch 100 optimized. Loss: 0.26542454957962036
+Batch 110 optimized. Loss: 0.26489412784576416
+Avg loss:  tensor(0.2203, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.49932861328125
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8772427898195756
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.473950985002874
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.44      0.23      0.30     25284
+    question       0.42      0.39      0.40     25597
+      answer       0.48      0.67      0.56     34396
+      header       0.44      0.49      0.46      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.45      0.44      0.43     91917
+weighted avg       0.45      0.46      0.44     91917
+
+Test  accuracy: 0.4581307048750503
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4581307048750503, 'recall': 0.4581307048750503, 'acc': 0.4581307048750503, 'epoch': 86}
+Epoch:  87
+Batch 0 optimized. Loss: 0.011305158957839012
+Batch 10 optimized. Loss: 0.16826261579990387
+Batch 20 optimized. Loss: 0.3263157904148102
+Batch 30 optimized. Loss: 1.0817912817001343
+Batch 40 optimized. Loss: 0.09187673032283783
+Batch 50 optimized. Loss: 0.18382135033607483
+Batch 60 optimized. Loss: 0.09257116168737411
+Batch 70 optimized. Loss: 0.26654481887817383
+Batch 80 optimized. Loss: 0.24334482848644257
+Batch 90 optimized. Loss: 0.5322515964508057
+Batch 100 optimized. Loss: 0.12432941794395447
+Batch 110 optimized. Loss: 0.07372190058231354
+Avg loss:  tensor(0.2224, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.326991319656372
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8907585259981264
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.45315357684067514
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.41      0.37      0.39     25284
+    question       0.38      0.47      0.42     25597
+      answer       0.51      0.44      0.47     34396
+      header       0.42      0.46      0.44      6640
+
+    accuracy                           0.43     91917
+   macro avg       0.43      0.44      0.43     91917
+weighted avg       0.44      0.43      0.43     91917
+
+Test  accuracy: 0.43259679928631267
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.43259679928631267, 'recall': 0.43259679928631267, 'acc': 0.43259679928631267, 'epoch': 87}
+Epoch:  88
+Batch 0 optimized. Loss: 0.06732650846242905
+Batch 10 optimized. Loss: 0.20971864461898804
+Batch 20 optimized. Loss: 0.23580239713191986
+Batch 30 optimized. Loss: 0.12865103781223297
+Batch 40 optimized. Loss: 0.208169624209404
+Batch 50 optimized. Loss: 0.43629878759384155
+Batch 60 optimized. Loss: 0.11529620736837387
+Batch 70 optimized. Loss: 0.07599420845508575
+Batch 80 optimized. Loss: 0.2564195990562439
+Batch 90 optimized. Loss: 0.338021844625473
+Batch 100 optimized. Loss: 0.24124448001384735
+Batch 110 optimized. Loss: 0.05407043918967247
+Avg loss:  tensor(0.2060, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.295737504959106
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9072563055557542
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.47438644162268556
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.44      0.29      0.35     25284
+    question       0.40      0.48      0.44     25597
+      answer       0.49      0.55      0.52     34396
+      header       0.43      0.44      0.43      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.44      0.44      0.43     91917
+weighted avg       0.45      0.45      0.44     91917
+
+Test  accuracy: 0.44835014197591305
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.44835014197591305, 'recall': 0.44835014197591305, 'acc': 0.44835014197591305, 'epoch': 88}
+Epoch:  89
+Batch 0 optimized. Loss: 0.03445454686880112
+Batch 10 optimized. Loss: 0.08537290245294571
+Batch 20 optimized. Loss: 0.17013287544250488
+Batch 30 optimized. Loss: 0.26879268884658813
+Batch 40 optimized. Loss: 0.12862864136695862
+Batch 50 optimized. Loss: 0.2551843523979187
+Batch 60 optimized. Loss: 0.05156264454126358
+Batch 70 optimized. Loss: 0.02023969031870365
+Batch 80 optimized. Loss: 0.29922226071357727
+Batch 90 optimized. Loss: 0.22592948377132416
+Batch 100 optimized. Loss: 0.1423274278640747
+Batch 110 optimized. Loss: 0.02642904780805111
+Avg loss:  tensor(0.2125, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.452629327774048
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.903201584702189
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4579610179233945
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.40      0.28      0.33     25284
+    question       0.38      0.55      0.45     25597
+      answer       0.51      0.45      0.48     34396
+      header       0.43      0.47      0.45      6640
+
+    accuracy                           0.43     91917
+   macro avg       0.43      0.44      0.43     91917
+weighted avg       0.44      0.43      0.43     91917
+
+Test  accuracy: 0.4306167520698021
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4306167520698021, 'recall': 0.4306167520698021, 'acc': 0.4306167520698021, 'epoch': 89}
+Epoch:  90
+Batch 0 optimized. Loss: 0.0101483054459095
+Batch 10 optimized. Loss: 0.20210975408554077
+Batch 20 optimized. Loss: 0.4148782789707184
+Batch 30 optimized. Loss: 0.11955821514129639
+Batch 40 optimized. Loss: 0.13657639920711517
+Batch 50 optimized. Loss: 0.14951348304748535
+Batch 60 optimized. Loss: 0.029110291972756386
+Batch 70 optimized. Loss: 0.08011262863874435
+Batch 80 optimized. Loss: 0.22503557801246643
+Batch 90 optimized. Loss: 0.3099908232688904
+Batch 100 optimized. Loss: 0.11508496850728989
+Batch 110 optimized. Loss: 0.12234867364168167
+Avg loss:  tensor(0.2148, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.308477640151978
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9035448414940251
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.46221107453275506
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.41      0.34      0.37     25284
+    question       0.38      0.47      0.42     25597
+      answer       0.53      0.47      0.49     34396
+      header       0.39      0.51      0.44      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.43      0.45      0.43     91917
+weighted avg       0.44      0.44      0.44     91917
+
+Test  accuracy: 0.437481641045726
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.437481641045726, 'recall': 0.437481641045726, 'acc': 0.437481641045726, 'epoch': 90}
+Epoch:  91
+Batch 0 optimized. Loss: 0.011063633486628532
+Batch 10 optimized. Loss: 0.14959624409675598
+Batch 20 optimized. Loss: 0.2952736020088196
+Batch 30 optimized. Loss: 0.14415249228477478
+Batch 40 optimized. Loss: 0.16337771713733673
+Batch 50 optimized. Loss: 0.1731443703174591
+Batch 60 optimized. Loss: 0.13995210826396942
+Batch 70 optimized. Loss: 0.08638735115528107
+Batch 80 optimized. Loss: 0.3014136254787445
+Batch 90 optimized. Loss: 0.5618882179260254
+Batch 100 optimized. Loss: 0.18777352571487427
+Batch 110 optimized. Loss: 0.09059831500053406
+Avg loss:  tensor(0.2017, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.462961196899414
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9035448414940251
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4679068471198899
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.44      0.33      0.38     25284
+    question       0.40      0.47      0.43     25597
+      answer       0.51      0.52      0.51     34396
+      header       0.41      0.51      0.46      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.44      0.46      0.44     91917
+weighted avg       0.45      0.45      0.45     91917
+
+Test  accuracy: 0.45153780040688885
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.45153780040688885, 'recall': 0.45153780040688885, 'acc': 0.45153780040688885, 'epoch': 91}
+Epoch:  92
+Batch 0 optimized. Loss: 0.02716725505888462
+Batch 10 optimized. Loss: 0.1262301653623581
+Batch 20 optimized. Loss: 0.21571150422096252
+Batch 30 optimized. Loss: 0.18332074582576752
+Batch 40 optimized. Loss: 0.0932084172964096
+Batch 50 optimized. Loss: 0.23725417256355286
+Batch 60 optimized. Loss: 0.0688752606511116
+Batch 70 optimized. Loss: 0.058429569005966187
+Batch 80 optimized. Loss: 0.3515819013118744
+Batch 90 optimized. Loss: 0.347786009311676
+Batch 100 optimized. Loss: 0.19960132241249084
+Batch 110 optimized. Loss: 0.23789554834365845
+Avg loss:  tensor(0.1868, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.304036855697632
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9068272345659589
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.47267945167302433
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.42      0.37      0.40     25284
+    question       0.38      0.44      0.41     25597
+      answer       0.50      0.47      0.49     34396
+      header       0.44      0.47      0.45      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.43      0.44      0.44     91917
+weighted avg       0.44      0.44      0.44     91917
+
+Test  accuracy: 0.4372096565379636
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4372096565379636, 'recall': 0.4372096565379636, 'acc': 0.4372096565379636, 'epoch': 92}
+Epoch:  93
+Batch 0 optimized. Loss: 0.014811109751462936
+Batch 10 optimized. Loss: 0.04393140226602554
+Batch 20 optimized. Loss: 0.23640918731689453
+Batch 30 optimized. Loss: 0.16675978899002075
+Batch 40 optimized. Loss: 0.09273737668991089
+Batch 50 optimized. Loss: 0.05885426700115204
+Batch 60 optimized. Loss: 0.09645800292491913
+Batch 70 optimized. Loss: 0.06585562229156494
+Batch 80 optimized. Loss: 0.3527720272541046
+Batch 90 optimized. Loss: 0.26344215869903564
+Batch 100 optimized. Loss: 0.40681207180023193
+Batch 110 optimized. Loss: 0.04811061546206474
+Avg loss:  tensor(0.1698, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.284257888793945
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.908121598718508
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.48147567539321734
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.42      0.39      0.40     25284
+    question       0.38      0.40      0.39     25597
+      answer       0.51      0.48      0.50     34396
+      header       0.37      0.50      0.42      6640
+
+    accuracy                           0.43     91917
+   macro avg       0.42      0.44      0.43     91917
+weighted avg       0.44      0.43      0.44     91917
+
+Test  accuracy: 0.43445717331940775
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.43445717331940775, 'recall': 0.43445717331940775, 'acc': 0.43445717331940775, 'epoch': 93}
+Epoch:  94
+Batch 0 optimized. Loss: 0.11588238179683685
+Batch 10 optimized. Loss: 0.062415771186351776
+Batch 20 optimized. Loss: 0.11216562986373901
+Batch 30 optimized. Loss: 0.09713242948055267
+Batch 40 optimized. Loss: 0.10363588482141495
+Batch 50 optimized. Loss: 0.08581921458244324
+Batch 60 optimized. Loss: 0.12891943752765656
+Batch 70 optimized. Loss: 0.07379204034805298
+Batch 80 optimized. Loss: 0.1972309648990631
+Batch 90 optimized. Loss: 0.20860037207603455
+Batch 100 optimized. Loss: 0.16278459131717682
+Batch 110 optimized. Loss: 0.030671410262584686
+Avg loss:  tensor(0.1728, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.42581820487976
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9092300321088124
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4768946717528
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.40      0.40      0.40     25284
+    question       0.38      0.42      0.40     25597
+      answer       0.52      0.49      0.50     34396
+      header       0.48      0.44      0.46      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.45      0.44      0.44     91917
+weighted avg       0.45      0.44      0.44     91917
+
+Test  accuracy: 0.4428995724403538
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4428995724403538, 'recall': 0.4428995724403538, 'acc': 0.4428995724403538, 'epoch': 94}
+Epoch:  95
+Batch 0 optimized. Loss: 0.0031426011119037867
+Batch 10 optimized. Loss: 0.7739366292953491
+Batch 20 optimized. Loss: 0.21463602781295776
+Batch 30 optimized. Loss: 0.14821092784404755
+Batch 40 optimized. Loss: 0.06877195090055466
+Batch 50 optimized. Loss: 0.3694401681423187
+Batch 60 optimized. Loss: 0.0509200319647789
+Batch 70 optimized. Loss: 0.06617545336484909
+Batch 80 optimized. Loss: 0.1300262212753296
+Batch 90 optimized. Loss: 0.19687996804714203
+Batch 100 optimized. Loss: 0.22332143783569336
+Batch 110 optimized. Loss: 0.015889612957835197
+Avg loss:  tensor(0.1906, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.292632102966309
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.913013008002174
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.48391423246416193
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.46      0.30      0.36     25284
+    question       0.40      0.44      0.42     25597
+      answer       0.51      0.59      0.55     34396
+      header       0.44      0.51      0.47      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.45      0.46      0.45     91917
+weighted avg       0.46      0.46      0.46     91917
+
+Test  accuracy: 0.4623083869142814
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4623083869142814, 'recall': 0.4623083869142814, 'acc': 0.4623083869142814, 'epoch': 95}
+Epoch:  96
+Batch 0 optimized. Loss: 0.014485948719084263
+Batch 10 optimized. Loss: 0.145933598279953
+Batch 20 optimized. Loss: 0.20433001220226288
+Batch 30 optimized. Loss: 0.29819878935813904
+Batch 40 optimized. Loss: 0.23400193452835083
+Batch 50 optimized. Loss: 0.10139209032058716
+Batch 60 optimized. Loss: 0.032449111342430115
+Batch 70 optimized. Loss: 0.024982839822769165
+Batch 80 optimized. Loss: 0.2802048921585083
+Batch 90 optimized. Loss: 0.3892815113067627
+Batch 100 optimized. Loss: 0.11701406538486481
+Batch 110 optimized. Loss: 0.025525948032736778
+Avg loss:  tensor(0.1922, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.462239265441895
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9042742621766772
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4682377941509467
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.47      0.31      0.37     25284
+    question       0.40      0.45      0.42     25597
+      answer       0.50      0.54      0.52     34396
+      header       0.36      0.48      0.41      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.43      0.45      0.43     91917
+weighted avg       0.45      0.45      0.45     91917
+
+Test  accuracy: 0.4501343603468346
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4501343603468346, 'recall': 0.4501343603468346, 'acc': 0.4501343603468346, 'epoch': 96}
+Epoch:  97
+Batch 0 optimized. Loss: 0.014223804697394371
+Batch 10 optimized. Loss: 0.08055643737316132
+Batch 20 optimized. Loss: 0.17409014701843262
+Batch 30 optimized. Loss: 0.11986958235502243
+Batch 40 optimized. Loss: 0.38313883543014526
+Batch 50 optimized. Loss: 0.19434025883674622
+Batch 60 optimized. Loss: 0.025646116584539413
+Batch 70 optimized. Loss: 0.05022285133600235
+Batch 80 optimized. Loss: 0.30895012617111206
+Batch 90 optimized. Loss: 0.17777377367019653
+Batch 100 optimized. Loss: 0.119300976395607
+Batch 110 optimized. Loss: 0.035456858575344086
+Avg loss:  tensor(0.1930, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.30927038192749
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9049893804930026
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.47679016216404524
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.51      0.30      0.38     25284
+    question       0.39      0.51      0.44     25597
+      answer       0.50      0.53      0.51     34396
+      header       0.42      0.49      0.45      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.46      0.46      0.45     91917
+weighted avg       0.47      0.46      0.45     91917
+
+Test  accuracy: 0.4566184710118912
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4566184710118912, 'recall': 0.4566184710118912, 'acc': 0.4566184710118912, 'epoch': 97}
+Epoch:  98
+Batch 0 optimized. Loss: 0.02069341391324997
+Batch 10 optimized. Loss: 0.0424870103597641
+Batch 20 optimized. Loss: 0.19266729056835175
+Batch 30 optimized. Loss: 0.17941555380821228
+Batch 40 optimized. Loss: 0.07935086637735367
+Batch 50 optimized. Loss: 0.10030341893434525
+Batch 60 optimized. Loss: 0.12224146723747253
+Batch 70 optimized. Loss: 0.010068287141621113
+Batch 80 optimized. Loss: 0.36076241731643677
+Batch 90 optimized. Loss: 0.2917196452617645
+Batch 100 optimized. Loss: 0.15713182091712952
+Batch 110 optimized. Loss: 0.05699598789215088
+Avg loss:  tensor(0.2049, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.497098445892334
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.899940645179745
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.46858615944679594
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.47      0.36      0.41     25284
+    question       0.38      0.57      0.46     25597
+      answer       0.51      0.42      0.46     34396
+      header       0.48      0.48      0.48      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.46      0.46      0.45     91917
+weighted avg       0.46      0.45      0.45     91917
+
+Test  accuracy: 0.44784969048163015
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.44784969048163015, 'recall': 0.44784969048163015, 'acc': 0.44784969048163015, 'epoch': 98}
+Epoch:  99
+Batch 0 optimized. Loss: 0.16630899906158447
+Batch 10 optimized. Loss: 0.19280579686164856
+Batch 20 optimized. Loss: 0.2935316562652588
+Batch 30 optimized. Loss: 0.18386584520339966
+Batch 40 optimized. Loss: 0.35004177689552307
+Batch 50 optimized. Loss: 0.15913407504558563
+Batch 60 optimized. Loss: 0.27946728467941284
+Batch 70 optimized. Loss: 0.02321699820458889
+Batch 80 optimized. Loss: 0.2543119192123413
+Batch 90 optimized. Loss: 0.21700400114059448
+Batch 100 optimized. Loss: 0.14121820032596588
+Batch 110 optimized. Loss: 0.04346807301044464
+Avg loss:  tensor(0.1949, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.26289415359497
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9091728226435064
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4591977147236592
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.42      0.38      0.40     25284
+    question       0.39      0.41      0.40     25597
+      answer       0.52      0.51      0.52     34396
+      header       0.39      0.51      0.44      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.43      0.45      0.44     91917
+weighted avg       0.45      0.45      0.45     91917
+
+Test  accuracy: 0.4454344680526997
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4454344680526997, 'recall': 0.4454344680526997, 'acc': 0.4454344680526997, 'epoch': 99}
+Epoch:  100
+Batch 0 optimized. Loss: 0.047237660735845566
+Batch 10 optimized. Loss: 0.36175721883773804
+Batch 20 optimized. Loss: 0.15565861761569977
+Batch 30 optimized. Loss: 0.24515077471733093
+Batch 40 optimized. Loss: 0.1161377876996994
+Batch 50 optimized. Loss: 0.13956986367702484
+Batch 60 optimized. Loss: 0.059942081570625305
+Batch 70 optimized. Loss: 0.02479637786746025
+Batch 80 optimized. Loss: 0.21456238627433777
+Batch 90 optimized. Loss: 0.3594195246696472
+Batch 100 optimized. Loss: 0.08341816812753677
+Batch 110 optimized. Loss: 0.014012893661856651
+Avg loss:  tensor(0.1925, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.287780523300171
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.912648297660848
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.47537928271585583
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.46      0.37      0.41     25284
+    question       0.39      0.42      0.41     25597
+      answer       0.51      0.54      0.53     34396
+      header       0.45      0.48      0.47      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.45      0.46      0.45     91917
+weighted avg       0.46      0.46      0.46     91917
+
+Test  accuracy: 0.4585332419465387
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4585332419465387, 'recall': 0.4585332419465387, 'acc': 0.4585332419465387, 'epoch': 100}
+Epoch:  101
+Batch 0 optimized. Loss: 0.3492610454559326
+Batch 10 optimized. Loss: 0.1653595119714737
+Batch 20 optimized. Loss: 0.11884082853794098
+Batch 30 optimized. Loss: 0.1095825806260109
+Batch 40 optimized. Loss: 0.10456398129463196
+Batch 50 optimized. Loss: 0.12298396229743958
+Batch 60 optimized. Loss: 0.11985347419977188
+Batch 70 optimized. Loss: 0.021488958969712257
+Batch 80 optimized. Loss: 0.5119273066520691
+Batch 90 optimized. Loss: 0.2691989541053772
+Batch 100 optimized. Loss: 0.11038307100534439
+Batch 110 optimized. Loss: 0.03708932548761368
+Avg loss:  tensor(0.1694, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.444677829742432
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9097163125639137
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4547560572015816
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.40      0.38      0.39     25284
+    question       0.40      0.39      0.39     25597
+      answer       0.51      0.51      0.51     34396
+      header       0.40      0.49      0.44      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.43      0.44      0.43     91917
+weighted avg       0.44      0.44      0.44     91917
+
+Test  accuracy: 0.44048435001142333
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.44048435001142333, 'recall': 0.44048435001142333, 'acc': 0.44048435001142333, 'epoch': 101}
+Epoch:  102
+Batch 0 optimized. Loss: 0.0036041296552866697
+Batch 10 optimized. Loss: 0.08461520820856094
+Batch 20 optimized. Loss: 0.1944458931684494
+Batch 30 optimized. Loss: 0.1684984266757965
+Batch 40 optimized. Loss: 0.11622002720832825
+Batch 50 optimized. Loss: 0.0642881691455841
+Batch 60 optimized. Loss: 0.09791705012321472
+Batch 70 optimized. Loss: 0.01521263923496008
+Batch 80 optimized. Loss: 0.2277408242225647
+Batch 90 optimized. Loss: 0.16633255779743195
+Batch 100 optimized. Loss: 0.08219103515148163
+Batch 110 optimized. Loss: 0.02257385104894638
+Avg loss:  tensor(0.1472, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.2944495677948
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.909866487410342
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.46215881973837764
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.43      0.37      0.40     25284
+    question       0.40      0.43      0.41     25597
+      answer       0.52      0.51      0.52     34396
+      header       0.38      0.51      0.44      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.43      0.46      0.44     91917
+weighted avg       0.45      0.45      0.45     91917
+
+Test  accuracy: 0.44976446141627774
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.44976446141627774, 'recall': 0.44976446141627774, 'acc': 0.44976446141627774, 'epoch': 102}
+Epoch:  103
+Batch 0 optimized. Loss: 0.011646630242466927
+Batch 10 optimized. Loss: 0.09483303129673004
+Batch 20 optimized. Loss: 0.14642713963985443
+Batch 30 optimized. Loss: 0.1655186265707016
+Batch 40 optimized. Loss: 0.11044186353683472
+Batch 50 optimized. Loss: 0.07411658763885498
+Batch 60 optimized. Loss: 0.07354864478111267
+Batch 70 optimized. Loss: 0.01425735279917717
+Batch 80 optimized. Loss: 0.2768469452857971
+Batch 90 optimized. Loss: 0.21686497330665588
+Batch 100 optimized. Loss: 0.15254585444927216
+Batch 110 optimized. Loss: 0.012618465349078178
+Avg loss:  tensor(0.1652, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.46570348739624
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9051681600720839
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4630645695075857
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.44      0.41      0.42     25284
+    question       0.39      0.48      0.43     25597
+      answer       0.53      0.44      0.48     34396
+      header       0.41      0.51      0.45      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.44      0.46      0.45     91917
+weighted avg       0.46      0.45      0.45     91917
+
+Test  accuracy: 0.44695758129616936
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.44695758129616936, 'recall': 0.44695758129616936, 'acc': 0.44695758129616936, 'epoch': 103}
+Epoch:  104
+Batch 0 optimized. Loss: 0.010464400984346867
+Batch 10 optimized. Loss: 0.14828704297542572
+Batch 20 optimized. Loss: 0.2897120416164398
+Batch 30 optimized. Loss: 0.12496697902679443
+Batch 40 optimized. Loss: 0.07712952792644501
+Batch 50 optimized. Loss: 0.04200592637062073
+Batch 60 optimized. Loss: 0.10797633230686188
+Batch 70 optimized. Loss: 0.05241699516773224
+Batch 80 optimized. Loss: 0.2219582498073578
+Batch 90 optimized. Loss: 0.3706277310848236
+Batch 100 optimized. Loss: 0.16322937607765198
+Batch 110 optimized. Loss: 0.1919044405221939
+Avg loss:  tensor(0.1746, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.275288581848145
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9132060899475818
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.48316524707808606
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.56      0.30      0.39     25284
+    question       0.40      0.52      0.45     25597
+      answer       0.51      0.53      0.52     34396
+      header       0.38      0.53      0.45      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.46      0.47      0.45     91917
+weighted avg       0.48      0.46      0.46     91917
+
+Test  accuracy: 0.463918535200235
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.463918535200235, 'recall': 0.463918535200235, 'acc': 0.463918535200235, 'epoch': 104}
+Epoch:  105
+Batch 0 optimized. Loss: 0.003423649352043867
+Batch 10 optimized. Loss: 0.10181857645511627
+Batch 20 optimized. Loss: 0.14954611659049988
+Batch 30 optimized. Loss: 0.14330565929412842
+Batch 40 optimized. Loss: 0.1532014012336731
+Batch 50 optimized. Loss: 0.3545072078704834
+Batch 60 optimized. Loss: 0.03174835070967674
+Batch 70 optimized. Loss: 0.03451646864414215
+Batch 80 optimized. Loss: 0.1517535150051117
+Batch 90 optimized. Loss: 0.36270853877067566
+Batch 100 optimized. Loss: 0.11076757311820984
+Batch 110 optimized. Loss: 0.015778040513396263
+Avg loss:  tensor(0.1638, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.258315086364746
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9175897652266567
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.482294333838463
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.52      0.26      0.35     25284
+    question       0.38      0.59      0.47     25597
+      answer       0.51      0.49      0.50     34396
+      header       0.46      0.49      0.47      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.47      0.46      0.45     91917
+weighted avg       0.47      0.45      0.45     91917
+
+Test  accuracy: 0.4532458631156369
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4532458631156369, 'recall': 0.4532458631156369, 'acc': 0.4532458631156369, 'epoch': 105}
+Epoch:  106
+Batch 0 optimized. Loss: 0.0032850916031748056
+Batch 10 optimized. Loss: 0.05067560821771622
+Batch 20 optimized. Loss: 0.14770862460136414
+Batch 30 optimized. Loss: 0.11570847034454346
+Batch 40 optimized. Loss: 0.2015649825334549
+Batch 50 optimized. Loss: 0.16701483726501465
+Batch 60 optimized. Loss: 0.02527061477303505
+Batch 70 optimized. Loss: 0.01950555481016636
+Batch 80 optimized. Loss: 0.26474058628082275
+Batch 90 optimized. Loss: 0.31458741426467896
+Batch 100 optimized. Loss: 0.08573928475379944
+Batch 110 optimized. Loss: 0.014725064858794212
+Avg loss:  tensor(0.1405, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.444429397583008
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9210509378776719
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4956018881399035
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.51      0.28      0.36     25284
+    question       0.41      0.49      0.44     25597
+      answer       0.50      0.58      0.54     34396
+      header       0.44      0.53      0.48      6640
+
+    accuracy                           0.47     91917
+   macro avg       0.47      0.47      0.46     91917
+weighted avg       0.48      0.47      0.46     91917
+
+Test  accuracy: 0.46808533785915557
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.46808533785915557, 'recall': 0.46808533785915557, 'acc': 0.46808533785915557, 'epoch': 106}
+Epoch:  107
+Batch 0 optimized. Loss: 0.012130645103752613
+Batch 10 optimized. Loss: 0.043252866715192795
+Batch 20 optimized. Loss: 0.10227424651384354
+Batch 30 optimized. Loss: 0.104360431432724
+Batch 40 optimized. Loss: 0.05624803900718689
+Batch 50 optimized. Loss: 0.1412143111228943
+Batch 60 optimized. Loss: 0.022458838298916817
+Batch 70 optimized. Loss: 0.019859053194522858
+Batch 80 optimized. Loss: 0.2126486897468567
+Batch 90 optimized. Loss: 0.2651398777961731
+Batch 100 optimized. Loss: 0.19435441493988037
+Batch 110 optimized. Loss: 0.03467726334929466
+Avg loss:  tensor(0.1614, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.281761169433594
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9059619414032052
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4894009858737873
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.52      0.25      0.34     25284
+    question       0.41      0.51      0.45     25597
+      answer       0.50      0.59      0.55     34396
+      header       0.45      0.49      0.47      6640
+
+    accuracy                           0.47     91917
+   macro avg       0.47      0.46      0.45     91917
+weighted avg       0.48      0.47      0.46     91917
+
+Test  accuracy: 0.4683246842259865
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4683246842259865, 'recall': 0.4683246842259865, 'acc': 0.4683246842259865, 'epoch': 107}
+Epoch:  108
+Batch 0 optimized. Loss: 0.006839192472398281
+Batch 10 optimized. Loss: 0.08531568944454193
+Batch 20 optimized. Loss: 0.3837941884994507
+Batch 30 optimized. Loss: 0.12500114738941193
+Batch 40 optimized. Loss: 0.07086005061864853
+Batch 50 optimized. Loss: 0.06008369103074074
+Batch 60 optimized. Loss: 0.02142730914056301
+Batch 70 optimized. Loss: 0.04069262370467186
+Batch 80 optimized. Loss: 0.2580801844596863
+Batch 90 optimized. Loss: 0.24784675240516663
+Batch 100 optimized. Loss: 0.128785640001297
+Batch 110 optimized. Loss: 0.03758706524968147
+Avg loss:  tensor(0.1622, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.474468469619751
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9160594120297203
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4736374562366097
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.48      0.30      0.37     25284
+    question       0.39      0.53      0.45     25597
+      answer       0.52      0.49      0.51     34396
+      header       0.43      0.55      0.48      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.45      0.47      0.45     91917
+weighted avg       0.47      0.45      0.45     91917
+
+Test  accuracy: 0.4547363382181751
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4547363382181751, 'recall': 0.4547363382181751, 'acc': 0.4547363382181751, 'epoch': 108}
+Epoch:  109
+Batch 0 optimized. Loss: 0.010134899988770485
+Batch 10 optimized. Loss: 0.19677026569843292
+Batch 20 optimized. Loss: 0.11254802346229553
+Batch 30 optimized. Loss: 0.2179543375968933
+Batch 40 optimized. Loss: 0.05455863103270531
+Batch 50 optimized. Loss: 0.10716669261455536
+Batch 60 optimized. Loss: 0.030689550563693047
+Batch 70 optimized. Loss: 0.06202840059995651
+Batch 80 optimized. Loss: 0.22735384106636047
+Batch 90 optimized. Loss: 0.39942845702171326
+Batch 100 optimized. Loss: 0.07136932015419006
+Batch 110 optimized. Loss: 0.07726872712373734
+Avg loss:  tensor(0.1598, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.26551604270935
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.915880632450639
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.46842939506366377
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.52      0.26      0.35     25284
+    question       0.38      0.53      0.44     25597
+      answer       0.50      0.54      0.52     34396
+      header       0.50      0.41      0.45      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.47      0.44      0.44     91917
+weighted avg       0.47      0.45      0.45     91917
+
+Test  accuracy: 0.45273453224104354
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.45273453224104354, 'recall': 0.45273453224104354, 'acc': 0.45273453224104354, 'epoch': 109}
+Epoch:  110
+Batch 0 optimized. Loss: 0.029874373227357864
+Batch 10 optimized. Loss: 0.128822460770607
+Batch 20 optimized. Loss: 0.104301817715168
+Batch 30 optimized. Loss: 0.2751614451408386
+Batch 40 optimized. Loss: 0.1269942969083786
+Batch 50 optimized. Loss: 0.10015140473842621
+Batch 60 optimized. Loss: 0.05069556459784508
+Batch 70 optimized. Loss: 0.01584332063794136
+Batch 80 optimized. Loss: 0.17472895979881287
+Batch 90 optimized. Loss: 0.24567419290542603
+Batch 100 optimized. Loss: 0.07516399025917053
+Batch 110 optimized. Loss: 0.011908560991287231
+Avg loss:  tensor(0.1402, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.275490760803223
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.8973662192409734
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4777481667276306
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.46      0.37      0.41     25284
+    question       0.42      0.36      0.39     25597
+      answer       0.50      0.61      0.55     34396
+      header       0.44      0.50      0.47      6640
+
+    accuracy                           0.47     91917
+   macro avg       0.45      0.46      0.45     91917
+weighted avg       0.46      0.47      0.46     91917
+
+Test  accuracy: 0.46811797600008703
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.46811797600008703, 'recall': 0.46811797600008703, 'acc': 0.46811797600008703, 'epoch': 110}
+Epoch:  111
+Batch 0 optimized. Loss: 0.01687198132276535
+Batch 10 optimized. Loss: 0.1809895783662796
+Batch 20 optimized. Loss: 0.1568256914615631
+Batch 30 optimized. Loss: 0.21540497243404388
+Batch 40 optimized. Loss: 0.11559741199016571
+Batch 50 optimized. Loss: 0.12773177027702332
+Batch 60 optimized. Loss: 0.06327325105667114
+Batch 70 optimized. Loss: 0.06036849319934845
+Batch 80 optimized. Loss: 0.37693172693252563
+Batch 90 optimized. Loss: 0.37138527631759644
+Batch 100 optimized. Loss: 0.07895642518997192
+Batch 110 optimized. Loss: 0.07929262518882751
+Avg loss:  tensor(0.1457, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.435818910598755
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.91849796548839
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4613749978227169
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.48      0.38      0.42     25284
+    question       0.40      0.41      0.40     25597
+      answer       0.50      0.54      0.52     34396
+      header       0.40      0.50      0.44      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.44      0.46      0.45     91917
+weighted avg       0.46      0.46      0.46     91917
+
+Test  accuracy: 0.4565749534906492
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4565749534906492, 'recall': 0.4565749534906492, 'acc': 0.4565749534906492, 'epoch': 111}
+Epoch:  112
+Batch 0 optimized. Loss: 0.37588682770729065
+Batch 10 optimized. Loss: 0.20714633166790009
+Batch 20 optimized. Loss: 0.23954004049301147
+Batch 30 optimized. Loss: 0.38758864998817444
+Batch 40 optimized. Loss: 0.6784511208534241
+Batch 50 optimized. Loss: 0.0806492418050766
+Batch 60 optimized. Loss: 0.02585780620574951
+Batch 70 optimized. Loss: 0.11972419917583466
+Batch 80 optimized. Loss: 0.2993627190589905
+Batch 90 optimized. Loss: 0.27977651357650757
+Batch 100 optimized. Loss: 0.048566024750471115
+Batch 110 optimized. Loss: 0.17273202538490295
+Avg loss:  tensor(0.1494, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.286559343338013
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9250055421669515
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4871714479803522
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.52      0.31      0.39     25284
+    question       0.40      0.46      0.43     25597
+      answer       0.51      0.59      0.54     34396
+      header       0.47      0.53      0.50      6640
+
+    accuracy                           0.47     91917
+   macro avg       0.47      0.47      0.46     91917
+weighted avg       0.48      0.47      0.46     91917
+
+Test  accuracy: 0.4700871438362871
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4700871438362871, 'recall': 0.4700871438362871, 'acc': 0.4700871438362871, 'epoch': 112}
+Epoch:  113
+Batch 0 optimized. Loss: 0.025134844705462456
+Batch 10 optimized. Loss: 0.07896963506937027
+Batch 20 optimized. Loss: 0.16981491446495056
+Batch 30 optimized. Loss: 0.17309102416038513
+Batch 40 optimized. Loss: 0.1581929624080658
+Batch 50 optimized. Loss: 0.05569750815629959
+Batch 60 optimized. Loss: 0.025332681834697723
+Batch 70 optimized. Loss: 0.039624571800231934
+Batch 80 optimized. Loss: 0.287676066160202
+Batch 90 optimized. Loss: 0.22609533369541168
+Batch 100 optimized. Loss: 0.14347967505455017
+Batch 110 optimized. Loss: 0.08345523476600647
+Avg loss:  tensor(0.1368, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.470643997192383
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.924991239800625
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.47675532563446027
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.49      0.36      0.42     25284
+    question       0.40      0.47      0.43     25597
+      answer       0.50      0.50      0.50     34396
+      header       0.38      0.56      0.45      6640
+
+    accuracy                           0.46     91917
+   macro avg       0.44      0.47      0.45     91917
+weighted avg       0.46      0.46      0.46     91917
+
+Test  accuracy: 0.4560745019963663
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4560745019963663, 'recall': 0.4560745019963663, 'acc': 0.4560745019963663, 'epoch': 113}
+Epoch:  114
+Batch 0 optimized. Loss: 0.01240848284214735
+Batch 10 optimized. Loss: 0.09354447573423386
+Batch 20 optimized. Loss: 0.26754942536354065
+Batch 30 optimized. Loss: 0.1607876718044281
+Batch 40 optimized. Loss: 0.08419530093669891
+Batch 50 optimized. Loss: 0.04748755320906639
+Batch 60 optimized. Loss: 0.07964032143354416
+Batch 70 optimized. Loss: 0.031236013397574425
+Batch 80 optimized. Loss: 0.2799510657787323
+Batch 90 optimized. Loss: 0.27619636058807373
+Batch 100 optimized. Loss: 0.09881065040826797
+Batch 110 optimized. Loss: 0.01120530441403389
+Avg loss:  tensor(0.1317, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.272261142730713
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.918269127627166
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.45998153663932
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.44      0.34      0.39     25284
+    question       0.38      0.53      0.44     25597
+      answer       0.52      0.45      0.48     34396
+      header       0.45      0.44      0.45      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.45      0.44      0.44     91917
+weighted avg       0.45      0.44      0.44     91917
+
+Test  accuracy: 0.4432585919906002
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.4432585919906002, 'recall': 0.4432585919906002, 'acc': 0.4432585919906002, 'epoch': 114}
+Epoch:  115
+Batch 0 optimized. Loss: 0.032388295978307724
+Batch 10 optimized. Loss: 0.07736697047948837
+Batch 20 optimized. Loss: 0.38581907749176025
+Batch 30 optimized. Loss: 0.06889006495475769
+Batch 40 optimized. Loss: 0.088497094810009
+Batch 50 optimized. Loss: 0.03444449231028557
+Batch 60 optimized. Loss: 0.03224162012338638
+Batch 70 optimized. Loss: 0.07451081275939941
+Batch 80 optimized. Loss: 0.19603300094604492
+Batch 90 optimized. Loss: 0.20151880383491516
+Batch 100 optimized. Loss: 0.060729801654815674
+Batch 110 optimized. Loss: 0.00656784325838089
+Avg loss:  tensor(0.1455, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.278125047683716
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.905704498809328
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.49824946438835765
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.52      0.31      0.39     25284
+    question       0.39      0.42      0.40     25597
+      answer       0.48      0.59      0.53     34396
+      header       0.42      0.47      0.44      6640
+
+    accuracy                           0.45     91917
+   macro avg       0.45      0.45      0.44     91917
+weighted avg       0.46      0.45      0.45     91917
+
+Test  accuracy: 0.45476897635910657
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.45476897635910657, 'recall': 0.45476897635910657, 'acc': 0.45476897635910657, 'epoch': 115}
+Epoch:  116
+Batch 0 optimized. Loss: 0.3557874262332916
+Batch 10 optimized. Loss: 0.07064302265644073
+Batch 20 optimized. Loss: 0.23091642558574677
+Batch 30 optimized. Loss: 0.07630814611911774
+Batch 40 optimized. Loss: 0.061959221959114075
+Batch 50 optimized. Loss: 0.2720234990119934
+Batch 60 optimized. Loss: 0.02686947211623192
+Batch 70 optimized. Loss: 0.009427078068256378
+Batch 80 optimized. Loss: 0.28414663672447205
+Batch 90 optimized. Loss: 0.1391976922750473
+Batch 100 optimized. Loss: 0.11745525896549225
+Batch 110 optimized. Loss: 0.06221556290984154
+Avg loss:  tensor(0.1433, device='cuda:0', grad_fn=<DivBackward0>) ; epoch time:  13.435089349746704
+Label:  (139837,)
+Predict:  (139837,)
+Train  accuracy: 0.9193132003690011
+Label:  (57411,)
+Predict:  (57411,)
+Validation  accuracy: 0.4661127658462664
+Label:  (91917,)
+Predict:  (91917,)
+              precision    recall  f1-score   support
+
+       other       0.48      0.31      0.37     25284
+    question       0.38      0.49      0.42     25597
+      answer       0.48      0.48      0.48     34396
+      header       0.41      0.47      0.44      6640
+
+    accuracy                           0.44     91917
+   macro avg       0.44      0.44      0.43     91917
+weighted avg       0.44      0.44      0.43     91917
+
+Test  accuracy: 0.43573006081573595
+Best val result:  {'epoch': 23, 'loss': tensor(0.8644, device='cuda:0', grad_fn=<DivBackward0>), 'acc': 0.5358032432809043}
+Test result:  {'prec': 0.43573006081573595, 'recall': 0.43573006081573595, 'acc': 0.43573006081573595, 'epoch': 116}
+Epoch:  117
+Batch 0 optimized. Loss: 0.0025370027869939804
+Batch 10 optimized. Loss: 0.06514577567577362
+Batch 20 optimized. Loss: 0.12132813036441803

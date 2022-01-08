@@ -27,7 +27,7 @@ class Conv2dBnLrnDrop(torch.nn.Module):
     """
     def __init__(self, kernel_shape, use_sparse_conv=False,
                  strides=[1, 1], activation=torch.nn.ReLU,
-                 use_bn=False, use_mvn=False, use_lrn=False, keep_prob=1.0,
+                 use_bn=True, use_mvn=False, use_lrn=False, keep_prob=0.80,
                  dropout_maps=False, padding='SAME', initOpt=0, biasInit=0.1):
         super(Conv2dBnLrnDrop, self).__init__()
         if initOpt == 0:
@@ -63,6 +63,12 @@ class Conv2dBnLrnDrop(torch.nn.Module):
         self.use_mvn = use_mvn
         self.use_lrn = use_lrn
         self.dropout_maps = dropout_maps
+        print('+++++++++++++++++++++++++')
+        print('self.use_bn',self.use_bn)
+        print('self.use_mvn',self.use_mvn)
+        print('self.use_lrn',self.use_lrn)
+        print('self.dropout_maps',self.dropout_maps)
+        print('keep_prob',keep_prob)
         if use_bn:
             self.bn = torch.nn.BatchNorm2d(kernel_shape[3])
         if use_mvn:
@@ -74,9 +80,9 @@ class Conv2dBnLrnDrop(torch.nn.Module):
         if use_lrn:
             self.lrn = torch.nn.modules.normalization.LocalResponseNorm(kernel_shape[3])
         if dropout_maps:
-            self.dropout = torch.nn.modules.Dropout2d(p=(1.0-keep_prob))
+            self.dropout = torch.nn.modules.Dropout2d(p=round(1.0-keep_prob,2))
         else:
-            self.dropout = torch.nn.modules.Dropout2d(p=(1.0-keep_prob))
+            self.dropout = torch.nn.modules.Dropout2d(p=round(1.0-keep_prob,2))
         self.keep_prob = keep_prob
 
     def forward(self, x, binary_mask=None):
@@ -104,10 +110,15 @@ class Conv2dBnLrnDrop(torch.nn.Module):
 
 class DilConv2dBnLrnDrop(torch.nn.Module):
     def __init__(self, kernel_shape, rate,
-                 activation=torch.nn.ReLU, use_bn=False, use_mvn=False,
-                 use_lrn=True, padding='SAME', keep_prob=1.0, dropout_maps=False,
+                 activation=torch.nn.ReLU, use_bn=True, use_mvn=False,
+                 use_lrn=False, padding='SAME', keep_prob=1.0, dropout_maps=False,
                  initOpt=0):
         super(DilConv2dBnLrnDrop, self).__init__()
+        """
+        kernel_shape [in_channel,out_channl, kernel,kernel]
+        """
+        print('kernel_shape',kernel_shape)
+        self.kernel_shape=kernel_shape
         if initOpt == 0:
             self.stddev = np.sqrt(2.0 / (
                 kernel_shape[0] * kernel_shape[1] * kernel_shape[2]
@@ -150,7 +161,10 @@ class DilConv2dBnLrnDrop(torch.nn.Module):
         self.keep_prob = keep_prob
 
     def forward(self, x):
+        print("start shape",x.shape)
         x = self.custom_padding(x)
+        print("after padding shape",x.shape)
+        print('******kernel_shape',self.kernel_shape)
         outputs = self.conv(x)
         if self.use_bn:
             outputs = self.bn(outputs)
@@ -161,6 +175,7 @@ class DilConv2dBnLrnDrop(torch.nn.Module):
         if self.use_lrn:
             outputs = self.lrn(outputs)
         outputs = self.dropout(outputs)
+        print("end shape",outputs.shape)
         return outputs
 
 
@@ -189,9 +204,11 @@ class DownSampleResNet(torch.nn.Module):
         self.activation = activation
         if activation is not None:
             self.activation = activation()
-        self.max_pool = torch.nn.MaxPool2d(pool_size, pool_size, pool_size//2)
+        self.max_pool = torch.nn.MaxPool2d(pool_size, pool_size, pool_size[0]//2)
+#         self.class_aux = Conv2dBnLrnDrop([4, 4, channel_in, channel_out], False,
+#                                          1, 2, activation=torch.nn.ReLU)
         self.class_aux = Conv2dBnLrnDrop([4, 4, channel_in, channel_out], False,
-                                         1, 2, activation=torch.nn.ReLU)
+                                          activation=torch.nn.ReLU)
 
     def forward(self, x):
         orig_x = x
@@ -207,7 +224,7 @@ class DownSampleResNet(torch.nn.Module):
 class Deconv2DBnLrnDrop(torch.nn.Module):
     def __init__(self, kernel_shape, sub_s=2,
                  activation=torch.nn.ReLU,
-                 use_bn=False, use_mvn=False, use_lrn=False,
+                 use_bn=True, use_mvn=False, use_lrn=False,
                  keep_prob=1.0,
                  dropout_maps=False,
                  initOpt=0):

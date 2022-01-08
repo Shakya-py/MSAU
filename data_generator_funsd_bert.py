@@ -27,7 +27,14 @@ def getitem_box_bert(dataset_instance, idx):
         # "feats": torch.Tensor(self.inp_list[idx]['pos_feats']).unsqueeze(0),
         "label": dataset_instance.inp_list[idx]['labels']
     }
-
+def getitem_box_chargrid(dataset_instance, idx):
+    return {
+        "ocr_values": [cell.ocr_value
+                       for cell in dataset_instance.inp_list[idx]['cells']],
+        "feats": np.array(dataset_instance.inp_list[idx]['charset_feature']),
+        # "feats": torch.Tensor(self.inp_list[idx]['pos_feats']).unsqueeze(0),
+        "label": dataset_instance.inp_list[idx]['labels']
+    }
 
 def getitem_box_bow(dataset_instance, idx):
     return {
@@ -67,7 +74,7 @@ def get_box_mask_box_label(dataset_instance, idx):
     new_max_y = int((max_y-min_y)/min_h)+1
 
     label_mask = np.zeros((new_max_y, new_max_x)).astype('uint8')
-    inp_grid = np.zeros((box_dict['feats'].shape[-1],
+    inp_grid = np.zeros((box_dict['feats'][0].shape[-1],
                         new_max_y, new_max_x))
     for cell_idx, cell in enumerate(cell_lists):
         new_x = int((cell.x - min_x)/min_w)
@@ -125,7 +132,7 @@ def get_1px_mask_1_px_label(dataset_instance, idx):
     new_max_y = int((max_y-min_y)/min_h)+1
 
     label_mask = np.zeros((new_max_y, new_max_x)).astype('uint8')
-    inp_grid = np.zeros((box_dict['feats'].shape[-1],
+    inp_grid = np.zeros((box_dict['feats'][0].shape[-1],
                         new_max_y, new_max_x))
     for cell_idx, cell in enumerate(cell_lists):
         new_x = int((cell.x - min_x)/min_w)
@@ -146,7 +153,10 @@ def get_box_mask_box_label_word(dataset_instance, idx):
     min_x, min_y, max_x, max_y, min_w, min_h = get_min_max_x_y_w_h(cell_lists)
     new_max_x = int((max_x-min_x)/min_w)+1
     new_max_y = int((max_y-min_y)/min_h)+1
-    scaling_ratios = [cell.w/len(cell.ocr_value) for cell in cell_lists]
+    scaling_ratios = [cell.w/len(cell.ocr_value) if len(cell.ocr_value)!=0 else 0  for cell in cell_lists]
+    mean_scaling_ratios=sum(scaling_ratios)/len(scaling_ratios)
+    scaling_ratios=[ ele if ele!=0 else mean_scaling_ratios for ele in scaling_ratios]
+    #scaling_ratios = [cell.w/len(cell.ocr_value) for cell in cell_lists]
     min_scale = min(scaling_ratios)
     label_mask = np.zeros((new_max_y, new_max_x)).astype('uint8')
     inp_grid = np.zeros((instance_dict['charset_feature'][0].shape[-1],
@@ -156,25 +166,24 @@ def get_box_mask_box_label_word(dataset_instance, idx):
         new_y = int((cell.y - min_y)/min_h)
         new_w = max(int(cell.w/min_scale), 1)
         new_h = max(int(cell.h/min_h), 1)
-        per_char_width = max(int(new_w/len(cell.ocr_value)), 1)
+        ocr_len=len(cell.ocr_value) if len(cell.ocr_value)!=0 else new_w
+        per_char_width = max(int(new_w/ocr_len), 1)
         for j, char in enumerate(cell.ocr_value):
-            inp_grid[:, new_y:new_y+new_h,
-                     new_x+per_char_width*j:new_x+per_char_width*(j+1)] =\
-                instance_dict['charset_feature'][idx][j]
+            inp_grid[:, new_y:new_y+new_h,new_x+per_char_width*j:new_x+per_char_width*(j+1)] =\
+                np.expand_dims(np.expand_dims(instance_dict['charset_feature'][cell_idx][j], -1), -1)
     for cell_idx, cell in enumerate(cell_lists_textline):
         new_x = int((cell.x - min_x)/min_w)
         new_y = int((cell.y - min_y)/min_h)
         new_w = max(int(cell.w/min_w), 1)
         new_h = max(int(cell.h/min_h), 1)
         label_mask[new_y:new_y+new_h, new_x:new_x+new_w] =\
-            instance_dict['label'][cell_idx] + 1
+            instance_dict['labels'][cell_idx] #+ 1
 
     return {
         "ocr_values": [cell.ocr_value for cell in cell_lists],
         "mask": inp_grid,
         "label": label_mask,
     }
-
 
 class FUNSDMaskDataLoader(Dataset):
     '''
@@ -185,11 +194,12 @@ class FUNSDMaskDataLoader(Dataset):
                  getitem_mask=get_box_mask_box_label):
         self.inp_list = pickle.load(open(funsd_pickle_path, 'rb'))
         if labels_dict is None:
-            self.labels = dict(
-                [label, idx]
-                for idx, label in enumerate(
-                    list(
-                        set(self.inp_list[0]['labels']))))
+            self.labels={'other': 1, 'question': 2, 'answer': 3, 'header': 4}
+#             self.labels = dict(
+#                 [label, idx]
+#                 for idx, label in enumerate(
+#                     list(
+#                         set(self.inp_list[0]['labels']))))
 
             json.dump(self.labels, open('labels', 'w'))
         else:
@@ -199,7 +209,7 @@ class FUNSDMaskDataLoader(Dataset):
                 [self.labels[label]
                  for label in each_dict['labels']])
         self.getitem_box = getitem_box
-        self.getitem_mask = get_box_mask_box_label
+        self.getitem_mask = getitem_mask
 
     def __len__(self):
         return len(self.inp_list)
@@ -220,12 +230,12 @@ class FUNSDMaskDataLoader(Dataset):
             return_lists = self.getitem(idx)
         return return_lists
 
-
+#correction is here
 class FUNSDCharGridDataLoaderBoxMaskBoxLabel(FUNSDMaskDataLoader):
     def __init__(self, funsd_pickle_path, labels_dict=None):
-        super(FUNSDBertDataLoaderBoxMaskBoxLabel, self).__init__(
+        super(FUNSDCharGridDataLoaderBoxMaskBoxLabel, self).__init__(
             funsd_pickle_path, labels_dict=labels_dict,
-            getitem_box=None,
+            getitem_box=getitem_box_chargrid,
             getitem_mask=get_box_mask_box_label_word)
 
 
