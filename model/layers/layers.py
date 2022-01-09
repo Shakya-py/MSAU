@@ -27,7 +27,7 @@ class Conv2dBnLrnDrop(torch.nn.Module):
     """
     def __init__(self, kernel_shape, use_sparse_conv=False,
                  strides=[1, 1], activation=torch.nn.ReLU,
-                 use_bn=True, use_mvn=False, use_lrn=False, keep_prob=0.80,
+                 use_bn=True, use_mvn=False, use_lrn=False, keep_prob=0.95,
                  dropout_maps=False, padding='SAME', initOpt=0, biasInit=0.1):
         super(Conv2dBnLrnDrop, self).__init__()
         if initOpt == 0:
@@ -40,6 +40,7 @@ class Conv2dBnLrnDrop(torch.nn.Module):
             self.stddev = min(np.sqrt(2.0 / (
                 kernel_shape[0] * kernel_shape[1] * kernel_shape[2])), 5e-2)
         self.use_sparse_conv = use_sparse_conv
+        self.kernel_shape=kernel_shape
         self.custom_padding = lambda inp: pad_2d(inp,
                                                  padding,
                                                  'conv2d',
@@ -86,6 +87,7 @@ class Conv2dBnLrnDrop(torch.nn.Module):
         self.keep_prob = keep_prob
 
     def forward(self, x, binary_mask=None):
+        print("Conv2dBnLrnDrop kernel_shape",self.kernel_shape)
         x = self.custom_padding(x)
         if binary_mask is not None:
             binary_mask = self.custom_padding(binary_mask)
@@ -111,7 +113,7 @@ class Conv2dBnLrnDrop(torch.nn.Module):
 class DilConv2dBnLrnDrop(torch.nn.Module):
     def __init__(self, kernel_shape, rate,
                  activation=torch.nn.ReLU, use_bn=True, use_mvn=False,
-                 use_lrn=False, padding='SAME', keep_prob=1.0, dropout_maps=False,
+                 use_lrn=False, padding='SAME', keep_prob=0.95, dropout_maps=False,
                  initOpt=0):
         super(DilConv2dBnLrnDrop, self).__init__()
         """
@@ -180,7 +182,7 @@ class DilConv2dBnLrnDrop(torch.nn.Module):
 
 
 class SeparableRNNBlock(torch.nn.Module):
-    def __init__(self, in_channels, num_filter_out, keep_prob=1.0,
+    def __init__(self, in_channels, num_filter_out, keep_prob=0.95,
                  cell_type='LSTM'):
         super(SeparableRNNBlock, self).__init__()
 
@@ -225,10 +227,11 @@ class Deconv2DBnLrnDrop(torch.nn.Module):
     def __init__(self, kernel_shape, sub_s=2,
                  activation=torch.nn.ReLU,
                  use_bn=True, use_mvn=False, use_lrn=False,
-                 keep_prob=1.0,
+                 keep_prob=0.95,
                  dropout_maps=False,
                  initOpt=0):
         super(Deconv2DBnLrnDrop, self).__init__()
+        self.kernel_shape=kernel_shape
         if initOpt == 0:
             stddev = np.sqrt(2.0 / (kernel_shape[0] * kernel_shape[1] * kernel_shape[2] + kernel_shape[3]))
         if initOpt == 1:
@@ -264,6 +267,8 @@ class Deconv2DBnLrnDrop(torch.nn.Module):
         self.keep_prob = keep_prob
 
     def forward(self, x, output_size=None):
+        print("###upsampling here",self.kernel_shape)
+        print("required output size",output_size)
         outputs = self.conv(x, output_size=output_size)
         if self.use_bn:
             outputs = self.bn(outputs)

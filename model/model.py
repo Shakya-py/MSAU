@@ -1,19 +1,17 @@
 from __future__ import print_function, division
 import torch
 from .layers import layers
-from .layers import cspn
 from .layers import attention
 from collections import OrderedDict
 
 
 class MultiConvResidualBlock(torch.nn.Module):
     def __init__(self, res_depth, filter_size, channels,
-                 use_sparse_conv, activation, keep_prob):
+                 use_sparse_conv, activation):
         super(MultiConvResidualBlock, self).__init__()
         self.conv_res_list = torch.nn.ModuleList()
         self.use_sparse_conv = use_sparse_conv
         self.res_depth = res_depth
-        self.keep_prob = keep_prob
         self.activation = None
         if activation is not None:
             self.activation = activation()
@@ -23,8 +21,7 @@ class MultiConvResidualBlock(torch.nn.Module):
                     layers.Conv2dBnLrnDrop(
                         [filter_size, filter_size, channels, channels],
                         activation=activation,
-                        use_sparse_conv=self.use_sparse_conv,
-                        keep_prob=self.keep_prob
+                        use_sparse_conv=self.use_sparse_conv
                     )
                 )
             else:
@@ -32,8 +29,7 @@ class MultiConvResidualBlock(torch.nn.Module):
                     layers.Conv2dBnLrnDrop(
                         [filter_size, filter_size, channels, channels],
                         activation=None,
-                        use_sparse_conv=self.use_sparse_conv,
-                        keep_prob=self.keep_prob
+                        use_sparse_conv=self.use_sparse_conv
                     )
                 )
         self.relu = torch.nn.ReLU()
@@ -72,7 +68,7 @@ class DownSamplingUNetBlock(torch.nn.Module):
     def __init__(self, use_residual, channels, scale_space_num,
                  res_depth, feat_root, filter_size, pool_size,
                  activation, use_sparse_conv=False,
-                 use_prev_coupled=False, keep_prob=1.0):
+                 use_prev_coupled=False):
         super(DownSamplingUNetBlock, self).__init__()
         self.input_channels = channels
         self.ksize_pool = [pool_size, pool_size]
@@ -81,7 +77,6 @@ class DownSamplingUNetBlock(torch.nn.Module):
         self.scale_space_num = scale_space_num
         self.use_residual = use_residual
         self.res_depth = res_depth
-        self.keep_prob = keep_prob
         self.conv_res_list = torch.nn.ModuleList()
         self.act_feat_num = feat_root
         self.conv1s = torch.nn.ModuleList()
@@ -106,15 +101,15 @@ class DownSamplingUNetBlock(torch.nn.Module):
                     [filter_size, filter_size,
                      self.last_feat_num, self.act_feat_num],
                     rate=2 ** layer, padding='SAME',
-                    activation=None, keep_prob=self.keep_prob))
+                    activation=None))
                 self.conv_res_list.append(
                     MultiConvResidualBlock(
                         res_depth, filter_size, self.act_feat_num,
-                        self.use_sparse_conv, self.activation,self.keep_prob))
+                        self.use_sparse_conv, self.activation))
                 if use_prev_coupled:
                     self.conv1_1s.append(layers.Conv2dBnLrnDrop(
                         [1, 1, 2*self.act_feat_num, self.act_feat_num],
-                        activation=activation,keep_prob=self.keep_prob))
+                        activation=activation))
                 if layer > scale_space_num - 2:
                     self.layer_attentions = attention.SAWrapperBlock(
                         self.act_feat_num
@@ -122,14 +117,14 @@ class DownSamplingUNetBlock(torch.nn.Module):
             else:
                 self.conv1s.append(layers.Conv2dBnLrnDrop(
                     [filter_size, filter_size, channels, feat_root],
-                    activation=activation, keep_prob=self.keep_prob))
+                    activation=activation))
                 self.conv1_1s.append(layers.Conv2dBnLrnDrop(
                     [filter_size, filter_size,
                      self.act_feat_num, self.act_feat_num],
-                    activation=activation, keep_prob=self.keep_prob))
-            #import ipdb; ipdb.set_trace()
+                    activation=activation))
+
             self.last_feat_num = self.act_feat_num
-            #self.act_feat_num *= pool_size
+            self.act_feat_num *= pool_size
 
     def forward(self, unet_inp, prev_dw_h_convs=None,
                 binary_mask=None):
@@ -138,10 +133,11 @@ class DownSamplingUNetBlock(torch.nn.Module):
                                 (used for coupling connection)
         '''
         dw_h_convs = OrderedDict()
-        next_block = OrderedDict()
         for layer in range(0, self.scale_space_num):
             if self.use_residual:
+                print('before dilcov',unet_inp.shape)
                 x = self.conv1s[layer](unet_inp)
+                print('after dilcov',x.shape)
                 if self.use_sparse_conv:
                     x, binary_mask = self.conv_res_list[layer](x, binary_mask)
                 else:
@@ -161,13 +157,12 @@ class DownSamplingUNetBlock(torch.nn.Module):
                 dw_h_convs[layer] = self.conv1_1s[layer](conv1)
                 x = dw_h_convs[layer]
 
-            if layer < self.scale_space_num - 2:
+            if layer < self.scale_space_num - 1:
                 x = self.custom_pad(x)
                 unet_inp = self.max_pool(x)
             else:
                 unet_inp = x
-        #import ipdb; ipdb.set_trace()
-        #print("UNet Output: ", [(layer, down_sampled.size()) for layer, down_sampled in  dw_h_convs.items()])
+        # print("UNet Output: ", [(layer, down_sampled.size()) for layer, down_sampled in  dw_h_convs.items()])
         return dw_h_convs, x
 
 
@@ -178,7 +173,7 @@ class UpSamplingUNetBlock(torch.nn.Module):
     def __init__(self, use_residual, channels, scale_space_num,
                  res_depth, feat_root, filter_size, pool_size,
                  activation, last_feat_num, act_feat_num,
-                 use_prev_coupled=False,keep_prob=1.0):
+                 use_prev_coupled=False):
         super(UpSamplingUNetBlock, self).__init__()
         self.input_channels = channels
         self.ksize_pool = [pool_size, pool_size]
@@ -186,7 +181,6 @@ class UpSamplingUNetBlock(torch.nn.Module):
         self.scale_space_num = scale_space_num
         self.use_residual = use_residual
         self.res_depth = res_depth
-        self.keep_prob = keep_prob
         self.conv_res_list = torch.nn.ModuleList()
         self.act_feat_num = feat_root
         self.conv1s = torch.nn.ModuleList()
@@ -206,26 +200,27 @@ class UpSamplingUNetBlock(torch.nn.Module):
             self.deconvs[layer] = layers.Deconv2DBnLrnDrop(
                 [filter_size, filter_size,
                  self.act_feat_num, self.last_feat_num],
-                activation=None, keep_prob=self.keep_prob)
+                activation=None)
             if self.use_residual:
                 self.conv1s[layer] = layers.Conv2dBnLrnDrop(
                         [filter_size, filter_size,
                          pool_size*self.act_feat_num,
-                         self.act_feat_num], activation=None, keep_prob=self.keep_prob)
+                         self.act_feat_num], activation=None)
+                print(f"{layer} self.conv1s[layer]",self.conv1s[layer])
                 self.conv_res_list[layer] = MultiConvResidualBlock(
                     res_depth, filter_size, self.act_feat_num, False,
-                    self.activation, self.keep_prob)
+                    self.activation)
                 if self.use_prev_coupled:
                     self.conv1_1s[layer] = layers.Conv2dBnLrnDrop(
                         [1, 1, 2 * self.act_feat_num, self.act_feat_num],
-                        activation=activation, keep_prob=self.keep_prob)
+                        activation=activation)
             else:
                 self.conv1s[layer] = layers.Conv2dBnLrnDrop(
                     [filter_size, filter_size, pool_size * self.act_feat_num,
-                     self.act_feat_num], activation=self.activation,keep_prob=self.keep_prob)
+                     self.act_feat_num], activation=self.activation)
                 self.conv1_1s[layer] = layers.Conv2dBnLrnDrop(
                     [filter_size, filter_size, self.act_feat_num,
-                     self.act_feat_num], activation=self.activation, keep_prob=self.keep_prob)
+                     self.act_feat_num], activation=self.activation)
             self.last_feat_num = self.act_feat_num
             self.act_feat_num //= pool_size
 
@@ -234,10 +229,11 @@ class UpSamplingUNetBlock(torch.nn.Module):
         for layer in range(self.scale_space_num - 2, -1, -1):
             dw_h_conv = dw_h_convs[layer]
             # Need to pad
-            # print("Down sampled out size: ", down_sampled_out.size())
+            print("Down sampled out size: ", down_sampled_out.size())
+            print("dw_h_conv",dw_h_conv.shape)
             deconv = self.deconvs[layer](down_sampled_out, output_size=dw_h_conv.size()[2:])
             # print("Target size: ", dw_h_conv.size())
-            # print("Deconv out size: ", deconv.size())
+            print("Deconv out size: ", deconv.size())
             '''
 
             diffY = dw_h_conv.size()[2] - deconv.size()[2]
@@ -248,8 +244,11 @@ class UpSamplingUNetBlock(torch.nn.Module):
             '''
 
             conc = torch.cat([dw_h_conv, deconv], dim=1)
+            print("after concat",conc.shape)
             if self.use_residual:
                 x = self.conv1s[layer](conc)
+                print("After 1s",x.shape)
+                import ipdb; ipdb.set_trace()
                 x = self.conv_res_list[layer](x)
                 if self.use_prev_coupled:
                     assert prev_up_h_convs is not None,\
@@ -290,7 +289,7 @@ class UNetBlock(torch.nn.Module):
     def __init__(self, use_residual, use_lstm, use_spn, channels,
                  scale_space_num, res_depth, feat_root, filter_size, pool_size,
                  activation, use_sparse_conv=False,
-                 use_prev_coupled=False,keep_prob=1.0):
+                 use_prev_coupled=False):
         super(UNetBlock, self).__init__()
         self.input_channels = channels
         self.pool_size = pool_size
@@ -305,20 +304,17 @@ class UNetBlock(torch.nn.Module):
         self.act_feat_num = feat_root
         self.activation = activation
         self.use_prev_coupled = use_prev_coupled
-        self.keep_prob = keep_prob
 
         print("Using sparse conv: ", use_sparse_conv)
         print("Use prev coupled: ", use_prev_coupled)
-        print("Dropout: ", round((1.0 - keep_prob),2))
 
         self.downsamplingblock = DownSamplingUNetBlock(
             use_residual, channels, scale_space_num,
             res_depth, feat_root, filter_size,
             pool_size, activation, use_sparse_conv,
-            use_prev_coupled, self.keep_prob)
-        self.act_feat_num = self.downsamplingblock.last_feat_num // pool_size
-        self.last_feat_num = self.downsamplingblock.last_feat_num
-
+            use_prev_coupled)
+        self.act_feat_num = self.downsamplingblock.last_feat_num // pool_size # 64
+        self.last_feat_num = self.downsamplingblock.last_feat_num # 32
         self.lstm = None
         self.use_lstm = use_lstm
         if self.use_lstm:
@@ -329,13 +325,11 @@ class UNetBlock(torch.nn.Module):
             self.downsample_resnet = layers.DownSampleResNet(
                 self.act_feat_num, self.act_feat_num,
                 filter_size, res_depth, self.ksize_pool, activation)
-            #self.cspn = layers.cspn.Affinity_Propagate()
-            self.cspn = cspn.Affinity_Propagate()
+            self.cspn = layers.cspn.Affinity_Propagate()
         self.upsamplingblock = UpSamplingUNetBlock(
             self.use_residual, self.channels, self.scale_space_num,
             res_depth, self.act_feat_num, filter_size, self.pool_size,
-            self.activation, self.last_feat_num, self.act_feat_num,
-            self.use_prev_coupled, self.keep_prob)
+            self.activation, self.last_feat_num, self.act_feat_num, self.use_prev_coupled)
 
     def forward(self, unet_inp, prev_dw_h_convs=None,
                 prev_up_h_convs=None,
@@ -353,12 +347,13 @@ class UNetBlock(torch.nn.Module):
 
         up_sampled_out, dw_h_convs, up_dw_h_convs = self.upsamplingblock(
             dw_h_convs, unet_inp, prev_up_h_convs=prev_up_h_convs)
+        import ipdb; ipdb.set_trace()
         return up_sampled_out, dw_h_convs, up_dw_h_convs
 
 
 class MSAUNet(torch.nn.Module):
     def __init__(self, channels, n_class, scale_space_num, res_depth,
-                 feat_root, filter_size, pool_size, activation, keep_prob):
+                 feat_root, filter_size, pool_size, activation):
         super(MSAUNet, self).__init__()
         use_residual = True
         use_lstm = False
@@ -383,10 +378,9 @@ class MSAUNet(torch.nn.Module):
                                          res_depth,
                                          feat_root, filter_size, pool_size,
                                          activation, use_sparse_conv=False,
-                                         use_prev_coupled=use_prev_coupled,
-                                         keep_prob=keep_prob))
+                                         use_prev_coupled=use_prev_coupled))
             self.end_convs.append(layers.Conv2dBnLrnDrop(
-                [4, 4, feat_root, n_class], activation=None, keep_prob=keep_prob))
+                [4, 4, feat_root, n_class], activation=None))
 
     def forward(self, inp):
         inp_scale_map = OrderedDict()
@@ -421,7 +415,6 @@ class MSAUWrapper(torch.nn.Module):
         self.featRoot = model_kwargs.get("featRoot", 8)
         self.filter_size = model_kwargs.get("filter_size", 3)
         self.pool_size = model_kwargs.get("pool_size", 2)
-        self.keep_prob = model_kwargs.get("keep_prob", 0.95)
 
         self.activation_name = model_kwargs.get("activation_name", "relu")
         if self.activation_name == "relu":
@@ -435,7 +428,7 @@ class MSAUWrapper(torch.nn.Module):
         self.msau_net = MSAUNet(self.channels, self.n_class,
                                 self.scale_space_num, self.res_depth,
                                 self.featRoot, self.filter_size,
-                                self.pool_size, self.activation, self.keep_prob)
+                                self.pool_size, self.activation)
 
         if self.final_act == "softmax":
             self.predictor = torch.nn.Softmax(dim=1)
@@ -463,19 +456,11 @@ class MSAUWrapper(torch.nn.Module):
             :param out_grid: 1xCxHxW
         '''
         # First, gather the point where label_mask != 0
-        #import ipdb; ipdb.set_trace()
         label_mask_expanded = (label_mask != 0
                                ).unsqueeze(0).repeat(1, self.n_class, 1, 1)
         out_grid = out_grid[label_mask_expanded].view(1, self.n_class, -1)
         out_grid_aux = out_grid_aux[label_mask_expanded].view(1, self.n_class,
                                                               -1)
-        out_grid = torch.transpose(out_grid,2,1).squeeze()
-        out_grid_aux = torch.transpose(out_grid_aux,2,1).squeeze()
-        label_mask = label_mask[label_mask != 0]
-        #label_mask = label_mask[label_mask != 0].view(1, -1)
-        loss_grid= self.criterion(out_grid, label_mask)
-        loss_grid_aux= self.criterion(out_grid_aux, label_mask)
-        final_loss= loss_grid + 0.1*loss_grid_aux
-        return final_loss
-#         return self.criterion(out_grid, label_mask) + self.criterion(
-#             out_grid_aux, label_mask)
+        label_mask = label_mask[label_mask != 0].view(1, -1)
+        return self.criterion(out_grid, label_mask) + self.criterion(
+            out_grid_aux, label_mask)

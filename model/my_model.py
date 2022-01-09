@@ -129,8 +129,8 @@ class DownSamplingBlock(torch.nn.Module):
                 activation=activation, keep_prob=self.keep_prob))
         #import ipdb; ipdb.set_trace()
         # need to checl what to do with these
-        self.last_feat_num = self.act_feat_num
-        self.act_feat_num *= pool_size
+#         self.last_feat_num = self.act_feat_num
+#         self.act_feat_num *= pool_size
                             
     def forward(self, unet_inp, prev_dw_h_convs=None,
                 binary_mask=None):
@@ -140,7 +140,9 @@ class DownSamplingBlock(torch.nn.Module):
         '''
         dw_h_convs = OrderedDict()
         if self.use_residual:
+            print('before dilcov',unet_inp.shape)
             x = self.dilconv1s(unet_inp)
+            print('after dilcov',x.shape)
             if self.use_sparse_conv:
                 x, binary_mask = self.conv_res_list(x, binary_mask)
             else:
@@ -154,6 +156,9 @@ class DownSamplingBlock(torch.nn.Module):
             next_dw_block = self.custom_pad(x)
             next_dw_block = self.max_pool(next_dw_block)
             up_block=self.layer_attentions(x)
+
+            
+            
             
         else:
             #TODO
@@ -225,8 +230,8 @@ class UpSamplingBlock(torch.nn.Module):
             self.conv1_1s[layer] = layers.Conv2dBnLrnDrop(
                 [filter_size, filter_size, self.act_feat_num,
                  self.act_feat_num], activation=self.activation, keep_prob=self.keep_prob)
-            self.last_feat_num = self.act_feat_num
-            self.act_feat_num //= pool_size
+#             self.last_feat_num = self.act_feat_num
+#             self.act_feat_num //= pool_size
 
     def forward(self, dw_h_conv, down_sampled_out, prev_up_h_conv=None):
         """
@@ -237,12 +242,14 @@ class UpSamplingBlock(torch.nn.Module):
         up_dw_h_convs = OrderedDict()
         skip_conn = dw_h_conv
         # Need to pad
-        # print("Down sampled out size: ", down_sampled_out.size())
-        deconv = self.deconvs[layer](down_sampled_out, output_size=skip_conn.size()[2:]) #upsampling
+        print("skip_conn",skip_conn.shape)
+        print("Down sampled out size: ", down_sampled_out.size())
+        deconv = self.deconvs(down_sampled_out, output_size=skip_conn.size()[2:]) #upsampling
         # print("Target size: ", dw_h_conv.size())
-        # print("Deconv out size: ", deconv.size())
+        print("Deconv out size: ", deconv.size())
 
         conc = torch.cat([skip_conn, deconv], dim=1) # half from skip conection and..
+        print("after concat",conc.shape)
         if self.use_residual:
             x = self.conv1s(conc)
             x = self.conv_res_list(x)
@@ -301,21 +308,26 @@ class UNetBlock(torch.nn.Module):
         self.activation = activation
         self.use_prev_coupled = use_prev_coupled
         self.keep_prob = keep_prob
-
+        self.last_feat_num =channels
         print("Using sparse conv: ", use_sparse_conv)
         print("Use prev coupled: ", use_prev_coupled)
         print("Dropout: ", round((1.0 - keep_prob),2))
         self.down_blocks = torch.nn.ModuleList()
         self.up_blocks= torch.nn.ModuleList()
         for i in range(0,4):
+            print("here is dimension",[filter_size, filter_size,self.last_feat_num, self.act_feat_num],pool_size)
             self.downsampling = DownSamplingBlock(
-                use_residual, channels, scale_space_num,
-                res_depth, feat_root, filter_size,
+                use_residual, self.last_feat_num, scale_space_num,
+                res_depth, self.act_feat_num, filter_size,
                 pool_size, activation, use_sparse_conv,
                 use_prev_coupled, self.keep_prob,i)
+            #print(self.downsampling)
             self.down_blocks.append(self.downsampling)
-        self.act_feat_num = self.downsampling.last_feat_num // pool_size
-        self.last_feat_num = self.downsampling.last_feat_num
+            self.last_feat_num = self.act_feat_num
+            self.act_feat_num *= pool_size
+            
+        self.act_feat_num = self.last_feat_num // pool_size
+        self.last_feat_num = self.last_feat_num 
 #         self.bottle_neck = layers.Conv2dBnLrnDrop(
 #             [filter_size, filter_size, channels, feat_root],
 #             activation=activation, keep_prob=self.keep_prob)
@@ -340,7 +352,10 @@ class UNetBlock(torch.nn.Module):
                 res_depth, self.act_feat_num, filter_size, self.pool_size,
                 self.activation, self.last_feat_num, self.act_feat_num,
                 self.use_prev_coupled, self.keep_prob)
+            print(self.upsampling)
             self.up_blocks.append(self.upsampling)
+            self.last_feat_num = self.act_feat_num
+            self.act_feat_num //= pool_size
     def forward(self, unet_inp, prev_dw_h_convs=None,
                 prev_up_h_convs=None,
                 binary_mask=None):
@@ -360,24 +375,24 @@ class UNetBlock(torch.nn.Module):
                                        prev_dw_h_convs[3] if self.use_prev_coupled else None,
                                        binary_mask)
         print('#output next_dw_block3',next_dw_block3.shape)
-        import ipdb; ipdb.set_trace()
         dw_h_unet=[x0,x1,x2,x3]
         #TODO check if bottleneck required
 
         next_up_conv0, up_uet_conv0 = self.up_blocks[0](
-            up_block0, next_dw_block3, prev_up_h_convs=prev_up_h_conv[0] if self.use_prev_coupled else None)
+            up_block3, next_dw_block3, prev_up_h_conv=prev_up_h_conv[0] if self.use_prev_coupled else None)
         
         next_up_conv1, up_uet_conv1 = self.up_blocks[1](
-            up_block1, next_up_conv1, prev_up_h_convs=prev_up_h_conv[1] if self.use_prev_coupled else None)
+            up_block2, next_up_conv1, prev_up_h_conv=prev_up_h_conv[1] if self.use_prev_coupled else None)
         
         next_up_convs2, up_uet_conv2 = self.up_blocks[2](
-            up_block2, next_up_conv1, prev_up_h_convs=prev_up_h_conv[2] if self.use_prev_coupled else None)
+            up_block2, next_up_conv1, prev_up_h_conv=prev_up_h_conv[2] if self.use_prev_coupled else None)
         
         next_up_conv3, up_uet_conv3 = self.up_blocks[3](
-            up_block3, next_up_convs2, prev_up_h_convs=prev_up_h_conv[3] if self.use_prev_coupled else None)
+            up_block0, next_up_convs2, prev_up_h_conv=prev_up_h_conv[3] if self.use_prev_coupled else None)
         
         up_h_unet=[up_uet_conv0, up_uet_conv1, up_uet_conv2, up_uet_conv3]
         #TODO check the feature
+        import ipdb; ipdb.set_trace()
         end_unet=self.conv1_1s(up_uet_conv3)
         # up_h_unet: for next up unet
         # dw_h_unet: for net down unet
