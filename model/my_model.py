@@ -166,8 +166,8 @@ class DownSamplingBlock(torch.nn.Module):
 #             conv1 = self.conv1s(unet_inp)
 #             dw_h_convs[layer] = self.conv1_1s(conv1)
 #             x = dw_h_convs
-
-        print("UNet Output: ",next_dw_block.shape)
+        print("next_dw_block Output: ",next_dw_block.shape)
+        print("UNet layer Output: ",up_block.shape)
         # x is for next U-NET block
         #  next_dw_block next down block
         #  up_block skip connection
@@ -331,9 +331,7 @@ class UNetBlock(torch.nn.Module):
 #         self.bottle_neck = layers.Conv2dBnLrnDrop(
 #             [filter_size, filter_size, channels, feat_root],
 #             activation=activation, keep_prob=self.keep_prob)
-        self.conv1_1s = layers.Conv2dBnLrnDrop(
-            [1, 1, 2 * self.act_feat_num, self.act_feat_num],
-            activation=activation, keep_prob=self.keep_prob)
+
         self.lstm = None
         self.use_lstm = use_lstm
         if self.use_lstm:
@@ -346,16 +344,24 @@ class UNetBlock(torch.nn.Module):
                 filter_size, res_depth, self.ksize_pool, activation)
             #self.cspn = layers.cspn.Affinity_Propagate()
             self.cspn = cspn.Affinity_Propagate()
-        for j in range(0,4):
+        for j in range(0,3):
             self.upsampling = UpSamplingBlock(
                 self.use_residual, self.channels, self.scale_space_num,
                 res_depth, self.act_feat_num, filter_size, self.pool_size,
                 self.activation, self.last_feat_num, self.act_feat_num,
                 self.use_prev_coupled, self.keep_prob)
-            print(self.upsampling)
+            print("self.act_feat_num",self.act_feat_num)
+            print("self.last_feat_num",self.last_feat_num)
             self.up_blocks.append(self.upsampling)
             self.last_feat_num = self.act_feat_num
             self.act_feat_num //= pool_size
+
+        #self.last_feat_num = self.act_feat_num
+        #self.act_feat_num = self.last_feat_num
+        self.conv1_1s = layers.Conv2dBnLrnDrop(
+            [1, 1, 2 * self.act_feat_num, 2*self.act_feat_num],
+            activation=activation, keep_prob=self.keep_prob)
+        print(self.conv1_1s)
     def forward(self, unet_inp, prev_dw_h_convs=None,
                 prev_up_h_convs=None,
                 binary_mask=None):
@@ -375,25 +381,26 @@ class UNetBlock(torch.nn.Module):
                                        prev_dw_h_convs[3] if self.use_prev_coupled else None,
                                        binary_mask)
         print('#output next_dw_block3',next_dw_block3.shape)
+        print('#output dw x3',x3.shape)
         dw_h_unet=[x0,x1,x2,x3]
         #TODO check if bottleneck required
 
         next_up_conv0, up_uet_conv0 = self.up_blocks[0](
-            up_block3, next_dw_block3, prev_up_h_conv=prev_up_h_conv[0] if self.use_prev_coupled else None)
+            up_block2, x3, prev_up_h_conv=prev_up_h_conv[0] if self.use_prev_coupled else None)
         
         next_up_conv1, up_uet_conv1 = self.up_blocks[1](
-            up_block2, next_up_conv1, prev_up_h_conv=prev_up_h_conv[1] if self.use_prev_coupled else None)
+            up_block1, next_up_conv0, prev_up_h_conv=prev_up_h_conv[1] if self.use_prev_coupled else None)
         
         next_up_convs2, up_uet_conv2 = self.up_blocks[2](
-            up_block2, next_up_conv1, prev_up_h_conv=prev_up_h_conv[2] if self.use_prev_coupled else None)
+            up_block0, next_up_conv1, prev_up_h_conv=prev_up_h_conv[2] if self.use_prev_coupled else None)
         
-        next_up_conv3, up_uet_conv3 = self.up_blocks[3](
-            up_block0, next_up_convs2, prev_up_h_conv=prev_up_h_conv[3] if self.use_prev_coupled else None)
+#         next_up_conv3, up_uet_conv3 = self.up_blocks[3](
+#             up_block0, next_up_convs2, prev_up_h_conv=prev_up_h_conv[3] if self.use_prev_coupled else None)
         
-        up_h_unet=[up_uet_conv0, up_uet_conv1, up_uet_conv2, up_uet_conv3]
+        up_h_unet=[up_uet_conv0, up_uet_conv1, up_uet_conv2]
         #TODO check the feature
-        import ipdb; ipdb.set_trace()
-        end_unet=self.conv1_1s(up_uet_conv3)
+        end_unet=self.conv1_1s(up_uet_conv2)
+        #import ipdb; ipdb.set_trace()
         # up_h_unet: for next up unet
         # dw_h_unet: for net down unet
         # output for next unet with 1*1 convolution
@@ -402,12 +409,12 @@ class UNetBlock(torch.nn.Module):
 
 class MSAUNet(torch.nn.Module):
     def __init__(self, channels, n_class, scale_space_num, res_depth,
-                 feat_root, filter_size, pool_size, activation, keep_prob):
+                 feat_root, filter_size, pool_size, activation, keep_prob,use_auxiliary_loss):
         super(MSAUNet, self).__init__()
         use_residual = True
         use_lstm = False
         self.use_spn = False
-
+        self.use_auxiliary_loss=use_auxiliary_loss
         self.num_blocks = 1     # Number of Unet Blocks
         self.blocks = torch.nn.ModuleList()
         self.end_convs = torch.nn.ModuleList()
@@ -429,8 +436,8 @@ class MSAUNet(torch.nn.Module):
                                          activation, use_sparse_conv=False,
                                          use_prev_coupled=use_prev_coupled,
                                          keep_prob=keep_prob))
-#             self.end_convs.append(layers.Conv2dBnLrnDrop(
-#                 [4, 4, feat_root, n_class], activation=None, keep_prob=keep_prob))
+            self.end_convs.append(layers.Conv2dBnLrnDrop(
+                [4, 4, feat_root, n_class], activation=None, keep_prob=keep_prob))
 
     def forward(self, inp):
         inp_scale_map = OrderedDict()
@@ -444,9 +451,9 @@ class MSAUNet(torch.nn.Module):
                 self.blocks[block_id](inp, prev_dw_h_convs=prev_dw_h_convs,
                                       prev_up_h_convs=prev_up_h_convs,
                                       binary_mask=binary_mask)
-#             out = self.end_convs[block_id](out)
+            out = self.end_convs[block_id](out)
             inp = out
-            if block_id == self.num_blocks - 2:
+            if block_id == self.num_blocks - 2 and self.use_auxiliary_loss:
                 logits_aux = out
         out_map = out
         logits = out_map
@@ -473,11 +480,12 @@ class MSAUWrapper(torch.nn.Module):
         self.model = model_kwargs.get("model", "msau")
         self.num_scales = model_kwargs.get("num_scales", 3)
         self.final_act = model_kwargs.get("final_act", "sigmoid")
+        self.use_auxiliary_loss = model_kwargs['use_auxiliary_loss']
 
         self.msau_net = MSAUNet(self.channels, self.n_class,
                                 self.scale_space_num, self.res_depth,
                                 self.featRoot, self.filter_size,
-                                self.pool_size, self.activation, self.keep_prob)
+                                self.pool_size, self.activation, self.keep_prob,self.use_auxiliary_loss)
 
         if self.final_act == "softmax":
             self.predictor = torch.nn.Softmax(dim=1)
@@ -504,19 +512,25 @@ class MSAUWrapper(torch.nn.Module):
         Args:
             :param out_grid: 1xCxHxW
         '''
+        # if out_grid_aux is None means not using aux loss
         # First, gather the point where label_mask != 0
         #import ipdb; ipdb.set_trace()
         label_mask_expanded = (label_mask != 0
                                ).unsqueeze(0).repeat(1, self.n_class, 1, 1)
         out_grid = out_grid[label_mask_expanded].view(1, self.n_class, -1)
-        out_grid_aux = out_grid_aux[label_mask_expanded].view(1, self.n_class,
-                                                              -1)
         out_grid = torch.transpose(out_grid,2,1).squeeze()
-        out_grid_aux = torch.transpose(out_grid_aux,2,1).squeeze()
+        if out_grid_aux:
+            out_grid_aux = out_grid_aux[label_mask_expanded].view(1, self.n_class,-1)
+            out_grid_aux = torch.transpose(out_grid_aux,2,1).squeeze()
+        
         label_mask = label_mask[label_mask != 0]
-        #label_mask = label_mask[label_mask != 0].view(1, -1)
         loss_grid= self.criterion(out_grid, label_mask)
-        loss_grid_aux= self.criterion(out_grid_aux, label_mask)
-        final_loss= loss_grid + 0.3*loss_grid_aux
+        if out_grid_aux:
+            loss_grid_aux= self.criterion(out_grid_aux, label_mask)
+
+        #label_mask = label_mask[label_mask != 0].view(1, -1)
+
+
+        final_loss= loss_grid + 0.3*loss_grid_aux if out_grid_aux else loss_grid
         return final_loss
 
