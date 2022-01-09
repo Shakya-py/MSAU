@@ -50,7 +50,7 @@ def train(dataset, model_instance, args, same_feat=True,
             model_instance.zero_grad()
             all_feats = data["mask"]
             all_labels = data["label"]
-
+            print("Train",batch_idx,data["mask"].shape)
             V = Variable(data["mask"].float(), requires_grad=True)  # .cuda()
             label = Variable(data["label"].long())  # .cuda()
 
@@ -148,7 +148,10 @@ def evaluate(dataset, model, args,
         h0 = Variable(data["mask"].float(), requires_grad=False)  # .cuda()
         label = Variable(data["label"].long())
         instance_label = np.squeeze(data["label"].long().numpy())
-
+        print("Evalaute",batch_idx,data["mask"].shape,name)
+        if name=='Validation' and batch_idx==19:
+            pass
+            import ipdb; ipdb.set_trace()
         # TODO: fix the evaluate.
         _, ypred, ypred_aux = model.forward(h0.to(device))
         loss = model.loss(ypred, ypred_aux, label.to(device))
@@ -230,7 +233,7 @@ if __name__ == '__main__':
     if model_kwargs_path is None:
         img_channels = feature_dim
         n_class = args.output_dim
-        use_auxiliary_loss = True
+        use_auxiliary_loss = False
         ''' model hyper-parameters '''
         model_kwargs = dict(model="msau", final_act="softmax",
                             featRoot=8, scale_space_num=4,

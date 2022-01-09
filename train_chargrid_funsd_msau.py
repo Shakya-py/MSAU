@@ -148,7 +148,9 @@ def evaluate(dataset, model, args,
         h0 = Variable(data["mask"].float(), requires_grad=False)  # .cuda()
         label = Variable(data["label"].long())
         instance_label = np.squeeze(data["label"].long().numpy())
-
+        print("Evalaute",batch_idx,data["mask"].shape,name)
+        if name=='Validation' and batch_idx==19:
+            import ipdb; ipdb.set_trace()
         # TODO: fix the evaluate.
         _, ypred, ypred_aux = model.forward(h0.to(device))
         loss = model.loss(ypred, ypred_aux, label.to(device))

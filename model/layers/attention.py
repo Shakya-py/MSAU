@@ -150,6 +150,8 @@ class SelfAttentionBlock(torch.nn.Module):
         self.softmax = torch.nn.Softmax(dim=-1)     # relation/attention map
 
     def forward(self, x):
+        print("Attention layer",x.shape)
+        #import ipdb; ipdb.set_trace()
         out_f = self.f(x)  # F: [batch, bottle_depth, H, W]
         out_g = self.g(x)  # G: [batch, bottle_depth, H, W]
         out_h = self.h(x)  # H: [batch, depth, H, W]

@@ -64,12 +64,12 @@ class Conv2dBnLrnDrop(torch.nn.Module):
         self.use_mvn = use_mvn
         self.use_lrn = use_lrn
         self.dropout_maps = dropout_maps
-        print('+++++++++++++++++++++++++')
-        print('self.use_bn',self.use_bn)
-        print('self.use_mvn',self.use_mvn)
-        print('self.use_lrn',self.use_lrn)
-        print('self.dropout_maps',self.dropout_maps)
-        print('keep_prob',keep_prob)
+        #print('+++++++++++++++++++++++++')
+        #print('self.use_bn',self.use_bn)
+        #print('self.use_mvn',self.use_mvn)
+        #print('self.use_lrn',self.use_lrn)
+        #print('self.dropout_maps',self.dropout_maps)
+        #print('keep_prob',keep_prob)
         if use_bn:
             self.bn = torch.nn.BatchNorm2d(kernel_shape[3])
         if use_mvn:
@@ -87,7 +87,8 @@ class Conv2dBnLrnDrop(torch.nn.Module):
         self.keep_prob = keep_prob
 
     def forward(self, x, binary_mask=None):
-        print("Conv2dBnLrnDrop kernel_shape",self.kernel_shape)
+        #print("Conv2dBnLrnDrop kernel_shape",self.kernel_shape)
+        #print('******kernel_shape',self.kernel_shape[2], self.kernel_shape[3],self.kernel_shape[:2])
         x = self.custom_padding(x)
         if binary_mask is not None:
             binary_mask = self.custom_padding(binary_mask)
@@ -119,7 +120,7 @@ class DilConv2dBnLrnDrop(torch.nn.Module):
         """
         kernel_shape [in_channel,out_channl, kernel,kernel]
         """
-        print('kernel_shape',kernel_shape)
+        #print('kernel_shape',kernel_shape)
         self.kernel_shape=kernel_shape
         if initOpt == 0:
             self.stddev = np.sqrt(2.0 / (
@@ -163,10 +164,10 @@ class DilConv2dBnLrnDrop(torch.nn.Module):
         self.keep_prob = keep_prob
 
     def forward(self, x):
-        print("start shape",x.shape)
+        #print("start shape",x.shape)
         x = self.custom_padding(x)
-        print("after padding shape",x.shape)
-        print('******kernel_shape',self.kernel_shape)
+        #print("after padding shape",x.shape)
+        #print('******kernel_shape',self.kernel_shape[2], self.kernel_shape[3],self.kernel_shape[:2])
         outputs = self.conv(x)
         if self.use_bn:
             outputs = self.bn(outputs)
@@ -177,7 +178,7 @@ class DilConv2dBnLrnDrop(torch.nn.Module):
         if self.use_lrn:
             outputs = self.lrn(outputs)
         outputs = self.dropout(outputs)
-        print("end shape",outputs.shape)
+        #print("end shape",outputs.shape)
         return outputs
 
 
@@ -267,8 +268,8 @@ class Deconv2DBnLrnDrop(torch.nn.Module):
         self.keep_prob = keep_prob
 
     def forward(self, x, output_size=None):
-        print("###upsampling here",self.kernel_shape)
-        print("required output size",output_size)
+        #print("###upsampling kernel here",self.kernel_shape[3], self.kernel_shape[2],self.kernel_shape[:2])
+        #print("required output size",output_size)
         outputs = self.conv(x, output_size=output_size)
         if self.use_bn:
             outputs = self.bn(outputs)

@@ -135,9 +135,9 @@ class DownSamplingUNetBlock(torch.nn.Module):
         dw_h_convs = OrderedDict()
         for layer in range(0, self.scale_space_num):
             if self.use_residual:
-                print('before dilcov',unet_inp.shape)
+                #print('before dilcov',unet_inp.shape)
                 x = self.conv1s[layer](unet_inp)
-                print('after dilcov',x.shape)
+                #print('after dilcov',x.shape)
                 if self.use_sparse_conv:
                     x, binary_mask = self.conv_res_list[layer](x, binary_mask)
                 else:
@@ -158,11 +158,15 @@ class DownSamplingUNetBlock(torch.nn.Module):
                 x = dw_h_convs[layer]
 
             if layer < self.scale_space_num - 1:
+                #print('@@@@@here before padding',x.shape)
                 x = self.custom_pad(x)
+                #print('@@@@@here after padding',x.shape)
                 unet_inp = self.max_pool(x)
+                #print('@@@@@here after pooling',unet_inp.shape)
             else:
                 unet_inp = x
-        # print("UNet Output: ", [(layer, down_sampled.size()) for layer, down_sampled in  dw_h_convs.items()])
+                #print('@@@@@here this x is',x.shape)
+        #print("UNet Output: ", [(layer, down_sampled.size()) for layer, down_sampled in  dw_h_convs.items()])
         return dw_h_convs, x
 
 
@@ -206,7 +210,7 @@ class UpSamplingUNetBlock(torch.nn.Module):
                         [filter_size, filter_size,
                          pool_size*self.act_feat_num,
                          self.act_feat_num], activation=None)
-                print(f"{layer} self.conv1s[layer]",self.conv1s[layer])
+                #print(f"{layer} self.conv1s[layer]",self.conv1s[layer])
                 self.conv_res_list[layer] = MultiConvResidualBlock(
                     res_depth, filter_size, self.act_feat_num, False,
                     self.activation)
@@ -229,11 +233,11 @@ class UpSamplingUNetBlock(torch.nn.Module):
         for layer in range(self.scale_space_num - 2, -1, -1):
             dw_h_conv = dw_h_convs[layer]
             # Need to pad
-            print("Down sampled out size: ", down_sampled_out.size())
-            print("dw_h_conv",dw_h_conv.shape)
+            #print("Down sampled out size: ", down_sampled_out.size())
+            #print("dw_h_conv",dw_h_conv.shape)
             deconv = self.deconvs[layer](down_sampled_out, output_size=dw_h_conv.size()[2:])
-            # print("Target size: ", dw_h_conv.size())
-            print("Deconv out size: ", deconv.size())
+            # #print("Target size: ", dw_h_conv.size())
+            #print("Deconv out size: ", deconv.size())
             '''
 
             diffY = dw_h_conv.size()[2] - deconv.size()[2]
@@ -244,11 +248,10 @@ class UpSamplingUNetBlock(torch.nn.Module):
             '''
 
             conc = torch.cat([dw_h_conv, deconv], dim=1)
-            print("after concat",conc.shape)
+            #print("after concat",conc.shape)
             if self.use_residual:
                 x = self.conv1s[layer](conc)
-                print("After 1s",x.shape)
-                import ipdb; ipdb.set_trace()
+                #print("After 1s",x.shape)
                 x = self.conv_res_list[layer](x)
                 if self.use_prev_coupled:
                     assert prev_up_h_convs is not None,\
@@ -305,8 +308,8 @@ class UNetBlock(torch.nn.Module):
         self.activation = activation
         self.use_prev_coupled = use_prev_coupled
 
-        print("Using sparse conv: ", use_sparse_conv)
-        print("Use prev coupled: ", use_prev_coupled)
+        #print("Using sparse conv: ", use_sparse_conv)
+        #print("Use prev coupled: ", use_prev_coupled)
 
         self.downsamplingblock = DownSamplingUNetBlock(
             use_residual, channels, scale_space_num,
@@ -347,7 +350,8 @@ class UNetBlock(torch.nn.Module):
 
         up_sampled_out, dw_h_convs, up_dw_h_convs = self.upsamplingblock(
             dw_h_convs, unet_inp, prev_up_h_convs=prev_up_h_convs)
-        import ipdb; ipdb.set_trace()
+        #print("last Unet",up_sampled_out.shape)
+        #import ipdb; ipdb.set_trace()
         return up_sampled_out, dw_h_convs, up_dw_h_convs
 
 

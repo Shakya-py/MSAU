@@ -140,9 +140,7 @@ class DownSamplingBlock(torch.nn.Module):
         '''
         dw_h_convs = OrderedDict()
         if self.use_residual:
-            print('before dilcov',unet_inp.shape)
             x = self.dilconv1s(unet_inp)
-            print('after dilcov',x.shape)
             if self.use_sparse_conv:
                 x, binary_mask = self.conv_res_list(x, binary_mask)
             else:
@@ -166,8 +164,6 @@ class DownSamplingBlock(torch.nn.Module):
 #             conv1 = self.conv1s(unet_inp)
 #             dw_h_convs[layer] = self.conv1_1s(conv1)
 #             x = dw_h_convs
-        print("next_dw_block Output: ",next_dw_block.shape)
-        print("UNet layer Output: ",up_block.shape)
         # x is for next U-NET block
         #  next_dw_block next down block
         #  up_block skip connection
@@ -242,14 +238,14 @@ class UpSamplingBlock(torch.nn.Module):
         up_dw_h_convs = OrderedDict()
         skip_conn = dw_h_conv
         # Need to pad
-        print("skip_conn",skip_conn.shape)
-        print("Down sampled out size: ", down_sampled_out.size())
+        #print("skip_conn",skip_conn.shape)
+        #print("Down sampled out size: ", down_sampled_out.size())
         deconv = self.deconvs(down_sampled_out, output_size=skip_conn.size()[2:]) #upsampling
-        # print("Target size: ", dw_h_conv.size())
-        print("Deconv out size: ", deconv.size())
+        # #print("Target size: ", dw_h_conv.size())
+        #print("Deconv out size: ", deconv.size())
 
         conc = torch.cat([skip_conn, deconv], dim=1) # half from skip conection and..
-        print("after concat",conc.shape)
+        #print("after concat",conc.shape)
         if self.use_residual:
             x = self.conv1s(conc)
             x = self.conv_res_list(x)
@@ -309,19 +305,18 @@ class UNetBlock(torch.nn.Module):
         self.use_prev_coupled = use_prev_coupled
         self.keep_prob = keep_prob
         self.last_feat_num =channels
-        print("Using sparse conv: ", use_sparse_conv)
-        print("Use prev coupled: ", use_prev_coupled)
-        print("Dropout: ", round((1.0 - keep_prob),2))
+        #print("Using sparse conv: ", use_sparse_conv)
+        #print("Use prev coupled: ", use_prev_coupled)
+        #print("Dropout: ", round((1.0 - keep_prob),2))
         self.down_blocks = torch.nn.ModuleList()
         self.up_blocks= torch.nn.ModuleList()
         for i in range(0,4):
-            print("here is dimension",[filter_size, filter_size,self.last_feat_num, self.act_feat_num],pool_size)
             self.downsampling = DownSamplingBlock(
                 use_residual, self.last_feat_num, scale_space_num,
                 res_depth, self.act_feat_num, filter_size,
                 pool_size, activation, use_sparse_conv,
                 use_prev_coupled, self.keep_prob,i)
-            #print(self.downsampling)
+            
             self.down_blocks.append(self.downsampling)
             self.last_feat_num = self.act_feat_num
             self.act_feat_num *= pool_size
@@ -350,8 +345,7 @@ class UNetBlock(torch.nn.Module):
                 res_depth, self.act_feat_num, filter_size, self.pool_size,
                 self.activation, self.last_feat_num, self.act_feat_num,
                 self.use_prev_coupled, self.keep_prob)
-            print("self.act_feat_num",self.act_feat_num)
-            print("self.last_feat_num",self.last_feat_num)
+        
             self.up_blocks.append(self.upsampling)
             self.last_feat_num = self.act_feat_num
             self.act_feat_num //= pool_size
@@ -361,27 +355,26 @@ class UNetBlock(torch.nn.Module):
         self.conv1_1s = layers.Conv2dBnLrnDrop(
             [1, 1, 2 * self.act_feat_num, 2*self.act_feat_num],
             activation=activation, keep_prob=self.keep_prob)
-        print(self.conv1_1s)
     def forward(self, unet_inp, prev_dw_h_convs=None,
                 prev_up_h_convs=None,
                 binary_mask=None):
         next_dw_block0, up_block0, x0 = self.down_blocks[0](unet_inp,
                                                prev_dw_h_convs[0] if self.use_prev_coupled else None,
                                                binary_mask)
-        print('#output next_dw_block0',next_dw_block0.shape)
+        #print('#output next_dw_block0',next_dw_block0.shape)
         next_dw_block1, up_block1, x1 = self.down_blocks[1](next_dw_block0,
                                                prev_dw_h_convs[1] if self.use_prev_coupled else None,
                                                binary_mask)
-        print('#output next_dw_block1',next_dw_block1.shape)
+        #print('#output next_dw_block1',next_dw_block1.shape)
         next_dw_block2, up_block2, x2 = self.down_blocks[2](next_dw_block1,
                                                prev_dw_h_convs[2] if self.use_prev_coupled else None,
                                                binary_mask)
-        print('#output next_dw_block2',next_dw_block2.shape)
+        #print('#output next_dw_block2',next_dw_block2.shape)
         next_dw_block3, up_block3, x3 = self.down_blocks[3](next_dw_block2,
                                        prev_dw_h_convs[3] if self.use_prev_coupled else None,
                                        binary_mask)
-        print('#output next_dw_block3',next_dw_block3.shape)
-        print('#output dw x3',x3.shape)
+        #print('#output next_dw_block3',next_dw_block3.shape)
+        #print('#output dw x3',x3.shape)
         dw_h_unet=[x0,x1,x2,x3]
         #TODO check if bottleneck required
 
@@ -400,7 +393,6 @@ class UNetBlock(torch.nn.Module):
         up_h_unet=[up_uet_conv0, up_uet_conv1, up_uet_conv2]
         #TODO check the feature
         end_unet=self.conv1_1s(up_uet_conv2)
-        #import ipdb; ipdb.set_trace()
         # up_h_unet: for next up unet
         # dw_h_unet: for net down unet
         # output for next unet with 1*1 convolution
